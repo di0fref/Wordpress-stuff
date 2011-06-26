@@ -1,0 +1,116 @@
+body {
+margin: 0 !important;
+padding: 0 3px !important;
+
+}
+
+body, #wrap, #content, #main, #footer {
+float: none !important;
+width: auto !important;
+font: .95em/160% arial, helvetica, sans-serif;
+color: #555
+}
+
+html body {
+position: static; 
+width: auto; 
+height: auto;
+padding: 0; 
+border-top: none;
+background: none;
+
+}
+
+#logo a {font-size: 26px; text-decoration: none; color: #222; font-family: palatino, georgia, times, serif;
+}
+#content a:link:after, #content a:visited:after {
+color: #777;
+font-weight: bold
+	}
+
+html body #footer {background: none;}
+html body #footer p { text-align: center;}
+
+html body pre, html body code {vertical-align: baseline;
+}
+#header {
+
+height: 20px;
+padding-bottom: 30px;
+margin-bottom: 30px;
+border-bottom: 2px solid #ddd;
+}
+h1, h2, h3, h4, h5, h6, p.intro {
+
+font-family: arial, helvetica, sans-serif;
+color: #5a552b
+
+}
+h1 {font-size: 20px; font-family: "Lucida Grande", "Lucida Sans Unicode", arial, helvetica, sans-serif; padding: 0; margin: 0 }
+
+h2 {
+
+font-size: 15px; text-transform: uppercase
+
+}
+
+h3 {
+
+font-size: 13px; text-transform: uppercase
+
+}
+.commentlist li {font-size: 90%; color: #666;
+}
+.intro {padding-bottom: 1.5em; font-family: "Lucida Grande", "Lucida Sans Unicode", arial, helvetica, sans-serif
+}
+
+#footer {font-size: 80%;
+border-top: 2px solid #ddd;
+}
+
+#footer ul li {float: left; border: none; margin: 0 10px; list-style: none
+}
+
+img.border {
+	padding: 14px;
+  border: 1px solid #E6E1DC;
+  background: #F0EBE6; 
+}
+
+img.left, img.right, img.center, .commentmetadata img {border: 4px solid #e7ebdc
+}
+
+img.left { 
+
+float: left; 
+margin: 0.5em 1em 0.5em 0;
+
+}
+
+img.right { 
+
+float: right;
+margin: 0.5em 0 0.5em 1em;
+
+}
+
+img.center { 
+
+margin: 0 auto 1em auto; 
+display: block;
+text-align: center
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+.alignleft { float: left; }
+.alignright { float: right; }
+
+
+
+/* no paper */
+
+#header .vcard img, .comment .head .author img, .reply, .nav, .splash p, .hide, .post-footer, .breadcrumb, .navigation, #respond, #sidebar, #footer img, .meta, a.print, #promo_down, form, .number, #footer .pright, a#toplink { display: none; }

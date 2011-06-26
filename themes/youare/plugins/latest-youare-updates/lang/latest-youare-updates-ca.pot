@@ -1,0 +1,21 @@
+#: wp-content/plugins/latest-youare-updates.php:69
+msgid "a few seconds ago"
+msgstr "fa uns seconds"
+
+#: wp-content/plugins/latest-youare-updates.php:71
+msgid "1 minute ago"
+msgstr "fa 1 minut"
+
+#: wp-content/plugins/latest-youare-updates.php:73
+msgid "%d minutes ago"
+msgstr "fa %d minuts"
+
+#: wp-content/plugins/latest-youare-updates.php:77
+msgid "%d hours %d minutes ago"
+msgstr "fa %d hores i %d minuts"
+
+#: wp-content/plugins/latest-youare-updates.php:79
+msgid "%d hours ago"
+msgstr "fa %d hores"
+
+

@@ -1,0 +1,326 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YouAre Wordpress Theme\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: YouAre Team <info@youare.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: CANADA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: wp-content/themes/youare/index.php:9
+msgid "In real-time..."
+msgstr "En direct..."
+
+#: wp-content/themes/youare/404.php:2
+msgid "404: Page Not Found"
+msgstr "404: Page introuvable"
+
+#: wp-content/themes/youare/404.php:2
+msgid "Page not found"
+msgstr "Page introuvable"
+
+#: wp-content/themes/youare/404.php:3
+msgid "It might have been moved or deleted, or perhaps you mistyped it. We suggest searching the site:"
+msgstr "Elle peut avoir été déplacée ou effacée, ou peut-être avez-vous fait une erreur de frappe. Nous suggérons de chercher dans le site:"
+
+#: wp-content/themes/youare/archive.php:23,32,39
+msgid "Subscribe to this category"
+msgstr "Abonnez-vous à cette catégorie"
+
+#: wp-content/themes/youare/archive.php:23,32
+msgid "Subscribe to"
+msgstr "Abonnez-vous à"
+
+#: wp-content/themes/youare/archive.php:23,32
+msgid "Subscribe to %s"
+msgstr "Abonnez-vous à %s"
+
+#: wp-content/themes/youare/archive.php:24,33
+msgid "Go to this category"
+msgstr "Atteindre cette catégorie"
+
+#: wp-content/themes/youare/archive.php:24,33
+msgid "Subscribe to this tag"
+msgstr "Abonnez-vous à ce mot-clé"
+
+#: wp-content/themes/youare/archive.php:51
+msgid "YouAre Search:"
+msgstr "Chercher YouAre:"
+
+#: wp-content/themes/youare/archive.php:51
+msgid "Twitter Search:"
+msgstr "Chercher Twitter:"
+
+#: wp-content/themes/youare/archive.php:73
+msgid "Posts by %s"
+msgstr "Billet rédigé par %s"
+
+#: wp-content/themes/youare/archive.php:78
+msgid "Blog Archives"
+msgstr "Archives"
+
+#: wp-content/themes/youare/archive.php:92
+msgid "Permanent Link to %s"
+msgstr "Permalien vers %s"
+
+#: wp-content/themes/youare/archive.php:95
+msgid "read more..."
+msgstr "suite..."
+
+#: wp-content/themes/youare/archive.php:96
+msgid "Edit This"
+msgstr "Éditer"
+
+#: wp-content/themes/youare/archives.php:15
+msgid "There are currently %s posts, contained within %s categories, using <a href=\"/tags\">%s tags.</a>"
+msgstr "Il se trouve actuellement %s billets classés au sein de %s catégories, dont <a href=\"/tags\">%s mots-clés.</a>"
+
+#: wp-content/themes/youare/comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Ce billet est protégé par mot de passe. Veuillez saisir le mot de passe pour afficher les commentaires."
+
+#: wp-content/themes/youare/comments.php:16
+msgid "No Comments Yet"
+msgstr "Aucun commentaire"
+
+#: wp-content/themes/youare/comments.php:16
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: wp-content/themes/youare/search.php:22
+msgid "1 comment"
+msgstr "1 commenaire"
+
+#: wp-content/themes/youare/comments.php:16
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: wp-content/themes/youare/search.php:22
+msgid "% comments"
+msgstr "% commentaires"
+
+#: wp-content/themes/youare/comments.php:17
+msgid "Leave a Reply"
+msgstr "Laissez un commentaire"
+
+#: wp-content/themes/youare/comments.php:29
+msgid "Trackbacks &amp; Pingbacks"
+msgstr "Trackbacks &amp; Pingbacks"
+
+#: wp-content/themes/youare/comments.php:40
+msgid "Comments are closed for this entry."
+msgstr "Les commentaires sont verrouillés pour ce billet."
+
+#: wp-content/themes/youare/comments.php:50
+msgid "Leave a Reply to %s"
+msgstr "Laissez un commentaires à %s"
+
+#: wp-content/themes/youare/comments.php:52
+msgid "You must be <a href=\"%s/wp-login.php?redirect_to=%s\">logged in</a> to post a comment."
+msgstr "Vous devez être <a href=\"%s/wp-login.php?redirect_to=%s\">connecté</a> pour enregistrer un commentaire."
+
+#: wp-content/themes/youare/comments.php:57
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>. <a href=\"%s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "Connecté sous <a href=\"%s/wp-admin/profile.php\">%s</a>. <a href=\"%s\" title=\"Déconnexion\">Fermer la session;</a>"
+
+#: wp-content/themes/youare/comments.php:60
+msgid "(required)"
+msgstr "(obligatoire)"
+
+#: wp-content/themes/youare/comments.php:60
+msgid "Name"
+msgstr "Nom"
+
+#: wp-content/themes/youare/comments.php:64
+msgid "Email"
+msgstr "Email"
+
+#: wp-content/themes/youare/comments.php:65
+msgid "Your email address will <strong>not</strong> be published. Your photo in comments, use <a href=\"http.//gravatar.com\">Gravatar</a>"
+msgstr "Votre adresse courriel ne sera <strong>pas</strong> publiée. Pour afficher votre avatar dans les commentaires, utilisez <a href=\"http.//gravatar.com\">Gravatar</a>"
+
+#: wp-content/themes/youare/comments.php:68
+msgid "Website (optional)"
+msgstr "Site Web (optionel)"
+
+#: wp-content/themes/youare/comments.php:69
+msgid "Please include http://"
+msgstr "Veuillez saisir http://"
+
+#: wp-content/themes/youare/comments.php:73
+msgid "Comment"
+msgstr "Commentaire"
+
+#: wp-content/themes/youare/comments.php:74
+msgid "Note: XHTML is allowed."
+msgstr "Note: XHTML permis."
+
+#: wp-content/themes/youare/comments.php:79
+msgid "Submit Comment"
+msgstr "Envoyer"
+
+#: wp-content/themes/youare/comments.php:79
+msgid "Subscribe to this comment feed via RSS"
+msgstr "Abonnez-vous à ce commentaire par fil de nouvelle RSS"
+
+#: wp-content/themes/youare/footer.php:15
+msgid "Logo"
+msgstr "Logo"
+
+#: wp-content/themes/youare/footer.php:16
+msgid "Your Company tag line or Featured work"
+msgstr "Votre slogan ou vos travaux dignes d'intérêt"
+
+#: wp-content/themes/youare/footer.php:17
+msgid "Company services. Go to YouAre Options menu (the Footer Promo section) in WP Dashboard. <a href=\"http://wptheme.youare.com/demo/2009/08/19/how-to-customize-footer/\">View examples</a>."
+msgstr "Services offerts. Allez au menu 'YouAre Options' (Footer Promo) dans l'interface d'administration de WP. <a href=\"http://wptheme.youare.com/demo/2009/08/19/how-to-customize-footer/\">Voir des exemples</a>."
+
+#: wp-content/themes/youare/footer.php:27
+msgid "Top"
+msgstr "Haut"
+
+#: wp-content/themes/youare/header.php:11
+msgid "Search Results for "
+msgstr "Résultats de recherche pour"
+
+#: wp-content/themes/youare/header.php:59
+msgid " Comments RSS 2.0 Feed"
+msgstr "Fil des commentaires RSS 2.0"
+
+#: wp-content/themes/youare/header.php:89
+msgid "Home"
+msgstr "Accueil"
+
+#: wp-content/themes/youare/header.php:90
+msgid "Archives"
+msgstr "Archives"
+
+#: wp-content/themes/youare/header.php:90
+msgid "archives"
+msgstr "archives"
+
+#: wp-content/themes/youare/index.php:9
+msgid "Your latest update on <a href=\"http://youare.com\">YouAre</a> or <a href=\"http://twitter.com\">Twitter</a>. Go to YouAre options in your WordPress panel admin"
+msgstr "Vos dernières mises à jour sur <a href=\"http://youare.com\">YouAre</a> ou <a href=\"http://twitter.com\">Twitter</a>. Voir les 'YouAre Options' dans le panneau d'administration de WordPress."
+
+#: wp-content/themes/youare/index.php:32
+msgid "Leave a comment"
+msgstr "Laissez un commentaire"
+
+#: wp-content/themes/youare/index.php:43
+msgid "Older Entries &raquo;"
+msgstr "Billets précédents &raquo;"
+
+#: wp-content/themes/youare/index.php:44
+msgid "&laquo; Newer Entries"
+msgstr "&laquo; Billets récents"
+
+#: wp-content/themes/youare/page.php:31
+msgid "Go to"
+msgstr "Allez à"
+
+#: wp-content/themes/youare/search.php:12
+msgid "Search"
+msgstr "Allez"
+
+#: wp-content/themes/youare/search.php:22
+msgid "No Comments"
+msgstr "Aucun commentaire"
+
+#: wp-content/themes/youare/search.php:22
+msgid "No comments"
+msgstr "Aucun commentaire"
+
+#: wp-content/themes/youare/search.php:41
+msgid "No results found! You sure you wrote it correctly? Please try again."
+msgstr "Aucun résultat trouvé! Avez-vous mal saisi votre requête? Veuillez essayer de nouveau."
+
+#: wp-content/themes/youare/share.php:1
+msgid "Share it"
+msgstr "Partagez"
+
+#: wp-content/themes/youare/share.php:1
+msgid "Share on"
+msgstr "Partagez sur"
+
+#: wp-content/themes/youare/sidebar.php:22
+msgid "About the author"
+msgstr "À propos de l'auteur"
+
+#: wp-content/themes/youare/sidebar.php:27
+msgid "Read more"
+msgstr "Suite..."
+
+#: wp-content/themes/youare/sidebar.php:31
+msgid "Go to YouAre Options menu in your WP Dashboard and check out the Author Box Sidebar section."
+msgstr "Allez dans le menu des 'YouAre Options' dans l'interface d'administration de WP, puis remplissez la section 'Author Box Sidebar'"
+
+#: wp-content/themes/youare/sidebar.php:65
+msgid "Topics"
+msgstr "Sujets"
+
+#: wp-content/themes/youare/sidebar.php:96
+msgid "Recent Articles"
+msgstr "Articles récents"
+
+#: wp-content/themes/youare/sidebar.php:156
+msgid "RSS"
+msgstr "RSS"
+
+#: wp-content/themes/youare/sidebar.php:160
+msgid "Comments RSS"
+msgstr "Commentaires RSS"
+
+#: wp-content/themes/youare/sidebar.php:172
+msgid "Email Updates"
+msgstr "Suivi par courriel"
+
+#: wp-content/themes/youare/single.php:7
+msgid "&laquo; Prev"
+msgstr "&laquo; Précédent"
+
+#: wp-content/themes/youare/single.php:13
+msgid "Next &raquo;"
+msgstr "Suivant &raquo;"
+
+#: wp-content/themes/youare/single.php:15
+msgid "Print"
+msgstr "Imprimer"
+
+#: wp-content/themes/youare/single.php:29
+msgid "Tags"
+msgstr "Mots-clés"
+
+#: wp-content/themes/youare/tags.php:9
+msgid "Tags Archive"
+msgstr "Archives des mots-clés"
+
+#: wp-content/themes/youare/tags.php:10
+msgid "Tag Cloud"
+msgstr "Nuages de mots-clés"
+
+#: wp-content/themes/youare/follow_links.php:1
+msgid "Follow me"
+msgstr "Suivez-moi"
+
+#: wp-content/themes/youare/sidebar.php:192
+msgid "Readers"
+msgstr "lecteurs"
+
+#: wp-content/themes/youare/index.php:15
+msgid "Latest YouAre Updates"
+msgstr "Mises à jour YouAre"
+
+#: wp-content/themes/youare/index.php:19
+msgid "Latest Twitter Updates"
+msgstr "Mises à jour Twitter"
+
+#: wp-content/themes/youare/comments.php:29
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération"
+

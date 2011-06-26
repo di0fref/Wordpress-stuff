@@ -1,0 +1,289 @@
+/*
+	Theme name: ffff
+*/
+__div{
+	border: 1px solid #ccc;
+}
+body {
+  background:#000;
+  margin:0;
+  padding:0;
+  font:10px/1 Helvetica,Arial,Sans-serif;
+  color:#444;
+} 
+#wrap{
+ width: 960px;
+ margin: 20px auto;
+ background: #fff;
+ padding:10px;
+ overflow: hidden;
+}
+#content{
+	width: 700px;
+	float: left;
+}
+#sidebar{
+	width: 260px;
+	float: right;
+}
+.entry{
+	clear: both;
+	padding: 2em 0;
+	border-top: 1px solid #ece9e6;
+}
+.entrybody{
+	width: 540px;
+	float: right;
+	__background: #eee;
+}
+.meta{
+	width: 120px;
+	float: left;
+	__color: #aa9998;
+}
+
+p {
+	margin:0 0 0.769em;
+}
+li,p,blockquote p{
+	font-size:1.3em;
+	line-height:1.539;
+}
+p.meta{
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	padding-bottom: .5em;
+}
+#footer{
+	
+}
+.clear{
+	clear: both;
+	height: 1px;
+}
+.day{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.month{
+
+}
+.year{
+
+}
+.entry .more {
+	color:#AA9988;
+	text-transform:lowercase;
+	width: 540px;
+	float: right;
+}
+blockquote {
+	border-left:0.5em solid #ECE9E6;
+	color:#777777;
+	margin:1em 0 1em 0.5em;
+	padding:0 0 0 1em;
+}
+h1,h2,h3,h4 {
+	font-family:Helvetica,Arial,Geneva,sans-serif;
+	margin: 0 0 1em 0;
+}
+h2 {
+	font-size: 1.8em;
+}
+h3 {
+	font-size: 1.6em;
+}
+h4 {
+	font-size:1.4em;
+}
+
+h3.entrytitle{
+	font-size: 2em;
+}
+h3.entrytitle a{
+	color: #333;
+}
+
+
+/* Links
+================================================*/
+a:link,
+a:visited {
+	color:#92cf3f;
+	/*font-weight:bold;*/
+	text-decoration:none;
+	padding:2px 2px 0;
+	margin:0 -2px;
+	__border-bottom:1px dotted #666;
+	}
+/*a:visited {color:#333;}*/
+a:focus {
+	color:#580801;
+	}
+a:hover {
+	color:#920D02;
+	
+	}
+	/* top right bottom left */
+
+.alignleft{
+	float: left;
+	margin: 0 1em 1em 0;
+}
+.alignright{
+	float: right;
+	margin: 0 0 1em 1em;
+}
+__img{
+	padding: 5px;
+	background: #ece9e6;
+}
+__img a{
+	border: none;
+}
+
+/* =Comments
+----------------------------------------------- */
+.comments, .commentsclosed {
+  float:left;
+  width:100%;
+  }
+.comments h3, .commentsclosed h3 {
+  margin-bottom:.555em; /* 10/18 */
+  padding:0 4.444em 0 120px; /* l:160/18 r:80/18 */
+  border:none;
+  font-size:1.8em; /* 18/10 */
+  line-height:1.667; /* 30/18 */
+  color:#222;
+  text-transform:lowercase;
+  }
+.comments h3 span {
+  margin-left:.5em;
+  font-weight:normal;
+  font-size:.722em; /* 13/18 */
+  color:#a98;
+  }
+.comments h3 span a {
+  background:url('/img/icon_feed.gif') no-repeat 0 65%;
+  padding-left:16px;
+  }
+.comments ol {
+  margin:0;
+  padding:0;
+  list-style:none;
+  }
+.comments ol li {
+  margin:0;
+  padding:1.6em 0 1.3em;
+  border-top:1px solid #ece9e6;
+  float:left;
+  width:100%;
+  font-size:1em;
+  text-indent:0;
+  }
+.comments .commentid {
+  float:left;
+  width:100px; 
+  }
+.comments .gravatar {
+  background:#ece9e6;
+  float:right;
+  width:4em;
+  margin:.4em 0 1.6em;
+  padding:5px;
+  }
+.comments .gravatar img {
+  display:block;
+  }
+.comments .commentno {
+  float:left;
+  margin:.139em 0 0; /* 5/36 */
+  font-size:3.6em;
+  line-height:1.111; /* 40/36 */
+  font-weight:bold;
+  color:#ece9e6;
+  }
+.comments .body {
+  float:right;
+  width:580px;
+  margin:0 0 0 0;
+  overflow:hidden;
+  }
+.commentsclosed .body {
+  padding:1.6em 8em 2.3em 16em; /* */
+  border-top:1px solid #ece9e6;
+  }
+.comments .commentmeta {
+  margin-bottom:0;
+  }
+.comments .who {
+  font-weight:bold;
+  font-style:normal;
+  margin-right:.5em;
+  }
+.comments span.who {
+  color:#765;
+  }
+.comments strong {
+  color:#444;
+  }
+ 
+ #comment_form{
+ 	width: 580px;
+ 	float: right;
+ 	background: #efefef;
+ 	border: 1px solid #ccc;
+ 	padding: 1em;
+ }
+ 
+#comment_form label{
+	width: 15%;
+	float: left;
+	margin: 17px 0 0 0;
+	text-align: right;
+	__border: 1px solid #ccc;
+	font-size: 1.3em;
+}
+#comment_form input.text{
+	width: 75%;
+	float: left;
+	margin: 15px 0 0 15px;
+	border: 1px solid #bbb;
+	padding:.4em;
+}
+#comment_form textarea#message{
+	width: 75%;
+	float: left;
+	margin: 15px 0 0 15px;
+	height: 10em;
+	padding:.4em;
+	border: 1px solid #bbb;
+}
+#comment_form input.submit{
+	border: 1px solid #bbb;
+float: right;
+background: #ccc;
+margin: 1em;
+margin-right: 34px;
+
+}
+.related p{
+	font-weight: normal;
+	font-style: italic;
+}
+.related h4{
+	font-style: italic;
+}
+.related ol{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: .85em;
+}
+.related ol li{
+	margin-bottom: .5em;
+}
+.related a{
+	color: #333;
+}

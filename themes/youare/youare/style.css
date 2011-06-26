@@ -1,0 +1,660 @@
+/*
+Theme Name:	YouAre
+Theme URI: 	http://wptheme.youare.com/
+Description: Promote your real-life identity and your professional profile. A complete, elegant and minimalist widget-ready theme for Wordpress 2.8+. Powerful theme options, grid-based layout, microformats, easy color customization, SEO optimized...
+Version: 	0.2
+Author:		YouAre
+Author URI:	http://youare.com
+Tags: theme-options, fixed-width, two-columns, white, brown, green, right-sidebar, threaded-comments, microformats, translation-ready
+*/
+
+
+/* Import Stylesheets
+-----------------------------------------------------------*/
+@import url("css/layout_grid24.css");
+
+
+/*Body & Links 
+------------------------------------------------------------ */
+
+body {	
+	
+font: 300 62.5% Helvetica Neue, Helvetica, Arial, Sans-serif; 
+/* Consistent Base Font Size: By setting the body font-size to 62.5%, that will set your font size to 10 pixels. That way, 1em is equal to 10 pixels. */
+line-height: 1.8em
+}
+p {margin-bottom: 1em;
+}
+.content-background {font-size: 1.4em; line-height: 1.8em
+}
+
+.bold, #content p a, .bg_side a, .subscribe, #content li a {font-weight: bold }
+
+.pleft { float: left; padding-right: 5px; margin-bottom: 0
+}
+
+.pright {float: right; }
+
+.pcenter {text-align: center }
+
+.block_top {margin-top: 35px }
+
+.block_bottom {margin-bottom: 35px }
+
+.nomargin, #sidebar h2 {margin: 0 }
+
+p.nobackground, .nobackground {background-image: none }
+
+.big {font-size: 120% }
+
+.small {font-size: 90% }
+
+a { text-decoration: underline;
+ }
+
+a img { border: none
+}
+a.rss {	padding-left: 17px; background: url(images/icons/rss.png) no-repeat; }
+a.email {background: url(images/icons/mini-mail.png) no-repeat 0 7px; padding-left: 15px; margin-left: 10px }
+
+a.print, a[href$='.zip'], a[href$='.gzip'], a[href$='.rar'], a[href$='.pdf'] { padding-left: 20px }
+a.print {
+
+background:url(images/icons/print.png) no-repeat 5px;
+}
+a[href$='.pdf'] { background: url(images/icons/pdf.png) no-repeat;
+}
+a[href$='.zip'], a[href$='.gzip'], a[href$='.rar'] {
+background: url(images/icons/zip.gif) no-repeat;
+}
+#header a, .title a, #content #smart-archives-block li strong a {text-decoration: none; }
+
+#content a.email { margin-left: 40px}
+
+
+/*Header
+------------------------------------------------------------ */
+#header {
+  width: 100%; height: 100px
+  }
+#header .vcard img { position: absolute; top: 18px;
+}
+h1#logo a, div#logo a {
+  float: left;
+  text-transform: uppercase;
+  font-size: 24px; line-height: 100px;
+  letter-spacing: 1px;  
+  padding: 0 0 0 80px; height: 100px; width: 370px; margin-top: 0px;
+background: url(images/cabecera_blog_luis_rull.png) no-repeat 0 12px /*If you activate, delete your gravatar in header.php */
+	}
+
+/*Nav
+---------------------------------------*/
+#logo a, .nav, #content .title a, #sidebar h2, .date, .bg_side strong, #rss_links, .bypostauthor { font-family: "Plantin", "Baskerville", palatino, georgia, times, serif; 
+}
+.nav {
+overflow: hidden;
+margin-top: 37px;
+float: right;
+font-size: 1.3em;
+line-height: 25px
+}
+.nav li, .subnav li {
+	display: inline;
+	margin-left: .5em;
+	padding-left: .5em;
+	
+
+}
+.nav li {text-transform: uppercase; letter-spacing: 1px; }
+.nav li.home {border: none;
+}
+.nav li a {
+
+padding: 0 .5em
+
+}
+
+#archives_page #nav_archives, .current_page_item, .current_page_parent, .current, .current-cat {
+     font-weight: bold;
+}
+.subnav li.current-cat, .subnav li.current_page_item {
+    padding: 5px 10px;
+}
+
+.subnav {font-size: 90%; margin-left: 0; margin-top: .5em}
+
+
+/* Elements Header Promo / Footer promo
+------------------------------------------------------------ */
+
+.splash { width: 96%; padding: 2%; font-size: 1.3em; margin-bottom: 35px;}
+.splash .title, .splash h2, .splash h3 {font-size:1.9em; letter-spacing: 1px; margin: 5px 0 13px; }
+
+.splash .title, .splash h2, .splash h3 {font-family: "Lucida Grande", "Lucida Sans Unicode", helvetica, arial, sans-serif
+}
+
+.bigpage.title {font-size: 2.7em}
+
+.splash img { position: absolute; right: 0; top: 0; margin-left: 60px }
+
+.splash p {margin: 0;
+}
+
+.splash, .bg_side a {
+overflow: hidden; clear:both; 
+}
+.splash p span {float: right;
+}
+
+
+
+/*Page/Post Styling
+------------------------------------------------------------ */
+#content, #sidebar {padding-bottom: 70px }
+
+.post { margin-bottom: 30px; padding-bottom: 30px;  }
+
+.single {
+	border: none }
+
+/*Post Header
+-------------------------------------------------------------*/
+
+#content .title {  
+font-size: 1.8em;
+line-height: 1.1em;
+margin: 0
+  }
+
+.date {
+float: left;
+width: 60px; 
+margin-right: 60px;
+text-transform: uppercase; 
+font-size: 1.4em
+
+}
+.date strong, .date em, .date span {display: block; text-align: center; font-style: normal;
+}
+
+.date strong {font-size: 1.6em; font-weight: bold; padding: 5px
+} 
+.author, .meta {
+  margin: 3px 0 20px 120px;
+  font-size: 90%;
+  }
+  
+  
+  
+/*Post Body
+---------------------------------------------------------*/
+.entry { 
+  margin: 0 0 0 120px;
+
+  }
+pre {
+  margin: 10px 0;
+  padding: 1em 10px;
+  overflow: auto;
+  }
+code { 
+  padding: 2px 3px;
+  font: 1em Consolas, Courier New, sans-serif;
+  }
+pre code { font-size: 1.3em; 
+}
+
+.intro { padding-bottom: 1em; }
+
+.intro, blockquote {font-family: "Lucida Grande", "Lucida Sans Unicode", helvetica, arial, sans-serif; line-height: 1.7em; }
+
+.intro, blockquote.left, blockquote.right {font-size: 120% }
+
+.post .intro, .post blockquote.left, .post blockquote.right {font-size: 105% }
+
+blockquote {
+display: block; margin: 20px 0 20px 20px;
+padding: 0 0 0 20px;
+}
+
+blockquote.left, blockquote.right {
+
+width: 32%;
+display: block;
+padding: .5em 0 0
+
+}
+
+blockquote.right {
+float: right; margin: 10px 0 20px 20px;
+
+}
+
+blockquote.left {
+float: left; margin: 10px 20px 20px 0;
+}
+
+
+/*Heading
+---------------------------------------*/
+
+h1, h2, h3, h4 {font-weight: normal; letter-spacing: 1px;
+}
+
+h2, #content h3, #content h4, #content h5, #content h6 {
+margin: 2em 0 1em;
+	}
+
+#content h3 { 
+  font-size: 1.3em;
+  }
+#content h3.line-middle {  
+font-size: 1.5em;
+}
+
+#content h4, #content h5, #content h6 { 
+  font-size: 1.2em;
+  }
+#content h5, #content h6 { 
+font-size: 1em;
+}
+
+
+/*Post Lists
+---------------------------------------*/
+
+#content li {padding-bottom: 1em; margin-left: 2em; }
+
+.entry li, .single li {clear: both
+}
+#content ul li {list-style: circle }
+.meta {text-transform: uppercase;  }
+
+.meta span {float: right; padding-left: 20px
+}
+#content ul#topics li { float: left; padding: .5em; margin: 0 1em 1em 0; width: 130px; list-style: none; 
+}
+#topics li ul li {font-size: 90%;}
+
+#content ul#topics li a { text-decoration: none;
+}
+#tagcloud a {line-height: 2em }
+
+
+
+/*Post Footer
+---------------------------------------*/
+.post-footer { text-align: center; font-size: 95% }
+
+.tag {
+	font-weight: bold;
+	background: url(images/icons/tag.png) no-repeat 5px; padding-left: 25px
+}
+.tag em {
+font-style: normal
+}
+
+
+/*Pagination
+------------------------------------------------------------ */
+.navigation {font-size: 1.1em }
+.previous, .next, .navigation a { text-transform: uppercase; letter-spacing: 1px; margin: 0 3px; padding: 3px 10px; text-decoration: none; font-weight: bold; font-size: .8em
+}
+
+/*Sidebar
+------------------------------------------------------------ */
+
+#sidebar {font-size: 90% }
+
+/*Author Box
+-------------------------------------------- */
+
+.bg_side {
+margin-bottom: 15px; 
+line-height: 1.9em;
+text-decoration: none;
+display:block;
+
+
+}
+.bg_side strong {
+display:block;
+font-size: 130%;
+padding-bottom: 8px; 
+  }
+
+.subscribe { font-size: 95%; margin: 1em 0 0; padding: 10px;} 
+
+.bg_side div {padding: 20px; }
+
+
+#rss_links { font-size: 1.1em; position: relative}
+
+#rss_links p {float: left; margin: 0}
+
+#rss_links a.email {position: absolute; right: 0}
+
+#sidebar h2 {text-transform: uppercase; font-size: 1.3em; margin: 35px 0 0; padding-bottom: 2px;
+
+}
+
+#sidebar li {list-style: none; margin-left: 0; padding: 5px 0
+}
+#sidebar li a {text-decoration: none}
+#sidebar .widget_links li {float: left; width: 110px; margin: 0 15px 0 0
+}
+
+
+#sidebar ul.children li {
+font-size: 90%; list-style: circle; margin-left: 25px; border: none; background: none
+}
+#content #smart-archives-block li, #content .year_arch li {list-style: none; padding: 10px 0; margin: 0; 
+} 
+
+#sidebar ul.months, #sidebar ul.months li {
+display: inline;
+padding-right: 5px;
+border: none; background: none
+} 
+#content #smart-archives-block li a,  #content #smart-archives-block li span { margin: 0 3px }
+
+.widget, #sidebar form {overflow: hidden; clear: both }
+
+
+
+/*Rounded corners
+---------------------------------------*/
+
+.bg_side, input[type=text], textarea, .subscribe, #search_form input[type=submit], #content ul#topics li { 
+border-radius: 3px; -moz-border-radius: 3px;-webkit-border-radius: 3px;
+}
+.navigation a, .previous, .next, .alignleft a, .alignright a, #download a { 
+border-radius: 9px; -moz-border-radius: 9px;-webkit-border-radius: 9px;
+}
+
+/*Adbox
+---------------------------------------*/
+#adbox {
+margin: 20px 0;overflow: hidden 
+}
+#adbox img.alignleft {margin: 0 5px 0 0 }
+#adbox img.alignright {margin: 0;
+
+}
+
+/*Calendar
+---------------------------------------*/
+
+#wp-calendar{
+width: 100%; text-align: center
+}
+#wp-calendar th, #wp-calendar caption, #wp-calendar td a {
+font: 110%/1.7em palatino, georgia, times, serif; font-weight: bold
+}
+
+
+/*Flickr
+---------------------------------------*/
+
+#flickr_container img { margin: 10px 10px 0 0;}
+
+#flickr_container img {
+line-height: 0;
+width: 72px; 
+height: 72px
+}
+#flickr_container img.nomargin {margin-right: 0}
+
+/*Comments
+--------------------------------------------------------------------- */
+
+#content ol.commentlist {margin-top: 70px; }
+
+#content ul.children li {margin: 0; padding: 0 0 0 20px; }
+
+#content ol.commentlist li {list-style: none; clear:both; margin: 0  }
+
+div.conversation { overflow:hidden; margin-top: 25px; padding-top: 25px}
+
+.conversation .head{ position:relative; margin-bottom: 25px; font-size: 1.1em}
+.conversation .date_comment {display: block; font-size: .8em; text-transform: lowercase }
+
+
+.conversation .head .number { position:absolute; right:0; top:0; font-size: 2.5em }
+
+.conversation .head .number a { line-height:1em; text-decoration:none; }
+
+.conversation .head .author{text-transform:none; padding: 0; margin: 0; line-height: 1 } .conversation .head .author img{ float: left; margin-right: 10px;
+}
+.bypostauthor {
+font-size: 16px; /* Distinctive typography for your own comments */
+} 
+.conversation .head .author span{font-weight:bold; margin:0 0 0 25px; display: block; padding-bottom: 7px}
+
+.conversation .body {overflow:hidden; position:relative; z-index:1; margin-left: 57px; }
+
+.conversation .body .moderation{ font-style:italic; margin:0;}
+
+.conversation .foot{ padding-bottom: 25px; overflow: hidden }
+
+.conversation .foot strong, .conversation .foot a{float:right; }
+
+.conversation .foot a { padding: .3em .6em }
+
+.depth-2 .head .author img{margin-left: 25px; }
+
+.depth-2 .head .author span, .depth-2 .body {margin:0 0 0 81px; }
+
+.depth-3 .head .author img{margin-left: 50px; }
+
+.depth-3 .head .author span, .depth-3 .body {margin:0 0 0 106px;}
+
+.cancel-comment-reply {text-align:right}
+
+
+/*Form
+---------------------------------------------------------*/
+
+h4#postcomment {
+ font-size: 1.3em
+
+}
+
+#commentform fieldset {display: block; border: none; overflow: hidden;  margin-top: 1em; padding-top: 1em;
+ }
+
+#content label, .wpcf7 p {
+letter-spacing: 1px; }
+
+.wpcf7 input, .wpcf7 textarea {
+margin: 0; float: right
+}
+.wpcf7 p {overflow: hidden}
+
+.wpcf7 p, #content label {padding: 4px 8px; letter-spacing: 1px; }
+
+.wpcf7 br {display: none}
+
+#content label {
+float: left; width: 150px;
+
+}
+input[type=text], textarea {
+padding: 7px;
+font: 100%/1.5em helvetica neue, helvetica, arial, sans-serif;
+width: 435px; 
+}
+
+#content input[type=submit] {
+	padding: 20px 0; width: 449px;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: bold;
+	border: none;
+	letter-spacing: 1px; margin-left: 166px
+  }
+#content .wpcf7 input[type=submit] {
+width: 453px
+}
+p.comments-rss { margin: 35px 0; text-align: center}
+p.comments-rss a {
+
+padding: 0 0 0 20px;
+background: url(images/icons/rss.png) no-repeat 0;
+
+}
+#content #search_form {margin-bottom: 35px; overflow: hidden
+}
+input.search { 
+padding: 6px 6px 6px 25px;
+font-size: 110%; 
+float: left;
+vertical-align: middle; margin-right: 5px;
+width: 470px
+
+}
+#sidebar #search_form {margin-top: 25px }
+
+#sidebar input.search {width: 160px; }
+
+#search_form input[type=submit] { padding:5px; font-size: 100%;
+}
+#content #search_form {padding: 15px;  }
+#content #search_form input[type=submit] {width: 80px; margin: 0 }
+p.note {
+	font-family: palatino, georgia, times, serif; text-align:center
+	}
+
+#content .wpcf7 input, .wpcf7 textarea { width: 437px; margin: 0}
+
+
+
+/*Share / Social Services
+--------------------------------------- */
+
+.youare {background: url(images/icons/youare_favicon.png) no-repeat 0 0; padding-left: 16px; }
+.twitter { background: url(images/icons/twitter_favicon.png) no-repeat 0 0; padding-left: 16px; margin-left: 10px }
+.facebook { background: url(images/icons/facebook_favicon.png) no-repeat 0 0; padding-left: 20px; margin-left: 10px }
+
+#sidebar p.youare, #sidebar p.twitter {background-position: 0 7px }
+
+/*System
+---------------------------------------*/
+
+.alert, .info, .success {
+
+padding: 10px 30px;
+overflow: hidden
+
+}
+.alert {
+border:1px solid #fe8610;
+background: #f8dc87 url(images/icons/alert.png) no-repeat 10px;
+
+}
+.success { 
+border: 1px solid #96b34f; 
+background: #e6f0c3 url(images/icons/check.png) no-repeat 10px;
+}
+
+.info { 
+border: 1px solid #c3dfdf;
+background: #e0eaef url(images/icons/info.png) no-repeat 10px;
+}
+
+/* --- Numeric Pagination -------------- */
+
+.wp-pagenavi {
+
+overflow: hidden;
+clear: both
+
+
+}
+.wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi a:visited, .wp-pagenavi span.current {
+
+padding:3px 12px;
+margin-right:5px;
+float:left;
+}
+.wp-pagenavi a, .wp-pagenavi a:link {
+	
+width:auto;
+text-decoration:none;
+font-weight: bold
+}
+
+.wp-pagenavi a:hover {	
+margin-right:5px;
+        
+}
+
+.wp-pagenavi span.pages {
+	padding:3px 12px 3px 0 ; 
+	float:left;
+}
+.wp-pagenavi span.current {
+font-weight: bold;
+width:auto;
+}
+.wp-pagenavi span.extend {
+	
+width:auto;
+
+}
+/* --- Images -------------- */
+
+#photo_author {position:relative; margin-top: -75px; margin-bottom: 35px }  #photo_author img { width: 244px}
+
+
+img.left, img.alignleft { 
+
+float: left; 
+margin: 0.5em 1em 0.5em 0;
+
+}
+
+img.right, img.alignright { 
+
+float: right;
+margin: 0.5em 0 0.5em 1em;
+
+}
+
+img.center, img.aligncenter { 
+
+margin: 0 auto 1em auto; 
+display: block;
+text-align: center
+}
+.splash img.right, .splash img.left {margin-top: 0 }
+
+/*Footer
+------------------------------------------------------------ */
+#promo_down.splash h2 {width: 650px }
+
+#footer { 
+
+position: relative; 
+clear: both; 
+overflow: hidden;
+padding-top: .5em; 
+font-size: 1.2em; 
+padding-bottom: 20px
+
+}
+
+/*Copyright
+---------------------------------------*/
+#copyright {
+	display: block;
+	clear: both;
+	padding-top: 1px;
+	font-size: .9em;
+}
+
+.copyright-notice {width: 475px; float: left }
+
+.wordpress { background: url(images/icons/wordpress_favicon.png) no-repeat 0; padding-left: 20px; font-weight: bold; text-decoration: none;
+}

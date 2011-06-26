@@ -1,0 +1,21 @@
+#: wp-content/plugins/twitter-latest-updates.php:69
+msgid "a few seconds ago"
+msgstr "hace unos segundos"
+
+#: wp-content/plugins/twitter-latest-updates.php:71
+msgid "1 minute ago"
+msgstr "hace 1 minuto"
+
+#: wp-content/plugins/twitter-latest-updates.php:73
+msgid "%d minutes ago"
+msgstr "hace %d minutos"
+
+#: wp-content/plugins/twitter-latest-updates.php:77
+msgid "%d hours %d minutes ago"
+msgstr "hace %d horas y %d minutos"
+
+#: wp-content/plugins/twitter-latest-updates.php:79
+msgid "%d hours ago"
+msgstr "hace %d horas"
+
+

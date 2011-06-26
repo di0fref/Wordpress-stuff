@@ -1,0 +1,299 @@
+/*
+	Theme name: Simplicity
+	Theme author: Fredrik Fahlstad
+	Theme url: http://www.fahlstad.se
+	Theme version: 1.0
+*/
+
+
+/* Colors */
+
+
+
+html, body, div, span, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
+a, abbr, acronym, address, big, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strike, strong, sub, sup, 
+tt, var, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td
+{
+	background: transparent;
+	border: 0;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th, td
+{
+	font-weight: normal;
+	text-align: left;
+}
+blockquote, q
+{
+	quotes: none;
+}
+:focus
+{
+	outline: 0;
+}
+__p, __.asideBlock, __#content, __#footer, __#logo, __#nav
+{
+	border: 1px solid red;
+}
+body
+{
+	font-family: Georgia,"Hiragino Mincho Pro",serif;
+	font-size: small;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0 auto;
+	width: 954px;
+}
+a
+{
+	/*color: #cc0000;*/
+}
+a:visited{
+	/*color: #666;*/
+}
+a:hover{
+	text-decoration: underline;
+}
+#header
+{
+	__height: 50px;
+	margin-top: 1em;
+}
+#content
+{
+	font-size: medium;
+	line-height: 1.5;
+	margin-bottom: 9em;
+	margin-top: 30px;
+	padding-left: 320px;
+	position: relative;
+	width: 630px;
+	__background: #eee;
+}
+.post
+{
+	background: url(images/dotted.gif) repeat-x left bottom;
+	border: 1px solid red;
+	margin-bottom: .5em;
+	padding-bottom: .5em;
+}
+.bodytext
+{
+	__display: table;
+	clear: both;
+}
+.divider
+{
+	background: url(images/dotted.gif) repeat-x left top;
+	height: 20px;
+}
+.post_header
+{
+	margin-bottom: .5em;
+}
+p, ul
+{
+	margin-bottom: 0.75em;
+}
+ul
+{
+	margin-left: 1em;
+	padding-left: 1em;
+}
+h3
+{
+	font-size: 125%;
+	font-weight: normal;
+}
+input, textarea
+{
+	padding-bottom: 0.1em;
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+	padding-top: 0.1em;
+}
+.quickSearchBlock .incrementalSearch
+{
+	font-size: 120%;
+}
+dl.entryList dd .asideBlock, #single-post .asideBlock 
+{
+	__line-height: 1.25;
+	/*color: #666666;*/
+	font-size: 95%;
+	font-style: italic;
+	text-align: right;
+}
+.asideBlock
+{
+	left: 0pt;
+	position: absolute;
+	width: 300px;
+}
+dl.entryList dt
+{
+	font-size: 125%;
+	margin-top: 1em;
+	padding-bottom: 0.5em;
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0.7em;
+}
+dl.entryList dt
+{
+	background: url(images/dotted.gif) repeat-x;
+}
+em.highlight
+{
+	/*background: rgba(255,239,0,.7);
+	border-radius: 5px;
+	box-shadow: 0px 1px 4px rgba(0,0,0,.7);
+	font-style: normal;
+	left: -3px;
+	margin: 0 -4px;
+	moz-border-radius: 5px;
+	moz-box-shadow: 0px 1px 4px rgba(0,0,0,.7);
+	o-border-radius: 5px;
+	padding: 1px 4px;
+	position: relative
+	display: inline-block;
+	webkit-border-radius: 5px;
+	webkit-box-shadow: 0px 1px 4px rgba(0,0,0,.7);
+	z-index: 15;*/
+	
+	background-color: yellow;
+	font-style: normal;
+	__padding: 1px 4px;
+	__display: inline-block;
+
+}
+.alignleft
+{
+	float: left;
+	margin-bottom: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+}
+.alignright
+{
+	clear: right;
+	float: right;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-top: 1em;
+}
+.bodytext img
+{
+	border: 1px solid #ccc;
+	padding: .3em;
+}
+
+
+/* Comments */
+
+ol.commentlist{
+ list-style: none;
+}
+
+li.comment{
+	border: 1px solid red;
+}
+
+li.comment comment-body{
+
+}
+li.comment comment-meta{
+
+}
+
+li.comment cite .fn{
+
+}
+
+
+#nav ul
+{
+ __width: 30em;  /* room for 3 columns */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#nav ul li
+{
+  float: left;
+  width: 150px;  /* accommodate the widest item */
+  __padding-left: .5em;
+ __border: 1px solid red;
+
+}
+/* stop the floating after the list */
+#nav br
+{
+  clear: left;
+}
+/* separate the list from what follows it */
+#nav
+{
+  margin-bottom: 1em;
+  float: right;
+  width: 630px;
+  font-size: medium;
+	line-height: 1.5;
+}
+#nav a{
+	color: #000;
+	text-decoration: none;
+	font-size: 90%;
+}
+#nav a:hover{
+	text-decoration: underline;
+}
+#nav .current_page_item{
+	background: url(images/sprite_bullet.png) no-repeat left center;
+}
+#logo{
+	float: left;
+	width: 300px;
+	__text-align: right;
+}
+.clear{
+	height: 1px;
+	clear: both;
+}
+
+.navitem{
+	float: left;
+	width: 170px;
+	__border: 1px solid red;
+}
+.navitem p{
+	margin-bottom: .3em;
+}
+.navitem ul li{
+	font-size: 1em;
+}
+.navitem .cat{
+	font-size: .75em;
+	/*color: #cc0000;*/
+	letter-spacing: 1px;
+}
+
+blockquote{
+	font-style: italic;
+	padding: 10px 20px;
+	__background: #eee;
+	__border: 1px solid #ddd;
+	color: #666;
+}

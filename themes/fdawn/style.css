@@ -1,0 +1,464 @@
+/*
+	Theme Name: fDawn
+	Theme URI: http://www.fahlstad.se
+	Description: Liquid theme with max width, easy to customize.
+	Version: 1.0
+	Author: Fredrik Fahlstad
+	Author URI: http://www.fahlstad.se
+*/
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	font: 76%/115% Verdana,Tahoma,Arial,sans-serif;
+	background: #f4f4f4 url(images/bg.gif);
+}
+
+#wrap {
+	max-width:70em;
+	color: #303030;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	position: relative;
+}
+
+#header {
+	height: 60px;
+	margin-top: 0px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#main {
+	padding-top: 2em;
+	background:#fff url(images/separator.gif) repeat-y 67% 0;
+	overflow: hidden;
+}
+
+
+#header h1{
+	margin:0;
+	font-size:2.2em;
+	float: left;
+	padding-left:2%;
+	height:30px;
+	padding-top: 30px;
+	padding-right: 0;
+	padding-bottom: 0;
+}
+#header h1 a {
+	color:#333333;
+	border:0;
+}
+
+.description {
+	float: right;
+	height: 30px;
+	padding-top: 30px;
+	padding-right: 2%;
+}
+
+#frontphoto {
+margin: 0 0 10px 0;
+border: 0;
+}
+
+#sidebar {
+	float: right;
+	font-size: 0.94em;
+	line-height:1.3em;
+	width:29%;
+	margin:0 2% 0 0;
+		padding-top: 2em;
+
+}
+.pagenav ul li a{
+	list-style-type:none
+	}
+
+#sidebar h2 {
+	border-bottom:solid 1px #CCCCCC;
+	margin-top:20px;
+	font-size: 1.1em;
+}
+
+#headerimage {
+	background-color: #CCCCCC;
+	height: 175px;
+	background-image: url(images/top.jpg);
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px 2%;
+	background-position: right;
+}
+
+
+.announce {
+margin: 10px 0 10px 0;
+padding: 10px;
+width: 130px;
+color: #505050;
+background-color: #f4f4f4;
+line-height: 1.3em;
+}
+
+#extras {
+float: right;
+width: 100px;
+margin: 0 0 10px 0;
+padding: 0;
+font-size: 0.9em;
+line-height: 1.5em;
+}
+
+#extras p {
+margin: 0 0 1.5em 0;
+}
+
+#content {
+	border-left: 1px none #f0f0f0;
+	border-right: 1px none #f0f0f0;
+	padding: 0 10px;
+	line-height: 1.6em;
+	text-align: left;
+	float: left;
+	width: 59%;
+	margin:0 0 0 2%;
+	border-top-style: none;
+	border-bottom-style: none;
+	overflow: hidden;
+		padding-top: 2em;
+
+}
+h1,h2,h3,h4 {
+	font-family:Helvetica,Arial,Geneva,sans-serif;
+}
+h2 {
+	font-size: 1.8em;
+	margin: 0 0 0.5em 0;
+}
+
+
+h3 {
+	font-size: 1.6em;
+	margin: 0 0 10px 0;
+
+}
+h4 {
+	font-size:1.4em;
+	margin: 0 0 10px 0;
+}
+
+/* Links
+================================================*/
+a:link,
+a:visited {
+	color:#920D02;
+	/*font-weight:bold;*/
+	text-decoration:none;
+	padding:2px 2px 0;
+	margin:0 -2px;
+	border-bottom:1px dotted #666;
+	}
+/*a:visited {color:#333;}*/
+a:focus {
+	color:#580801;
+	}
+a:hover {
+	color:#580801;
+	border-color:#580801;
+	background-color:#f4f4f4;
+	}
+#footer {
+clear: both;
+margin: 0 auto;
+padding: 10px 0 20px 0;
+border-top: 4px solid #f0f0f0;
+width: 760px;
+text-align: center;
+color: #808080;
+font-size: 0.9em;
+}
+
+.current_page_item a {
+font-weight:bold;
+	}
+
+/************************************************
+*	Comments													*
+************************************************/
+h2#comments{
+	text-align:center;
+	border-top:1px solid #acb1ba;
+	background:#eeeeee;
+	padding:2px;
+	border-bottom:1px solid #acb1ba;
+	margin-bottom:10px;
+	margin-top:80px;
+	font-size: 110%;
+}
+
+ol#commentlist {
+	margin-top:0px;
+	padding: 5px;
+	margin-left: 0px;
+	color: #9b9b9b;
+	list-style-type: none;
+	font-size:0.9em;
+}
+
+#commentlist li  p{
+	margin-top: 8px;
+	margin-bottom: 16px;
+	line-height: 20px;
+}
+
+.commentname {
+	float: left;
+	margin: 0;
+	padding: 0  0 2px 0;
+	font-weight: bold;
+}
+
+.commentinfo{
+	width: 300px;
+	float: right;
+	text-align: right;
+}
+
+.commenttext {
+	clear: both;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	border-top: 1px solid #ebebeb;
+	line-height:12px;
+	color: #5b5b5b;
+	background-color: #F8F8F8;
+	padding: 5px;
+}
+
+.commenttext-admin {
+	clear: both;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	border-top: 1px solid #ebebeb;
+	line-height:12px;
+	color: #5b5b5b;
+	background-color: #CEE4F4;
+	padding: 5px;
+}
+
+#commentsformheader{
+	padding-left:18px;
+	font-size: 1.4em;
+}
+
+#commentsform{
+	margin-top:none;
+	text-align:center;
+	border:1px solid #ddd;
+	background:#ededed;
+	padding:0px 10px;
+}
+
+#commentsform form{
+	text-align:left;
+	margin:0px;
+}
+
+#commentsform p{
+	margin:5px;
+}
+
+#commentsform form textarea{
+	width:100%;
+}
+p.comments_link  img{
+	margin: 0px;
+	padding: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+/************************************************
+*	Header																			*
+************************************************/
+h2.entrydate{
+	margin-bottom:1px;
+	font-size: 1.8em;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+
+.entrymeta{
+	font-size: x-small;
+}
+
+h3.entrytitle {
+	margin-top:0px;
+	padding-bottom:10px;
+	font-weight:bold;
+	color:#000000
+}
+h3.entrytitle a, h3.entrytitle a:visited{
+color:#333333;
+}
+
+.entry{
+	margin-bottom: 4em;
+}
+
+.entrybody p a{
+	/*font-weight:bold;*/
+}
+blockquote {
+	border-left-width: 3px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	padding-left: 10px;
+	font-style: italic;
+	color: #666666;
+}
+
+.entrybody p {
+	margin-top:8px;
+	margin-bottom:16px;
+	text-align: justify;
+}
+code {
+	background-color: #eeeeee;
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+}
+
+
+/* Lists
+================================================*/
+dl,
+ol,
+ul {margin:0 0 1em;}
+dl {margin-top:-0.5em;}
+dt {
+	font-weight:bold;
+	margin:0.5em 0 0;
+	}
+dd {margin:0 0 0 2em;}
+dd p {margin:0 0 0.5em;}
+ul {
+	padding:0 0 0 2.5ex;
+	list-style:square;
+	}
+ol {padding:0 0 0 4ex;}
+li {margin:0 0 0.5em;}
+.code {
+	border:1px solid #ddd;
+	padding:3px 5px 3px 35px;
+	font-family:Courier;
+	list-style-type:decimal-leading-zero;
+	}
+.code code {font-family:Courier;}
+.code li {
+	padding:0 5px;
+	margin:2px 0;
+	background:#f7f7f5;
+	}
+.code li.tab1 {padding-left:5ex;}
+.code li.tab2 {padding-left:10ex;}
+.code li.tab3 {padding-left:15ex;}
+.code .changed {
+	font-weight:bold;
+	color:#600;
+	}
+.code em {
+	font-style:normal;
+	font-weight:bold;
+	color:#600;
+	}
+#sidebar ul, #sidebar  ol {
+	margin: 0;
+	padding: 0;
+	margin-left: 1em;
+	}
+
+#sidebar ul li {
+	list-style-type: none;
+	list-style-image: none;
+	margin-bottom: 15px;
+	}
+
+#sidebar ul p, #sidebar ul select {
+	margin: 5px 0 8px;
+	}
+
+
+ol li, #sidebar  ol li {
+	list-style: decimal outside;
+	}
+
+#sidebar ul  li, #sidebar  ol li {
+	margin: 3px 0em 0em 0.5em;
+	padding: 0.1em 0;
+	list-style:square;
+	}
+#searchdiv
+{
+	background-color: #f9f9f9;
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	font-weight:bold;
+}
+
+#sidebar form {
+	margin: 0px;
+	padding: 0px;
+}
+label {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+
+img.pic {
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	margin: 10px;
+}
+ul.meta {
+
+	display: block;
+	border-top: 1px dotted #ccc;
+	margin: 36px 0 0 0;
+	
+}
+
+ul.meta li {
+
+	border-bottom: 1px dotted #ccc;
+	display: block;
+	height: 16px;
+	padding: 3px 2px;
+
+}
+ul.meta li div.text {
+	font-size: .9em;
+}
+ul.meta li div.title {
+	font-size: .9em;
+	color: #000;
+	font-weight: normal;
+	display: block;
+	width: 150px;
+	float: left;
+}

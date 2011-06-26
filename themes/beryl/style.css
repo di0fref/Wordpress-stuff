@@ -1,0 +1,132 @@
+/*
+	Theme name: Beryl
+*/
+
+/* RESET */
+html, body, div, span, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
+a, abbr, acronym, address, big, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strike, strong, sub, sup, 
+tt, var, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; vertical-align: baseline; background: transparent; }
+table { border-spacing: 0; border-collapse: collapse; }
+caption, th, td { text-align: left; font-weight: normal; }
+blockquote, q { quotes: none; }
+:focus { outline: 0; }
+
+body{
+	background: #f1f2f2 url(images/body.png) top left repeat-x;
+	font: 12px/170% Verdana;
+  	color: #494949;
+}
+#header {
+	height: 80px;
+}
+#wrapper {
+  background: url(images/body.png) repeat-x 50% 0;
+}
+#sidebar {
+	margin-top: 50px;
+}
+
+#wrapper #container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1000px;
+}
+/* We must define 100% width to avoid the body being too narrow for near-empty pages */
+#wrapper #container #center {
+  float: left;
+  width: 100%;
+}
+#center {
+  margin-right: -300px;
+  padding-right: 20px;
+}
+.clear{
+	clear: both;
+}
+
+/* And add blanks left and right for the sidebars to fill */
+#squeeze {
+  margin-right: 300px;
+}
+
+/* Now we add the backgrounds for the main content shading */
+#wrapper #container #center #squeeze {
+  background: #fff url(images/bg-content.png) repeat-x 50% 0;
+  position: relative;
+}
+
+#wrapper #container #center .right-corner {
+  background: transparent url(images/bg-content-right.png) no-repeat 100% 0;
+  position: relative;
+  left: 10px;
+}
+
+#wrapper #container #center .right-corner .left-corner {
+  padding: 60px 25px 5em 35px;
+  background: transparent url(images/bg-content-left.png) no-repeat 0 0;
+  margin-left: -10px;
+  position: relative;
+  left: -10px;
+  min-height: 400px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 170%;
+}
+
+h2 {
+  font-size: 160%;
+  line-height: 130%;
+}
+
+h3 {
+  font-size: 140%;
+}
+
+h4 {
+  font-size: 130%;
+}
+
+h5 {
+  font-size: 120%;
+}
+
+h6 {
+  font-size: 110%;
+}
+
+p {
+  margin: 0.6em 0 1.2em;
+  padding: 0;
+}
+
+a:link, a:visited {
+  color: #364c81;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0062A0;
+  text-decoration: underline;
+}
+
+a:active, a.active {
+  color: #5895be;
+}
+
+
+li{
+	padding-left: 20px;
+	margin-left: 20px;
+}

@@ -1,0 +1,158 @@
+/* Few HTML Defaults */
+body { font: 82%/130% sans-serif; color:#000; background:#fff; }
+h1, h2, h3, h4, h5, h6 { margin: 2em 0 1em 0; padding:0; line-height:1.3em; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color:#000; }
+h1 { font-size: 4em; }
+h2 { font-size: 1.2em; }
+h3 { font-size: 1.1em; }
+h4 { font-size: 1.0em; }
+h5 { font-size: 1.0em; font-style: italic; }
+h6 { font-size: 1.0em; font-weight: normal; font-style: italic; }
+ul li { list-style-type: square; }
+p { margin: 1em 0 0 0; }
+
+/* Images */
+img { float: right; margin: 0 0 1em 1em; }
+a img { border:none; }
+.img-a { float:left; clear:both; margin: 0 1em 1em 0; }
+.img-a2 { float:none; margin: 0; } 
+.img-c { float:right; margin: 0 0 1em 1em; }
+.img-c2 { float:none; clear:both; margin: 0 0 1em 1em; }
+
+
+/* Tables */
+table {
+    float:right; font-size: 1em;
+    margin: 0 0 1em 1em; 
+    border-collapse:collapse; border-top:1px solid #333;
+}
+caption { font-style:italic; padding-bottom:1em; }
+th, thead { font-weight:bold; text-align:left; }
+th, td { padding: 0.2em 1em 0.2em 0; border-bottom:1px solid #ccc; }
+
+
+/* 	Horizontal Navigation */
+.nav-h ul { padding:1em 0; }
+.nav-h ul, .nav-h li { margin: 0; padding: 0; list-style-type:none; }
+.nav-h li { display:inline; margin-right:1em; }
+
+/* 	Vertical Navigation */
+.nav-v ul { padding:1em 0; }
+.nav-v ul, .nav-v li { margin: 0; padding: 0; list-style-type:none; }
+.nav-v li { list-style-type: none; }
+.nav-v li ul { margin-bottom: 0.4em; }
+.nav-v li a { display:block; padding: 0.4em 0; }
+.nav-v li a:hover { text-decoration:none; }
+.nav-v li li { font-size: 0.82em; list-style-type: square; color: #ccc; margin-left:2em; }
+
+
+
+/* 	Flat lists for a lot of content per item */
+ul.flat, ol.flat { margin:0; padding:0;}
+ul.flat,
+ul.flat li,
+ol.flat,
+ol.flat li { padding-left:0; padding-left:0; }
+ul.flat li, ol.flat li {}
+.flat ol, .flat ul { margin-left:1.2em; padding-bottom:1em; padding-top:0.4em; }
+
+
+/*  BLOCK FLOATIGN */
+.bb-fa { float:left; }
+.bb-fb { margin:auto; }
+.bb-fc { float:right; }
+
+/*  Columns */
+.bb-tbase { width:100%; float:left; clear:both; }
+.bb-t1 { width: 3.28%; }
+.bb-t2 { width: 6.61%; }
+.bb-t3 { width: 9.96%; }
+.bb-t4 { width: 13.28%; }
+.bb-t5 { width: 16.61%; }
+.bb-t6 { width: 20.00%; }
+.bb-t7 { width: 23.28%; }
+.bb-t8 { width: 26.61%; }
+.bb-t9 { width: 29.96%; }
+.bb-t10 { width: 33.28%; }
+.bb-t11 { width: 36.61%; }
+.bb-t12 { width: 39.96%; }
+.bb-t13 { width: 43.28%; }
+.bb-t14 { width: 46.61%; }
+.bb-t15 { width: 49.96%; }
+.bb-t16 { width: 53.28%; }
+.bb-t17 { width: 56.61%; }
+.bb-t18 { width: 59.96%; }
+.bb-t19 { width: 63.28%; }
+.bb-t20 { width: 66.61%; }
+.bb-t21 { width: 69.96%; }
+.bb-t22 { width: 73.28%; }
+.bb-t23 { width: 76.61%; }
+.bb-t24 { width: 79.96%; }
+.bb-t25 { width: 83.28%; }
+.bb-t26 { width: 86.61%; }
+.bb-t27 { width: 89.96%; }
+.bb-t28 { width: 93.28%; }
+.bb-t29 { width: 96.61%; }
+
+/* Four columns: 7.5units, 22.5units */
+.bb-t7a { width: 24.96%; }
+.bb-t22a { width: 74.96%; }
+
+
+/*  RELATIVE POSITIONING FROM CONTAINER. ADVANCED. */
+/*  Relative to the RIGHT */
+.bb-t10.relpos-c { float:right; position:relative; right: -33.33%; margin-left:-33.33%; }
+.bb-t11.relpos-c { float:right; position:relative; right: -36.61%; margin-left:-36.28%; }
+.bb-t12.relpos-c { float:right; position:relative; right: -40.00%; margin-left:-40.00%; }
+.bb-t13.relpos-c { float:right; position:relative; right: -43.28%; margin-left:-43.28%; }
+.bb-t14.relpos-c { float:right; position:relative; right: -46.61%; margin-left:-46.61%; }
+.bb-t15.relpos-c { float:right; position:relative; right: -50.00%; margin-left:-50.00%; }
+/*  Relative to the LEFT */
+.bb-t10.relpos-a { float:left; position:relative; left: -33.28%; margin-right:-33.28%; }
+.bb-t11.relpos-a { float:left; position:relative; left: -36.61%; margin-right:-36.28%; }
+.bb-t12.relpos-a { float:left; position:relative; left: -40.00%; margin-right:-40.00%; }
+.bb-t13.relpos-a { float:left; position:relative; left: -43.28%; margin-right:-43.28%; }
+.bb-t14.relpos-a { float:left; position:relative; left: -46.61%; margin-right:-46.61%; }
+.bb-t15.relpos-a { float:left; position:relative; left: -50.00%; margin-right:-50.00%; }
+
+
+/* 	
+	BLOCK INTERAL PADDING:
+		a - left padding only
+		b - left and right padding
+		c - right padding only
+			1 - measured in "ems"
+			2 - measured in %
+*/
+.bbin-a1 { padding-left: 1em; }
+.bbin-b1 { padding-left: 1em; padding-right: 1em; }
+.bbin-c1 { padding-right: 1em; }
+
+.bbin-a2 { padding-left: 3%; }
+.bbin-b2 { padding-left: 3%; padding-right: 3%; }
+.bbin-c2 { padding-right: 3%; }
+
+.bbin-a3 { padding-left: 0.4em; }
+.bbin-b3 { padding-left: 0.4em; padding-right: 0.4em; background:#eee; margin:1px; border:1px solid #ccc;  }
+.bbin-c3 { padding-right: 0.4em; }
+
+/* BORDERS */
+.bb-b0001 { border-left:1px solid #ccc; }
+.bb-b0101 { border-left:1px solid #ccc; border-right:1px solid #ccc; }
+.bb-b0100 { border-right:1px solid #ccc; }
+.bb-b1000 { border-top:1px solid #ccc; }
+.bb-b0010 { border-bottom:1px solid #ccc; }
+
+/*	
+    INLINE BLOCK MARGINS
+	(important: use only with "inline" blocks.)
+	Apply to the .bb-t* div block, not .catin*
+*/
+.bb-marg-a1 { margin-left: 1em; }
+.bb-marg-b1 { margin-left: 1em; margin-right: 1em; }
+.bb-marg-c1 { margin-right: 1em; }
+
+.bb-marg-a2 { margin-left: 4.16%; }
+.bb-marg-b2 { margin-left: 2.08%; margin-right: 2.08%; }
+.bb-marg-c2 { margin-right: 4.16%; }
+

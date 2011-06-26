@@ -1,0 +1,436 @@
+/*
+	Theme name: Clean
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, codee, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+div{
+	_border: 1px solid #ccc;
+}
+/*
+:focus {
+	outline: 0;
+}*/
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+code {
+	font-family: monospace;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+.clear:after {
+	content: ".";
+	display: block;
+	height: 0;
+	font-size: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clear {
+	display: inline-block;
+}
+/* \*/
+.clear {
+	display: block;
+}
+/* */
+.image {
+	display: block;
+	font-size: 0;
+	text-indent: -9999px;
+	outline: none;
+}
+img {
+background: #afafaf;
+padding: 1px;
+border: 1px solid #d6d6d6;
+}
+.alignleft{
+	float: left;
+	margin-right:1em;
+	margin-bottom: 1em;
+}
+.alignright{
+	float: right;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+body {
+
+	text-align: center;
+
+	font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
+
+	color: #555;
+
+	font-size: 12px;
+
+	line-height: 19px;
+
+	background: url('images/ba ckground.png') center top repeat-x #fff;
+
+}
+h1 a.image {
+
+	display: block;
+
+	width: 188px;
+
+	height: 41px;
+
+	background: url('images/logo.png') top left;
+
+	border: none!important;
+
+	float: left;
+
+}
+
+h4 a.image {
+
+	display: block;
+
+	width: 30px;
+
+	height: 30px;
+
+	background: url('images/rss.png') top right;
+
+	border: none!important;
+
+	float: right;
+
+	margin: 10px 0 0 10px;
+
+}
+
+/* Structure */
+div#wrapper {
+
+	text-align: left;
+
+	margin: auto;
+
+	width: 872px;
+
+}
+div#header {
+
+	margin: 22px 0 52px 0;
+
+}
+
+div#main-column {
+
+	width: 500px;
+
+	float: left;
+
+}
+
+div#sidebar {
+
+	width: 300px;
+
+	float: right;
+
+}
+
+div#sidebar ul {
+
+	list-style: disc;
+
+	margin: 0 0 18px 22px;
+
+}
+
+
+p {
+
+	margin: 0 0 18px;
+
+}
+
+a {
+
+	color: #555;
+
+	text-decoration: none;
+
+	border-bottom: 1px solid #ccc;
+
+}
+
+a:hover {
+
+	color: #333;
+
+	border-bottom: 1px solid #999;
+
+}
+h3, h3 a {
+
+	font-size: 24px;
+
+	line-height: 36px;
+
+	margin: 0 0 8px;
+
+	font-family: Georgia, Times, 'Times New Roman', serif;
+
+	color: #000;
+
+	border: none;
+
+
+}
+ div#sidebar h2, h4{
+	font-size: 18px;
+	line-height: 18px;
+	margin-top: 0pt;
+	margin-right: 0pt;
+	margin-bottom: 18px;
+	margin-left: 0pt;
+	font-family: Georgia,Times,'Times New Roman',serif;
+	color: #000000;
+}
+ul#navigation {
+
+	display: block;
+
+	float: right;
+
+	margin: 11px 0 0 0;
+
+
+}
+.post{
+	clear: both;
+	margin-bottom: 2em;
+}
+ul#navigation li {
+
+	list-style-type: none!important;
+
+	margin: 0;
+
+	display: inline;
+
+	overflow: hidden;
+
+	width: 100%;
+
+}
+
+a.navbtn {
+
+	background: transparent url('images/oval-gray-left.gif') no-repeat top left;
+
+	display: block;
+
+	float: left;
+
+	font: normal 11px Arial; /* Change 13px as desired */
+
+	line-height: 16px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 24px) */
+
+	height: 24px; /* Height of button background height */
+
+	padding-left: 11px; /* Width of left menu image */
+
+	text-decoration: none;
+
+	border-bottom: none;
+
+}
+
+a:link.navbtn, a:visited.navbtn, a:active.navbtn {
+
+	color: #494949; /*button text color*/
+}
+
+a.navbtn span {
+
+	background: transparent url('images/oval-gray-right.gif') no-repeat top right;
+
+	display: block;
+
+	padding: 4px 11px 4px 0; /*Set 11px below to match value of 'padding-left' value above*/
+
+}
+
+a.navbtn:hover { /* Hover state CSS */
+
+	background-position: bottom left;
+
+}
+
+a.navbtn:hover span { /* Hover state CSS */
+
+	background-position: bottom right;
+
+	color: #D1132A;
+
+}
+
+ul {
+
+	margin: 0 0 18px 18px;
+
+	list-style: disc;
+
+}
+ul.meta {
+
+	display: block;
+
+	border-top: 1px dotted #ccc;
+
+	margin: 36px 0 0 0;
+
+}
+
+ul.meta li {
+
+	border-bottom: 1px dotted #ccc;
+
+	display: block;
+
+	height: 16px;
+
+	padding: 6px 5px;
+
+}
+
+ul.meta li div.title {
+
+	font-family: Georgia, Times, 'Times New Roman', serif;
+
+	color: #000;
+
+	font-size: 14px;
+
+	font-weight: normal;
+
+	display: block;
+
+	width: 150px;
+
+	float: left;
+
+}
+
+li.sharethis ul {
+
+	list-style: none;
+
+	display: block;
+
+	width: 340px;
+
+	float: left;
+
+	margin: 0;
+
+}
+
+li.sharethis ul li {
+
+	padding: 0!important;
+
+	width: none;
+
+	margin: 0!important;
+
+	display: inline;
+
+	border: none;
+
+}
+
+li.sharethis ul li a {
+
+}
+
+li.sharethis ul li a.digg {
+
+	background: url('images/digg.png') left top no-repeat;
+
+}
+
+li.sharethis ul li a.digg:hover {
+
+	background: url('images/digg.png') left bottom no-repeat;
+
+}
+
+li.sharethis ul li a.delicious {
+
+	background: url('images/delicious.png') left top no-repeat;
+
+}
+
+li.sharethis ul li a.delicious:hover {
+
+	background: url('images/delicious.png') left bottom no-repeat;
+
+}
+
+li.sharethis ul li a.technorati {
+
+	background: url('images/technorati.png') left top no-repeat;
+
+}
+
+li.sharethis ul li a.technorati:hover {
+
+	background: url('images/technorati.png') left bottom no-repeat;
+
+}
+
+li.sharethis ul li a.stumble {
+
+	background: url('images/stumbleb.png') left top no-repeat;
+
+}
+
+li.sharethis ul li a.stumble:hover {
+
+	background: url('images/stumble.png') left bottom no-repeat;
+
+}

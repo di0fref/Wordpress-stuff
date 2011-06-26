@@ -1,0 +1,119 @@
+/*  
+Theme Name: Agneka Simple
+Theme URI: http://konstruktors.com/WordPressTheme/AgnekaSimple
+Description: Simple design that makes you write.
+Version: 0.4
+Author: Kaspars Dambis
+Author URI: http://konstruktors.com/blog
+
+*/
+#header .logo a, #header #nav-main a, .more-link, #nav-sub li.current_page_item a, ol.comments li .commentcontent,
+.nav-v.nav-etries li span, .widget li.current-cat a, .widget li.current-cat, .pagetitle em { 
+	/* Theme color */
+	color:#C71585; 
+}
+
+body { font: 81%/140% sans-serif; color:#333; margin:0 0 0 3em; color:#333; background: #fff; }
+a { color:#003F87; text-decoration:underline; }
+a:hover { background:#EEE8AA; color:#000; text-decoration:none; }
+h1, h2, h3, h4, h5, h6 { color:#000; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color:#000; text-decoration:none; border-bottom:1px dotted #ccc; }
+h1 { margin:2em 0 1.5em; font-size:1.3em; line-height:1em; }
+h5 { font-style:normal; }
+hr { display:none; }
+blockquote { margin:1em 0; padding-left:2.5em; background: url('quotes.png') no-repeat 0 0.5em; }
+
+#soul { float:left; width:78%; max-width:68em; position:relative; left:12%; }
+#header { padding:0 0 1em 0; margin:0; }
+#header .logo { font-size:1.8em; line-height:1.1em; float:left; margin:0; }
+#header .logo a { float:left; margin:0.55em 0.6em 0 -0.05em; padding:0; text-decoration:none; }
+#header .logo a:hover { color:#000; }
+#header .slogan { color:#666; width:20%; font-size:0.88em; line-height:1.2em; float:left;  margin:1.2em 0 0.1em 2em; }
+#header .slogan em { font-style:normal; }
+#header #nav-main { width:39.8%; float:right; margin-top:0; padding:0 0 0.2em 1em; border-left:1px solid #eee; }
+#header #nav-main ul { padding-top:1.1em; }
+#header #nav-main li { margin-right:0; }
+#header #nav-main a { font-size:1em; line-height:1em; padding:1.2em 0.7em 0.3em 0.7em; }
+#header #nav-main a:hover { color:#000; }
+#header #nav-main li.current_page_item a, 
+#header #nav-main li.current_page_item a:hover { color:#fff; background:#333; text-decoration:none; font-weight:bold; }
+
+#content-main { margin-top:0.4em; }
+
+#content-sub { color:#666; margin:1em 0 3em 0; font-size:0.88em; line-height:1.4em; }
+#content-sub h2, h3, h4 { font-size:1.16em; }
+#content-sub img.klogo { margin: 0.4em 1em 1em -0.6em; }
+#content-sub .feedlink img { float:none; margin:0; vertical-align:middle; text-decoration:none; }
+
+#nav-sub { margin-bottom:2em; line-height:1.4em; font-size:1.06em; }
+#nav-sub ul { color:#666; line-height:1.4em; margin:0 -1.2em 0 1.2em; position:relative; left:-1.2em; }
+#nav-sub ul ul { font-size:0.88em; color:#666; padding-left:1.5em; margin:0.7em 0 1em 1em; }
+#nav-sub li { margin:0.5em 0; }
+#nav-sub a { padding:0.2em 0;}
+#nav-sub li.current_page_item a { font-weight:bold; text-decoration:none; }
+#nav-sub li.current_page_item a:hover { }
+#nav-sub li.current_page_item li a { font-weight:normal; text-decoration:underline; color:#236B8E; }
+#nav-sub li.current_page_item li a:hover { color:#000; }
+
+#footer { float:right; width:99.9%; clear:both; color:#666; font-size:0.88em; line-height:1.4em; margin:3em 0 1em; padding:1em 0 3em; }
+#footer a { color:#666; border:none; }
+#footer input { font-size:1em; }
+#footer #searchform { margin:0; padding: 2em 0 0 0;  }
+#footer #searchform fieldset { border:none; padding:0; margin:0; }
+#footer .credits { padding:0 0 4em 0; border-top:1px solid #ddd; }
+#footer .footer-links { padding-top:0.5em; }
+#footer .footer-info { padding-top:0.5em; }
+
+h1 { font-size:1.6em; line-height:1.2em; margin-bottom:1em; }
+.post h2 { font-size:1.3em; margin-bottom:1em; }
+.postinfo, .postmetadata { color:#666; font-size:0.88em; line-height:1.4em; }
+.postinfo a, .postmetadata a { color:#666; }
+.postinfo { float:left; width:31%; text-align:right; position:relative; left:-36%; margin:0 -36% 0 0; }
+.postinfo .date { font-style:normal; color:#333; }
+.postmetadata { color:#666; margin:2em 0; text-align:right; font-size:0.88em; line-height:1em; }
+.postmetadata a { color:#666; }
+.more-link { white-space:nowrap; }
+#searchform fieldset { border:none; margin:1em 0; padding:0; }
+
+.nav-v.nav-etries { padding:0 0 1em 0; margin:0; }
+.nav-v.nav-etries li { float:left; margin:0.1em 0; width:100%; clear:both; }
+.nav-v.nav-etries li span { display:block; float:left; width:1.3em; position:relative; left:-1.3em; margin-right:-1.3em; }
+.nav-v.nav-etries li a { padding:0.1em 0; float:left; }
+.nav-entry-pages { margin:3em 0 0 0; }
+.nav-entry-pages .next { text-align:right; }
+.search .post h4 { float:left; clear:both; width:100%; margin:1em 0 0.25em 0; }
+.pagetitle { margin:2.2em 0 0 0; font-size:1.4em; font-weight:normal; }
+.pagetitle em { font-style:normal; }
+.sidebar-default { margin-top:2em; padding-bottom:1em; }
+.bbin-c3 { margin-right:2em; }
+ul.flat, ol.flat { margin: 0.5em -2em 1em 0; padding-left:2em; float:left; width:100%; clear:both; position:relative; left:-2em; }
+ul.flat li, ol.flat li { margin-bottom:1em; }
+.flat ul, .flat ol { padding: 0.5em 0 0 0; margin-left:1em; }
+.flat li li { margin-bottom:0.5em; }
+ol.flat { list-style-type:decimal; }
+
+ol.comments { margin:0 0 2em 0; padding:0; }
+ol.comments li { display:block; list-style-type:none; margin:1em 0; padding:0; float:left; width:100%; }
+ol.comments li .commentcontent { display:list-item; list-style-type:square; margin:-1em 0 0 1.2em; padding:0 0 0 1em; position:relative;  left:-2.2em; }
+ol.comments li .commentcontent span { color:#333; }
+ol.comments li cite { color:#333; line-height:1em; margin:0.2em 0 0.5em 0; display:block; font-style:normal; }
+ol.comments li .date { font-size:0.88em; line-height:1em; font-style:normal; display:block; }
+ol.comments li .date a { text-decoration:none; color:#666; }
+
+#commentform label { display:block; width:100%; font-size:0.88em; line-height:1em; margin:0 0 0.5em 0; }
+#commentform textarea { width:95%; }
+#commentform .credits input { width:95%; }
+#commentform .note { font-size:0.88em; line-height:1.4em; color:#999; }
+#commentform .note code { font-size:1em; }
+
+.widget ul { padding:0; margin:0 -1.2em 0 1.2em; position:relative; left:-1.2em; }
+.widget li { padding-left:0; margin:0.3em 0;  }
+.widget ul ul { padding-left:1.2em; margin:0 0 1em 1.1em; }
+.widget li.current-cat a { text-decoration:none; } 
+.widget li.current-cat { font-weight:bold; }
+.widget li.current-cat li { font-weight:normal; } 
+.widget li.current-cat li a { color:#236B8E; text-decoration:underline; }
+.widget li a { padding:0.1em 0; }
+
+.widget_observer li { list-style-type:none; margin-bottom:1em; } 
+.widget_observer ul { margin-bottom:1.5em; }

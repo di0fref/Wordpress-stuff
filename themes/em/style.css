@@ -1,0 +1,455 @@
+/* 
+Theme name: Em
+ */
+/* --- Yahoo UI reset --- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+
+/*div {
+	border: 1px solid #ccc;
+}
+*/
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym {
+	border:0;
+}
+small, big {
+	font-size: 1em;
+}
+body {
+	margin: 0;
+	padding: 0 3em 0;
+}
+
+.uplead {
+	text-transform: uppercase;
+}
+#title{
+	clear: both;
+	margin-bottom: 2em;
+}
+.downlead {
+	font-style: italic;
+	display: inline;
+}
+
+.ctop {
+	position: fixed;
+	top: 3em;
+	left: 3em;
+	width: 15em;
+}
+
+.cc {
+	width: 100%;
+	float: left;
+}
+
+.cmain {
+	background: #fff;
+	margin: 0 1em 0 1em;
+	padding: 1.5em 3em;
+	width: 45em;
+	float: left;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+
+}
+.cmain_wide {
+	background: #fff;
+	margin: 0 1em 0 1em;
+	padding: 1.5em 3em;
+	float: left;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+
+}
+
+.csub {
+	margin: 1em 0 3em 0;
+	width: 25em;
+	float: left;
+}
+
+.csub ul {
+	list-style-type: circle;
+}
+
+.csub strong {
+	text-align: center;
+	display: block;
+}
+
+/* footer - even lower area */
+
+.cfooter {
+	background: #ccc;
+	margin: 0 -3em 0;
+	padding: 1.5em 3em;
+	border-top: 1px solid #bbb;
+	clear: both;
+	/* offset the border of 1px */
+	position: relative;
+	top: -1px;
+}
+
+.cfooter p {
+	margin-bottom: 0;
+}
+/* --- basic styles, mostly typography --- */
+
+body {
+	font-family: Frutiger, Univers, "Helvetica Neue", Helvetica, Tahoma, Arial, sans-serif;
+	font-size: 75%;		/* default is 16px = 1em. this 75% makes 1em = 12px */
+	color: #333;
+	background: #eee;
+}
+
+input, select, textarea {
+	font-family: inherit;
+	font-size: 1em;
+}
+
+tt, code, pre {
+	font-size: 1.2em;
+	font-family: Consolas, "Panic Sans", "Andale Mono", monospace;
+	color: #000;
+}
+
+acronym, abbr, span.caps {
+	font-size: 0.9em;
+	letter-spacing: .07em;
+}
+
+acronym, abbr {
+	border-bottom: 1px dashed #ccc;
+}
+
+h1 span.amp, h2 span.amp, h3 span.amp, h4 span.amp, h5 span.amp, h6 span.amp {	/* use the best possible ampersands fonts can offer */
+	font-family: "Warnock Pro", "Goudy Old Style", "Palatino", "Book Antiqua", serif; 
+	font-style: italic; 
+	font-size: 99%;
+}
+
+ul, ol {
+	list-style-position: outside;	/* place the bullet in the left padding */
+	padding-left: 1.7em;
+}
+
+p, ul, ol, dl {
+	line-height: 1.5;	/* 18px leading */
+	margin: 0 0 1.5em 0;	/* = 18px = one line in between (1em * 1.5 = 1.5em) */
+}
+
+h1 {
+	font-size: 2.4em;		/* = 28.8px */
+	line-height: 1.25;		/* 28.8px * 1.25 = 36px == 2x default leading (thus keeping the vertical rythm) */
+	margin-bottom: .625em;	/* 28.8px * 0.625 = 18px (same as p) */
+	display: inline;
+}
+
+h2 {
+	font-size: 2em;			/* = 24px */
+	line-height: 1.5;		/* 24px * 1.5 = 36px */
+	margin-top: .75em;		/* 24px * 0.75 = 18px */
+	margin-bottom: .75em;	/* 18px	*/
+}
+
+h3 {
+	font-size: 1.75em;		/* = 21px */
+	line-height: 1.714;		/* 21px * 1.714 = 36px */
+	margin-top: .857em;		/* 21px * 0.857 = 18px */
+	margin-bottom: .875em;
+}
+
+h4 {
+	font-size: 1.5em;		/* = 18px */
+	line-height: 1;			/* = 18px */
+	margin-top: 1em;		/* = 18px */
+	margin-bottom: 1em;		/* = 18px */
+}
+
+h5 {
+	font-size: 1.25em;		/* = 15px */
+	line-height: 1.2;		/* 15px * 1.2 = 18px */
+	margin-top: 1.2em;	/* = 18px */
+	margin-bottom: 1.2em;	/* = 18px */
+}
+
+h6 {
+	font-size: 1.1667em;	/* = 14px */
+	line-height: 1.286;		/* 14px * 1.286 = 18px */
+	margin-top: 1.286em;	/* = 18px */
+	margin-bottom: 1.286em;	/* = 18px */
+}
+.csub h2{
+	font-size: 1.5em;		/* = 18px */
+	line-height: 1;			/* = 18px */
+	margin-top: 1em;		/* = 18px */
+	margin-bottom: 1em;		/* = 18px */
+}
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #004386;
+}
+
+a:hover {
+	color: #789 !important;
+}
+
+small {
+	color: #666;
+}
+
+big {
+	color: #000;
+}
+
+sup {
+	font-weight: bold;
+	line-height: 0;
+}
+
+i, em, cite {
+	font-weight: inherit;
+	font-style: italic;
+}
+
+b, strong {
+	font-weight: bold;
+	font-style: inherit;
+}
+
+q:before {
+	content: "Ò";
+}
+
+q:after {
+	content: "Ó";
+}
+
+blockquote {
+	font-style: italic;
+	padding-left: 1em;
+}
+
+/*blockquote p:before, blockquote:after, blockquote[cite] p:last-child:after {
+	font-family: "Goudy Old Style", "Palatino", "Book Antiqua", serif; 
+	font-style: italic; 
+	font-size: 3em;
+	display: block;
+	margin: 0;
+}
+
+blockquote p:before {
+	content: "Ò ";
+	margin-left: -.6em;
+	margin-bottom: -1em;
+	line-height: 1;
+}
+
+blockquote p + p:before {
+	color: #aaa;
+}
+
+blockquote:after, blockquote[cite] p:last-child:after {
+	content: " Ó";
+	text-align: right;
+	margin-right: -.4em;
+	margin-top: -1.05em;
+	line-height: 1.1;
+}
+
+blockquote[cite] p:last-child:after {
+	margin-top: -.5em;
+	margin-bottom: -.6em;
+}
+
+blockquote[cite]:after {
+	content: attr(cite);
+	font-size: 1em;
+	line-height: 1.5;
+	font-family: inherit;
+	font-style: normal;
+	margin-top: -1px;
+	margin-bottom: 1.5em;
+	border-top: 1px dotted #ccc;
+	display: block;
+	color: #999;
+}
+*/
+.dquo {
+	margin-left: -.38em;
+}
+
+.squo {
+	margin-left: -.22em;
+}
+
+hr {
+	text-align: center;
+	margin: 1.5em 0;
+	border: 0 dotted #666;
+	height: 1px;
+}
+
+hr.footnote-sep {
+	border-style: solid;
+	border-width: 1px 0 0;
+	margin-top: 3em;
+	width: 8em;
+}
+
+ol.footnotes {
+	color: #666;
+	list-style-type: decimal;
+	margin-top: -1px;	/* offset the hr.footnote-sep border of 1px, to maintain vertical rhythm */
+}
+
+img.alignleft{
+	margin-right: 1em;
+	margin-bottom: 1em;
+	float: left;
+}
+img.alignright{
+	margin-left: 1em;
+	margin-bottom: 1em;
+	float: right;
+}
+
+
+ul#feeds{
+	list-style: none;
+	padding-left: .5em;
+}
+ul#feeds li a{
+	background: url('images/rss.gif') left center no-repeat;
+	padding-left: 2em;
+}
+
+img.avatar{
+	float: right;
+	padding: 2px;
+	background: #eee;
+	border: 1px solid #ccc;
+}
+.comm{
+	border-top: 1px solid #eee;
+}
+p.date{
+		border-bottom: 1px solid #eee;
+		font-style: italic;
+		color: #666;
+
+}
+span#comment-rss{
+	padding-left:22px;
+	background:url(images/rss_16.png) no-repeat left;
+}
+span#comment-trackback{
+	padding-left:22px;
+	background:url(images/reload_16.png) no-repeat left;
+}
+
+#nav{
+	background: #fff;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 20px;
+}
+
+#nav ul#menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+
+
+ul#menu li a{
+	line-height: 20px; 
+	padding:0 10px 0 0px;
+	display: block;
+	float: left;
+	text-align: center;
+	margin-right: 0px;
+	
+}
+
+/*ul#menu li a:hover{
+	background: #262626;
+	text-decoration: none;
+	color: #f9f9f9;
+}*/
+#menu .current_page_item a{
+	background: #eee;
+}
+
+
+
+.download{
+	padding-right: 20px;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #999999;
+	padding-left: 65px;
+	background-color: #e9e9e9;
+	background-image: url(images/download.gif);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 10px center;
+	padding-bottom: 15px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	line-height: 180%;
+	padding-top: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+	text-align: center;
+}
+
+#commentblock{
+	margin-top: 20px;
+	border-top: 1px solid #eee;
+}
+
+
+.ad{
+	background: #EDEDED;
+	border: 1px solid #ddd;
+	padding: 3px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 256px;
+}
+

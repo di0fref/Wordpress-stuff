@@ -1,0 +1,349 @@
+/*
+Theme Name: Journalized
+Theme URI: http://zed1.com/journalized/themes/journalized/
+Description: Grey skin for Mike Little's Journalized theme
+Version: 2.0 Released 22 January 2006
+Author: Mike Little
+Author URI: http://zed1.com/
+
+Copyright 2002-2008 Mike Little
+
+This file is part of Mike Little's Journalized Theme.
+
+Mike Little's Journalized Theme is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+Mike Little's Journalized Theme is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Mike Little's Journalized Theme; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+body {
+	font-family: Verdana, sans-serif;
+	font-size: small;
+
+    color: #000;
+    background: #999;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 150%;
+    color: #000;
+    text-align: center;
+}
+
+img {
+    border-style: none;
+}
+
+h2 {
+    font-size: 110%;
+    color: #000;
+    background: #ddd;
+    border: 2px solid #000;
+}
+
+h4 {
+    font-size: 100%;
+    margin: 1em 0 0.5em 0;
+}
+
+abbr {
+    cursor: help;
+}
+
+p {
+    font-size: 90%;
+    margin: 10px;
+}
+
+pre {
+    font: 90% fixed;
+}
+
+a {
+    color: #00a;
+    text-decoration: none;
+}
+
+a:link    { text-decoration: none; }
+a:visited { color: #a0a; text-decoration: none; }
+a:hover   { color: #a0a; text-decoration: underline; }
+a:active  { color: #a0a; text-decoration: underline; }
+
+blockquote {
+    margin: 0.5em;
+    color: #000;
+    padding: 2px;
+    background: #ccc;
+}
+
+q {
+    color: #000;
+    background: #aaa;
+}
+
+h2 a:link    { color: #00a; text-decoration: none; }
+h2 a:visited { color: #00a; text-decoration: none; }
+h2 a:hover   { color: #00a; text-decoration: underline; }
+h2 a:active  { color: #00a; text-decoration: underline; }
+
+.storytitle {
+	font-size: 100%;
+    font-weight: bold;
+    padding: .25em;
+}
+
+.storytitle a {
+	font-size: 110%;
+    color: #00a; 
+}
+
+h3.storytitle {
+	margin: 0 0 5px 0;
+}
+
+.storyauthor {
+    font-weight: bold;
+}
+
+#headerblock {
+    text-align: center;
+    border: 2px solid #000;
+    color: #000;
+    background: #fff;
+    font-size: 100%;
+}
+
+#header a:link, #header a:visited {
+    font-size: 150%;
+    font-weight: bold;
+    color: #00a;
+}
+
+.centreblock, .navigation, .comment-navigation {
+    border: 2px solid #000;
+    color: #000;
+    background: #fff;
+}
+
+.centreblock p {margin-bottom: .5em; }
+
+.navigation, .comment-navigation {
+      text-align: center;
+      height: 1.5em;
+      background: #fff;
+}
+
+.meta {
+    font-size: 90%;
+}
+
+.meta ul {
+  display: inline;
+}
+
+.meta li  {
+    display: inline;
+    list-style-type: none;
+}
+
+.centreblock ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 3px;
+}
+
+.centreblock ul li {
+}
+
+/* this fixes an IE bug with aligned or floated images */
+.entry img {
+    position:relative;
+}
+
+.entry {
+    color: #000;
+    background: #fff;
+}
+
+.entry ul li {
+	list-style-type: disc;
+	margin-left: 10px;
+	padding-left: 5px;
+}
+
+.storylinks {
+    clear:both;
+    text-align: right;
+    margin: 4px;
+}
+
+.storylinks a:link    { font-size: 80%; color: #00a; text-decoration: none;}
+.storylinks a:visited { font-size: 80%; color: #00a; text-decoration: none;}
+.storylinks a:hover   { font-size: 80%; color: #00a; text-decoration: underline;}
+.storylinks a:active  { font-size: 80%; color: #00a; text-decoration: underline;}
+
+.centerP {
+    text-align: center;
+}
+
+#searchform input#s {
+    width: 95%;
+}
+
+#commentform input, #centreblock input, #menu input {
+    margin: 1px;
+    padding: 1px 1px 4px 1px;
+    border: 1px solid #000;
+	font-size: 90%;
+    background: #fff;
+}
+#commentform textarea, #centreblock textarea, #menu textarea {
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.commentfield {
+    margin-bottom: 4px;
+}
+
+.commentlist li {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+li.thread-even {
+  background-color: #ccc;
+  border-top: 1px #000 solid;
+  border-bottom: 1px #000 solid;
+}
+
+li.thread-odd {}
+
+li.depth-2, li.depth-3, li.depth-4, li.depth-5 {
+  margin-left: 10px;
+}
+
+table#wp-calendar {
+    background: #fff;
+    border: 1px solid #000;
+	font-size: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+}
+
+table#wp-calendar td {
+    padding: 0 2px;
+    color: #000;
+    text-align:center;
+}
+
+table#wp-calendar a:link    { color: #00a; text-decoration: none;}
+table#wp-calendar a:visited { color: #00a; text-decoration: none;}
+table#wp-calendar a:hover   { color: #00d; text-decoration: underline;}
+table#wp-calendar a:active  { color: #00d; text-decoration: underline;}
+table#wp-calendar caption { }
+td#prev, td#next { background: #ddd; }
+td#today{ color: #f00; border: 1px solid #d00; }
+table#wp-calendar thead tr { color: #000; background: #ddd; }
+table#wp-calendar thead th { }
+
+span.searchword {
+    background-color: yellow;
+}
+
+.sidebar {
+    border: 2px solid #000;
+    color: #000;
+    background: #fff;
+    font-size: 90%;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar input#s {
+    margin-bottom: 0.5em;
+}
+
+.sidebar a:link    { color: #00a; text-decoration: none;}
+.sidebar a:visited { color: #00a; text-decoration: none;}
+.sidebar a:hover   { color: #00a; text-decoration: underline;}
+.sidebar a:active  { color: #00a; text-decoration: underline;}
+
+.sidebar h4 {
+    font-size: 100%;
+    border: 1px solid #000;
+    color: #000;
+    background: #ddd;
+    padding: 2px;
+}
+
+
+.sidebarsection {
+	padding: 4px;
+    margin: 0 0 10px 0;
+}
+
+.sidebarsection ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 3px;
+}
+
+.sidebarsection ul li {
+    padding:0;
+    line-height: 1;
+}
+
+/* This set of rules makes the nested lists from wp_get_links()
+   look like the h4 + div.sidebarsection combination */
+
+div.sidebar ul.linklist {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.sidebar ul.linklist ul {
+	padding: 4px;
+    margin: 0 0 10px 0;
+}
+
+div.sidebar ul.linklist ul li {
+    padding-left: 3px;
+    line-height: 1;
+}
+
+div.sidebar ul li h2 {
+    font-size: 100%;
+    border: 1px solid #000;
+    color: #000;
+    background: #ddd;
+    padding: 2px;
+    margin: 10px 0;
+}
+
+div.sidebar ul li ul {
+	list-style-type: none;
+}
+
+div.sidebar ul li ul li ul li {
+	padding-left: 6px;
+}
+

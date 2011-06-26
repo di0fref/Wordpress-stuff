@@ -1,0 +1,326 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YouAre Wordpress Theme\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: YouAre Tema <info@youare.com>\n"
+"Language-Team: YouAre Theme <info@youare.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: wp-content/themes/youare/index.php:9
+msgid "In real-time..."
+msgstr "En temps real..."
+
+#: wp-content/themes/youare/404.php:2
+msgid "404: Page Not Found"
+msgstr "404: Pàgina no trobada"
+
+#: wp-content/themes/youare/404.php:2
+msgid "Page not found"
+msgstr "Pàgina no trobada"
+
+#: wp-content/themes/youare/404.php:3
+msgid "It might have been moved or deleted, or perhaps you mistyped it. We suggest searching the site:"
+msgstr "Ha degut ser traslladat, esborrat o has comés un error al escriure. Et sugerim que faces una nova búsqueda:"
+
+#: wp-content/themes/youare/archive.php:23,32,39
+msgid "Subscribe to this category"
+msgstr "Subscriu-te a aquesta categoría"
+
+#: wp-content/themes/youare/archive.php:23,32
+msgid "Subscribe to"
+msgstr "Subscriu-te a"
+
+#: wp-content/themes/youare/archive.php:23,32
+msgid "Subscribe to %s"
+msgstr "Subscriu-te a %s"
+
+#: wp-content/themes/youare/archive.php:24,33
+msgid "Go to this category"
+msgstr "Anar a aquesta categoría"
+
+#: wp-content/themes/youare/archive.php:24,33
+msgid "Subscribe to this tag"
+msgstr "Subscriu-te a aquesta etiqueta"
+
+#: wp-content/themes/youare/archive.php:51
+msgid "YouAre Search:"
+msgstr "Buscar a YouAre:"
+
+#: wp-content/themes/youare/archive.php:51
+msgid "Twitter Search:"
+msgstr "Buscar a Twitter:"
+
+#: wp-content/themes/youare/archive.php:73
+msgid "Posts by %s"
+msgstr "Escrit per %s"
+
+#: wp-content/themes/youare/archive.php:78
+msgid "Blog Archives"
+msgstr "Arxiu"
+
+#: wp-content/themes/youare/archive.php:92
+msgid "Permanent Link to %s"
+msgstr "Enllaç permanent a %s"
+
+#: wp-content/themes/youare/archive.php:95
+msgid "read more..."
+msgstr "llegir més..."
+
+#: wp-content/themes/youare/archive.php:96
+msgid "Edit This"
+msgstr "Editar"
+
+#: wp-content/themes/youare/archives.php:15
+msgid "There are currently %s posts, contained within %s categories, using <a href=\"/tags\">%s tags.</a>"
+msgstr "Actualment existeixen %s anotacions, dintre de %s categorías, utilitzant <a href=\"/tags\">%s etiquetes.</a>"
+
+#: wp-content/themes/youare/comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Aquesta anotació está protegida amb clau. Introdueix la clau per veure els comentaris."
+
+#: wp-content/themes/youare/comments.php:16
+msgid "No Comments Yet"
+msgstr "Sense comentaris"
+
+#: wp-content/themes/youare/comments.php:16
+msgid "1 Comment"
+msgstr "1 comentari"
+
+#: wp-content/themes/youare/search.php:22
+msgid "1 comment"
+msgstr "1 comentari"
+
+#: wp-content/themes/youare/comments.php:16
+msgid "% Comments"
+msgstr "% comentaris"
+
+#: wp-content/themes/youare/search.php:22
+msgid "% comments"
+msgstr "% comentaris"
+
+#: wp-content/themes/youare/comments.php:17
+msgid "Leave a Reply"
+msgstr "Deixa un comentari"
+
+#: wp-content/themes/youare/comments.php:29
+msgid "Trackbacks &amp; Pingbacks"
+msgstr "Trackbacks &amp; Pingbacks"
+
+#: wp-content/themes/youare/comments.php:40
+msgid "Comments are closed for this entry."
+msgstr "Aqueta anotació té els comentaris tancats."
+
+#: wp-content/themes/youare/comments.php:50
+msgid "Leave a Reply to %s"
+msgstr "Deixa un comentari a %s"
+
+#: wp-content/themes/youare/comments.php:52
+msgid "You must be <a href=\"%s/wp-login.php?redirect_to=%s\">logged in</a> to post a comment."
+msgstr "Has d'estar <a href=\"%s/wp-login.php?redirect_to=%s\">registrat</a> per deixar un comentari."
+
+#: wp-content/themes/youare/comments.php:57
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>. <a href=\"%s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "Registrat com <a href=\"%s/wp-admin/profile.php\">%s</a>. <a href=\"%s\" title=\"Cierra la sesión\">Salir &raquo;</a></a>"
+
+#: wp-content/themes/youare/comments.php:60
+msgid "(required)"
+msgstr "(obligatori)"
+
+#: wp-content/themes/youare/comments.php:60
+msgid "Name"
+msgstr "Nom"
+
+#: wp-content/themes/youare/comments.php:64
+msgid "Email"
+msgstr "Email"
+
+#: wp-content/themes/youare/comments.php:65
+msgid "Your email address will <strong>not</strong> be published. Your photo in comments, use <a href=\"http.//gravatar.com\">Gravatar</a>"
+msgstr "La teva direcció d'email <strong>no</strong> es publicará. Per mostrar la teva foto als comentaris, utilitza <a href=\"http.//gravatar.com\">Gravatar</a>"
+
+#: wp-content/themes/youare/comments.php:68
+msgid "Website (optional)"
+msgstr "Web (opcional)"
+
+#: wp-content/themes/youare/comments.php:69
+msgid "Please include http://"
+msgstr "Si us plau, escriu http://"
+
+#: wp-content/themes/youare/comments.php:73
+msgid "Comment"
+msgstr "Comentari"
+
+#: wp-content/themes/youare/comments.php:74
+msgid "Note: XHTML is allowed."
+msgstr "Info: s'admeteix XHTML."
+
+#: wp-content/themes/youare/comments.php:79
+msgid "Submit Comment"
+msgstr "Comenta"
+
+#: wp-content/themes/youare/comments.php:79
+msgid "Subscribe to this comment feed via RSS"
+msgstr "Subscriu-te als comentaris d'aquesta anotació vía RSS"
+
+#: wp-content/themes/youare/footer.php:15
+msgid "Logo"
+msgstr "Logo"
+
+#: wp-content/themes/youare/footer.php:16
+msgid "Your Company tag line or Featured work"
+msgstr "El lema de la teva empresa o treball a destacar"
+
+#: wp-content/themes/youare/footer.php:17
+msgid "Company services. Go to YouAre Options menu (the Footer Promo section) in WP Dashboard. <a href=\"http://wptheme.youare.com/demo/2009/08/19/how-to-customize-footer/\">View examples</a>."
+msgstr "Serveis de l'empresa. Visita YouAre Options (la secció Footer Promo) al Panel d'administracio de WP. <a href=\"http://wptheme.youare.com/demo/2009/08/19/how-to-customize-footer/\">Exemples</a>."
+
+#: wp-content/themes/youare/footer.php:27
+msgid "Top"
+msgstr "Pujar"
+
+#: wp-content/themes/youare/header.php:11
+msgid "Search Results for "
+msgstr "Resultats de la búsqueda per"
+
+#: wp-content/themes/youare/header.php:59
+msgid " Comments RSS 2.0 Feed"
+msgstr "Feed RSS 2.0 de comentaris"
+
+#: wp-content/themes/youare/header.php:89
+msgid "Home"
+msgstr "Inici"
+
+#: wp-content/themes/youare/header.php:90
+msgid "Archives"
+msgstr "Arxius"
+
+#: wp-content/themes/youare/header.php:90
+msgid "archives"
+msgstr "arxius"
+
+#: wp-content/themes/youare/index.php:9
+msgid "Your latest update on <a href=\"http://youare.com\">YouAre</a> or <a href=\"http://twitter.com\">Twitter</a>. Go to YouAre options in your WordPress panel admin"
+msgstr "La teva última actualització a <a href=\"http://youare.com\">YouAre</a> o <a href=\"http://twitter.com\">Twitter</a>. Activa el plugin 'YouAre Latest Updates' o 'Twitter Latests Updates' i visita YouAre Options al teu panel de WordPress"
+
+#: wp-content/themes/youare/index.php:32
+msgid "Leave a comment"
+msgstr "Deixa un comentari"
+
+#: wp-content/themes/youare/index.php:43
+msgid "Older Entries &raquo;"
+msgstr "Anotacions antigues &raquo;"
+
+#: wp-content/themes/youare/index.php:44
+msgid "&laquo; Newer Entries"
+msgstr "&laquo; Anotacions recents"
+
+#: wp-content/themes/youare/page.php:31
+msgid "Go to"
+msgstr "Anar a"
+
+#: wp-content/themes/youare/search.php:12
+msgid "Search"
+msgstr "Buscar"
+
+#: wp-content/themes/youare/search.php:22
+msgid "No Comments"
+msgstr "Sense comentaris"
+
+#: wp-content/themes/youare/search.php:22
+msgid "No comments"
+msgstr "Sense comentaris"
+
+#: wp-content/themes/youare/search.php:41
+msgid "No results found! You sure you wrote it correctly? Please try again."
+msgstr "No s'han trobat resultats! Estàs segur que ho has escrit correctament? Si us plau, tornar a intentar-ho."
+
+#: wp-content/themes/youare/share.php:1
+msgid "Share it"
+msgstr "Comparteix"
+
+#: wp-content/themes/youare/share.php:1
+msgid "Share on"
+msgstr "Comparteix a"
+
+#: wp-content/themes/youare/sidebar.php:22
+msgid "About the author"
+msgstr "Sobre el autor"
+
+#: wp-content/themes/youare/sidebar.php:27
+msgid "Read more"
+msgstr "Llegir més"
+
+#: wp-content/themes/youare/sidebar.php:31
+msgid "Go to YouAre Options menu in your WP Dashboard and check out the Author Box Sidebar section."
+msgstr "Visita l'enllaç YouAre Options al teu panel d'administració de WP i escriu a la secció Author Box Sidebar."
+
+#: wp-content/themes/youare/sidebar.php:65
+msgid "Topics"
+msgstr "Temes"
+
+#: wp-content/themes/youare/sidebar.php:96
+msgid "Recent Articles"
+msgstr "Articles recents"
+
+#: wp-content/themes/youare/sidebar.php:156
+msgid "RSS"
+msgstr "RSS"
+
+#: wp-content/themes/youare/sidebar.php:160
+msgid "Comments RSS"
+msgstr "RSS de comentaris"
+
+#: wp-content/themes/youare/sidebar.php:172
+msgid "Email Updates"
+msgstr "Subscriu-te"
+
+#: wp-content/themes/youare/single.php:7
+msgid "&laquo; Prev"
+msgstr "&laquo; Anterior"
+
+#: wp-content/themes/youare/single.php:13
+msgid "Next &raquo;"
+msgstr "Següent &raquo;"
+
+#: wp-content/themes/youare/single.php:15
+msgid "Print"
+msgstr "Imprimir"
+
+#: wp-content/themes/youare/single.php:29
+msgid "Tags"
+msgstr "Etiquetes"
+
+#: wp-content/themes/youare/tags.php:9
+msgid "Tags Archive"
+msgstr "Arxiu d'etiquetes"
+
+#: wp-content/themes/youare/tags.php:10
+msgid "Tag Cloud"
+msgstr "Núvol d'etiquetes"
+
+#: wp-content/themes/youare/follow_links.php:1
+msgid "Follow me"
+msgstr "Segueix-me"
+
+#: wp-content/themes/youare/sidebar.php:192
+msgid "Readers"
+msgstr "lectors"
+
+#: wp-content/themes/youare/index.php:15
+msgid "Latest YouAre Updates"
+msgstr "El meu YouAre"
+
+#: wp-content/themes/youare/index.php:19
+msgid "Latest Twitter Updates"
+msgstr "El meu Twitter"
+
+#: wp-content/themes/youare/comments.php:29
+msgid "Your comment is awaiting moderation."
+msgstr "El teu comentari està sota moderació."
+

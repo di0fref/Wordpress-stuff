@@ -1,0 +1,19 @@
+a,
+#fonts a:hover, #fonts a.active,
+#topmenu li a:hover,#topmenu li.active a,
+.headlines dt a,
+#columns h2, #columns h2 a, 
+.nav1 li.active a, .nav1 li a:hover, .nav1 li.current_page_item a,
+#rss a:hover,
+#nav2 li a:hover,
+#nav2 li.active a,
+#columns h2,
+.idTabs li a:hover,
+.idTabs .selected,
+#columns .post h2,
+.list3 li a em {
+	scolor: #FF7800;
+}
+.list1 li, #columns h3, #columns h5{
+	sbackground: url(default/ico-star.gif) no-repeat left;
+}

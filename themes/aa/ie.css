@@ -1,0 +1,8 @@
+#content {
+	display:inline;
+	overflow:hidden;
+}
+#sidebar {
+	display:inline;
+	word-wrap:break-word;
+}

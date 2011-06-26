@@ -1,0 +1,156 @@
+/*
+Theme Name: Chernobyl
+Theme URI: http://fahlstad.se
+Description: Widget ready two column theme.
+Version: 1.0
+Author: Fredrik Fahlstad
+Tags: two columns, widgets
+*/
+body{
+	margin: 0;
+	padding: 0;
+	background: #f4f4ed url('images/bg.png') left top repeat-y;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, sans-serif;
+	font-size: 62.5%;
+	color: #474a51;
+
+}
+#header{
+	height: 100px;
+}
+#wrap{
+	width: 960px;
+}
+
+#content{
+	width: 580px;
+	float:left;
+	padding-left: 20px;
+	text-align: justify;
+}
+#sidebar{
+	width: 170px;
+	float:left;
+	margin-top: 115px;
+}
+#decor{
+	width: 190px;
+	float:left;
+	_background: #383d44;	
+	height:100px;
+}
+#footer{}
+
+#sidebar ul{
+		list-style: none;
+		line-height: 1em;
+		margin: 0 !important;
+		padding-left: 0;
+	}
+	
+	#sidebar ul li a{
+		text-decoration: none;
+		color: #2e464e;
+		text-align: right;
+		display: block;
+		padding: 1.1em 1em 0.8em 0.5em;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		letter-spacing: 0.24em;
+	}
+	
+	
+	#sidebar ul li a:hover{
+		background: #DCDCC6;
+	}
+	.current_page_item{
+		background: #f4f4ed;
+	}
+p, ol ,ul{
+	margin-top: 0pt;
+	margin-right: 0pt;
+	margin-bottom: 1.5em;
+	margin-left: 0pt;
+	font-size: 1.2em;
+	line-height: 1.6em;
+}
+h3{
+	font-family: Georgia,serif;
+	font-size: 2em;
+	font-weight: normal;
+	line-height: 1em;
+	margin-bottom: 0;
+}
+a{
+	color: #317b9e;
+	text-decoration: none;
+}
+a:hover{
+	color: #104c68;
+	text-decoration: underline;
+}
+h3 a, h3 a:visited{
+	text-decoration: none;
+	color: #474a51;
+}
+
+h3 a:hover{
+	text-decoration: underline;
+	color: #474a51;
+}
+
+h4{
+	font-size: 1.3em;
+	margin-bottom: 10px;
+}
+p.date{
+	margin-bottom: 10px;
+	font-weight: bold;
+	background: url('images/date.gif') no-repeat left;
+	padding-left: 15px;
+	color: #818692;
+}
+
+
+
+p.comment-title{
+	font-weight: bold;
+}
+
+img.avatar{
+	float: right;
+}
+
+.odd{
+	background: #DCDCC6;
+}
+
+.comm{
+	padding: 8px;
+}
+
+.entry_page h3{
+	margin-bottom: 10px;
+}
+img{
+	padding: 4px;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+img.alignleft{
+	float: left;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+img.alignright{
+	float: right;
+	margin-left: 8px;
+	margin-bottom: 8px;
+}
+
+#sidebar h2{
+	text-align: right;
+	margin-top: 20px;
+	font-weight: normal;
+}

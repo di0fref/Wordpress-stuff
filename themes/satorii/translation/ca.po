@@ -1,0 +1,439 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Satorii en català\n"
+"POT-Creation-Date: 2002-04-06 21:44-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Felipe Lavín Z. <felipe@yukei.net>\n"
+"Language-Team: Isaac Sánchez Barrera <isaac at isb1009.es>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Catalan\n"
+
+#: 404.php:7
+msgid "Not Found"
+msgstr "No s'ha trobat"
+
+#: 404.php:9
+msgid "Apologies, but we were unable to find what you were looking for. Perhaps  searching will help."
+msgstr "Ho sentim, però no hem trobat el que volíeu. El formulari de cerca us podria ajudar."
+
+#: 404.php:14
+#: functions.php:362
+#: search.php:36
+msgid "Find"
+msgstr "Cerca"
+
+#: archive.php:9
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Arxius diaris: <span>%s</span>"
+
+#: archive.php:11
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Arxius mensuals: <span>%s</span>"
+
+#: archive.php:13
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Arxius anuals: <span>%s</span>"
+
+#: archive.php:15
+msgid "Blog Archives"
+msgstr "Arxius del blog"
+
+#: archive.php:21
+#: archive.php:32
+#: author.php:12
+#: author.php:25
+#: category.php:11
+#: category.php:22
+#: index.php:7
+#: index.php:40
+msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Entrades anteriors"
+
+#: archive.php:22
+#: archive.php:33
+#: author.php:13
+#: author.php:26
+#: category.php:12
+#: category.php:23
+#: index.php:8
+#: index.php:41
+msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Entrades següents <span class=\"meta-nav\">&raquo;</span>"
+
+#: archives.php:20
+msgid "Archives by Category"
+msgstr "Arxius per categoria"
+
+#: archives.php:26
+msgid "Archives by Month"
+msgstr "Arxius per mes"
+
+#: archives.php:33
+#: attachment.php:38
+#: functions.php:502
+#: functions.php:515
+#: image.php:37
+#: links.php:22
+#: page.php:17
+#: short-post-template.php:2
+msgid "Edit"
+msgstr "Edita"
+
+#: attachment.php:8
+#: image.php:9
+#, php-format
+msgid "Return to %s"
+msgstr "Torna a %s"
+
+#: attachment.php:19
+#: image.php:18
+#, php-format
+msgid "Posted by %1$s on <abbr class=\"published\" title=\"%2$sT%3$s\">%4$s at %5$s</abbr>. Bookmark the <a href=\"%6$s\" title=\"Permalink to %7$s\" rel=\"bookmark\">permalink</a>. Follow any comments here with the <a href=\"%8$s\" title=\"Comments RSS to %7$s\" rel=\"alternate\" type=\"application/rss+xml\">RSS feed for this post</a>."
+msgstr "Enviat per %1$s el <abbr class=\"published\" title=\"%2$sT%3$s\">%4$s a les %5$s</abbr>. Desa l'<a href=\"%6$s\" title=\"Permalink to %7$s\" rel=\"bookmark\">enllaç permanent</a>. Segueix els comentaris mitjançant <a href=\"%8$s\" title=\"Comments RSS to %7$s\" rel=\"alternate\" type=\"application/rss+xml\">el canal RSS d'aquesta entrada</a>."
+
+#: attachment.php:20
+#: image.php:19
+#: index.php:24
+#: short-post-template.php:13
+#, php-format
+msgid "View all posts by %s"
+msgstr "Mostra totes les entrades escrites per %s"
+
+#: attachment.php:30
+#: image.php:29
+#, php-format
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Deixa un comentari</a> o un retroenllaç: <a class=\"trackback-link\" href=\"%s\" title=\"URL dels retroenllaços\" rel=\"trackback\">URL dels retroenllaços</a>."
+
+#: attachment.php:32
+#: image.php:31
+#, php-format
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Els comentaris estan tancats, però pots deixar un retroenllaç: <a class=\"trackback-link\" href=\"%s\" title=\"URL dels retroenllaços\" rel=\"trackback\">URL dels retroenllaços</a>."
+
+#: attachment.php:34
+#: image.php:33
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Els retroenllaços estan tancats, però pots <a class=\"comment-link\" href=\"#respond\" title=\"Deixa un comentari\">deixar un comentari</a>."
+
+#: attachment.php:36
+#: image.php:35
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Els comentaris i els retroenllaços estan tancats."
+
+#: author.php:8
+#, php-format
+msgid "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr "Arxius de l'autor: <span class=\"vcard\">%s</span>"
+
+#: category.php:6
+msgid "Category Archives:"
+msgstr "Arxius de la categoria"
+
+#: comments.php:10
+msgid "This post is protected. Enter the password to view any comments."
+msgstr "Aquesta entrada està protegida. Escriviu la contrassenya per a veure els comentaris."
+
+#: comments.php:30
+#, php-format
+msgid "<span>%d</span> Trackbacks"
+msgstr "<span>%d</span> retroenllaços"
+
+#: comments.php:30
+msgid "<span>No</span> Trackbacks"
+msgstr "<span>No</span> hi ha retroenllaços"
+
+#: comments.php:32
+msgid "You can leave a trackback using this <acronym title=\"Universal Resource Locator\">URL</acronym>:"
+msgstr "Podeu deixar un retroenllaç fent servir aquesta <acronym title=\"Universal Resource Locator\">URL</acronym>:"
+
+#: comments.php:47
+#, php-format
+msgid "<span>%d</span> Comments"
+msgstr "<span>%d</span> comentaris"
+
+#: comments.php:47
+msgid "<span>One</span> Comment"
+msgstr "<span>Un</span> comentari"
+
+#: comments.php:59
+msgid "<span class=\"meta-nav\">&laquo;</span> Previous Comments"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Comentaris anteriors"
+
+#: comments.php:60
+msgid "Next Comments <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Comentaris següents <span class=\"meta-nav\">&raquo;</span>"
+
+#: comments.php:69
+msgid "Post a Comment"
+msgstr "Deixa un comentari"
+
+#: comments.php:72
+#, php-format
+msgid "You must be <a href=\"%s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr "Heu d'<a href=\"%s\" title=\"Inicia la sessió\">iniciar la sessió</a> per a comentar."
+
+#: comments.php:80
+#, php-format
+msgid "<span class=\"loggedin\">Logged in as <a href=\"%1$s\" title=\"Logged in as %2$s\">%2$s</a>.</span> <span class=\"logout\"><a href=\"%3$s\" title=\"Log out of this account\">Log out?</a></span>"
+msgstr "<span class=\"loggedin\">Sessió iniciada com a <a href=\"%1$s\" title=\"Sessió iniciada com a %2$s\">%2$s</a>.</span> <span class=\"logout\"><a href=\"%3$s\" title=\"Finalitza la sessió\">Finalitza la sessió?</a></span>"
+
+#: comments.php:87
+msgid "Your email is <em>never</em> shared."
+msgstr "La vostra adreça de correu-e <em>mai</em> es farà pública."
+
+#: comments.php:87
+msgid "Required fields are marked <span class=\"required\">*</span>"
+msgstr "Els camps necessaris estan marcats amb <span class=\"required\">*</span>"
+
+#: comments.php:91
+msgid "Name"
+msgstr "Nom"
+
+#: comments.php:91
+#: comments.php:94
+msgid "<span class=\"required\">*</span>"
+msgstr "<span class=\"required\">*</span>"
+
+#: comments.php:94
+msgid "Email"
+msgstr "Correu-e"
+
+#: comments.php:97
+msgid "Website"
+msgstr "Lloc web"
+
+#: comments.php:105
+msgid "Comment"
+msgstr "Comentari"
+
+#: comments.php:108
+msgid "Post Comment"
+msgstr "Envia el comentari"
+
+#: footer.php:5
+msgid "WordPress"
+msgstr "WordPress"
+
+#: functions.php:361
+#: functions.php:469
+#: functions.php:471
+msgid "Search"
+msgstr "Cerca"
+
+#: functions.php:390
+#: functions.php:443
+msgid "Title:"
+msgstr "Títol:"
+
+#: functions.php:391
+msgid "Button Text:"
+msgstr "Text del botó:"
+
+#: functions.php:400
+#: functions.php:478
+#: functions.php:480
+msgid "Meta"
+msgstr "Meta"
+
+#: functions.php:419
+#: functions.php:487
+#: functions.php:488
+msgid "RSS Links"
+msgstr "Enllaços RSS"
+
+#: functions.php:424
+msgid "Posts RSS feed"
+msgstr "Canal RSS de les entrades"
+
+#: functions.php:424
+msgid "All posts"
+msgstr "Totes les entrades"
+
+#: functions.php:425
+msgid "Comments RSS feed"
+msgstr "Canal RSS dels comentaris"
+
+#: functions.php:425
+msgid "All comments"
+msgstr "Tots els comentaris"
+
+#: functions.php:467
+msgid "A search form for your blog (Sandbox)"
+msgstr "Una barra de cerca per al vostre blog (Sandbox)"
+
+#: functions.php:476
+msgid "Log in/out and administration links (Sandbox)"
+msgstr "Enllaços per a iniciar/finalitzar la sessió i de l'administració (Sandbox)"
+
+#: functions.php:485
+msgid "RSS links for both posts and comments (Sandbox)"
+msgstr "Enllaços RSS per a les entrades i els comentaris (Sandbox)"
+
+#: functions.php:495
+msgid "\t\t\t\t\t<span class='unapproved'>Your comment is awaiting moderation.</span>\n"
+msgstr "\t\t\t\t\t<span class='unapproved'>El vostre comentari està pendent de moderació.</span>\n"
+
+#: functions.php:498
+#, php-format
+msgid "Posted %1$s at %2$s <span class=\"meta-sep\">|</span> <a href=\"%3$s\" title=\"Permalink to this comment\">Permalink</a>"
+msgstr "Enviat el %1$s a les %2$s <span class=\"meta-sep\">|</span> <a href=\"%3$s\" title=\"Enllaç permanent del comentari\">Enllaç permanent</a>"
+
+#: functions.php:511
+#, php-format
+msgid "By %1$s on %2$s at %3$s"
+msgstr "Per %1$s a %2$s a les %3$s"
+
+#: functions.php:516
+msgid "\\t\\t\\t\\t\\t<span class=\"unapproved\">Your trackback is awaiting moderation.</span>\\n"
+msgstr "\\t\\t\\t\\t\\t<span class=\"unapproved\">El vostre retroenllaç està pendent de moderació.</span>\\n"
+
+#: functions.php:539
+msgid "&laquo; Older Comments"
+msgstr "&laquo; Comentaris anteriors"
+
+#: functions.php:565
+msgid "Newer Comments &raquo;"
+msgstr "Comentaris següents &raquo;"
+
+#: header.php:10
+#, php-format
+msgid "%s latest posts"
+msgstr "%s entrades recents"
+
+#: header.php:11
+#, php-format
+msgid "%s latest comments"
+msgstr "%s comentaris recents"
+
+#: header.php:35
+msgid "Skip to content"
+msgstr "Salta al contingut"
+
+#: index.php:14
+#: short-post-template.php:2
+#, php-format
+msgid "Permalink to %s"
+msgstr "Enllaç permanent a %s"
+
+#: index.php:16
+#: short-post-template.php:4
+msgid "Read More <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Continua llegint <span class=\"meta-nav\">&raquo;</span>"
+
+#: index.php:17
+#: page.php:15
+msgid "Pages:"
+msgstr "Pàgines"
+
+#: index.php:18
+#: short-post-template.php:6
+msgid "<p class=\"tag-links\"><span>Tagged:</span> "
+msgstr "<p class=\"tag-links\"><span>Etiquetes:</span> "
+
+#: index.php:21
+#: short-post-template.php:10
+msgid "Published:"
+msgstr "Publicat:"
+
+#: index.php:22
+#: short-post-template.php:11
+#, php-format
+msgid "%1$s &#8211; %2$s"
+msgstr "%1$s &#8211; %2$s"
+
+#: index.php:23
+#: short-post-template.php:12
+msgid "Author:"
+msgstr "Autor:"
+
+#: index.php:24
+#: short-post-template.php:13
+#, php-format
+msgid "By %s"
+msgstr "Per %s"
+
+#: index.php:25
+#: short-post-template.php:5
+msgid "Categories:"
+msgstr "Categories:"
+
+#: index.php:29
+msgid "Comments:"
+msgstr "Comentaris:"
+
+#: index.php:30
+msgid "None"
+msgstr "Cap"
+
+#: index.php:30
+msgid "1 Comment"
+msgstr "1 comentari"
+
+#: index.php:30
+msgid "% Comments"
+msgstr "% comentaris"
+
+#: index.php:31
+msgid "Edit this post"
+msgstr "Edita l'entrada"
+
+#: index.php:31
+msgid "<dt>Edit</dt><dd class=\"edit-link\">"
+msgstr "<dt>Edita</dt><dd class=\"edit-link\">"
+
+#: search.php:8
+msgid "Search Results for:"
+msgstr "Resultats de la cerca:"
+
+#: search.php:11
+#: search.php:22
+msgid "<span class=\"meta-nav\">&laquo;</span> Older results"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Resultats anteriors"
+
+#: search.php:12
+#: search.php:23
+msgid "Newer results <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Resultats següents <span class=\"meta-nav\">&raquo;</span>"
+
+#: search.php:29
+msgid "Nothing Found"
+msgstr "No s'ha trobat res"
+
+#: search.php:31
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Ho sentim, però res coincideix amb els criteris de cerca. Proveu-ho amb d'altres paraules clau."
+
+#: sidebar.php:7
+msgid "Pages"
+msgstr "Pàgines"
+
+#: sidebar.php:14
+msgid "Categories"
+msgstr "Categories"
+
+#: sidebar.php:40
+msgid "RSS Feeds"
+msgstr "Canals RSS"
+
+#: sidebar.php:69
+msgid "Archives"
+msgstr "Arxius"
+
+#: single.php:34
+msgid "Comments RSS Feed"
+msgstr "Canal RSS dels comentaris"
+
+#: single.php:36
+msgid "Trackback <acronym title=\"Universal Resource Locator\">URL</acronym>"
+msgstr "<acronym title=\"Universal Resource Locator\">URL</acronym> dels retroenllaços"
+
+#: tag.php:6
+msgid "Tag Archives:"
+msgstr "Arxius de l'etiqueta:"
+

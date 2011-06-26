@@ -1,0 +1,15 @@
+#wrap {
+	height:1%;
+	width:expression(document.body.clientWidth > 930? "900px" : "auto");
+}
+#main {
+	height:1%;
+}
+#content {
+	display:inline;
+	overflow:hidden;
+}
+#sidebar {
+	display:inline;
+	word-wrap:break-word;
+}

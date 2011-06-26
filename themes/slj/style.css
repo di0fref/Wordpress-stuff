@@ -1,0 +1,1390 @@
+
+/*
+	theme name: newest
+*/
+
+/* @group Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	font-family: Arial, Verdana, sans-serif;
+	line-height: 1;
+	color: black;
+	background: #1F1F1F;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/* @end */
+
+
+
+
+/* @group Typography */
+
+body {
+	font-size: 13px;
+}
+
+p {
+  font-size: 1em; /* 12px */
+  line-height: 1.5em; /* 18px */
+  margin-top: 1.5em; /* 18px */
+  margin-bottom: 1.5em; /* 18px */
+}
+
+h1 { 
+  font-size: 2em; /* 24px */
+  line-height: 1.5em; /* 36px */
+  margin-bottom: 1.334em; /* 18px */
+}
+
+
+h2 { 
+  font-size: 1.5em; /* 18px */
+  line-height: 1em; /* 18px */
+  margin-top: 1em; /* 18px */
+  margin-bottom: 1em; /* 18px */
+}
+
+h3 { 
+  font-size: 1em; /* 12px */
+  line-height: 1.5em; /* 18px */
+  margin-bottom: 1.5em; /* 18px */
+}
+
+a {
+  color: #0058bc;
+}
+
+ul, ol { 
+  margin-bottom: 1.5em; /* 18px */
+}
+
+.mute {
+	color: #777777;
+	font-size: .9167em; /* 11px */
+	line-height: 1.637em; /* 18px */
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+.textleft, .alignleft { 
+  float: left; 
+  margin: 0 18px 18px 0;
+}
+
+.textright, .alignright{ 
+  float: right; 
+  margin: 0 0 18px 18px; 
+}
+
+/* @end */
+
+
+/* @group Layout */
+
+/* ------------------------------------------------------------
+	Page Layout
+------------------------------------------------------------ */
+
+#header-wrap {
+	width: 100%;
+	min-width: 960px;
+	background: #FFFFFF url('http://astuteo.com/images/interface/header-nav-bkgd.jpg') center -35px repeat-x;
+}
+#header {
+	width: 950px;
+	margin: 0 auto;
+	padding: 0 0 0 10px;
+}
+#content-wrap {
+	width: 100%;
+	min-width: 960px;
+	clear: both;
+	background-color: #FFFFFF;
+	padding: 0 0 20px 0;
+}
+#content {
+	width: 940px;
+	margin: 0 auto;
+	padding: 25px 10px 0 10px;
+}
+#content.blog {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+	background: url('http://astuteo.com/images/interface/bkgd-link-channel.png') top right repeat-y;
+}
+#footer-wrap {
+	width: 100%;
+	min-width: 960px;
+	min-height: 100px;
+	clear: both;
+	background: #1F1F1F url('http://astuteo.com/images/interface/footer-bg.jpg') top center repeat-x;
+	padding: 0;
+}
+#footer {
+	width: 940px;
+	margin: 0 auto;
+	padding: 30px 10px 20px 10px;
+}
+
+/* ------------------------------------------------------------
+	Logo
+------------------------------------------------------------ */
+
+#header #logo {
+	float: left;
+	position: absolute;
+}
+#header #logo h1 {
+	margin: 0;
+	padding: 0;
+}
+#header #logo a {
+	display: block;
+	width: 222px;
+	height: 85px;
+	text-indent: -9999px;
+	background: url('http://astuteo.com/images/interface/astuteo-logo.jpg') left -29px no-repeat;
+}
+
+/* ------------------------------------------------------------
+	Navigation
+------------------------------------------------------------ */
+
+#header #nav {
+	margin: 0;
+	padding: 0;
+	width: 560px;
+	height: 47px;
+	list-style: none;
+	float: right;
+	display: inline;
+	overflow: hidden;
+	}
+#header #nav li {
+	margin: 0; 
+	padding: 0;
+    list-style: none;
+	display: inline;
+	}	
+#header #nav a {
+	float: left;
+	padding: 45px 0 0 0;
+	margin: 0 10px;
+	overflow: hidden;
+	height: 0px !important; 
+	height /**/:45px; /* for IE5/Win only */
+	}	
+#header #nav a:hover {
+	background-position: 0 -45px;
+	}
+#header #nav a.selected,
+#header #nav a.selected:hover {
+	background-position: 0 -90px;
+	}
+#thome a  {
+	width: 140px;
+	background: url('http://astuteo.com/images/interface/tab-overview.gif') top left no-repeat;
+	}
+#toffice a  {
+	width: 60px;
+	background: url('') top left no-repeat;
+	}
+#tadvice a  {
+	width: 220px;
+	background: url('http://astuteo.com/images/interface/tab-advice.gif') top left no-repeat;
+	}		
+#tcontact a  {
+	width: 140px;
+	background: url('http://astuteo.com/images/interface/tab-contact.gif') top left no-repeat;
+	}
+#breadcrumbs {
+	margin: 0 0 10px 0;
+	float: left;
+	display: inline;
+	width: 520px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .77em;
+	color: #666666;
+}
+#breadcrumbs a {	
+	color: #666666;
+	line-height: 1em;
+	text-decoration: none;
+}
+#breadcrumbs a:hover {	
+	text-decoration: underline;
+}
+/* ------------------------------------------------------------
+	Content
+------------------------------------------------------------ */
+
+#overview {
+	float: left;
+	display: inline;
+	width: 360px;
+	margin: 30px 20px 0 0;
+	padding: 105px 20px 0 0;
+	background: url('http://astuteo.com/images/interface/not-just-a-studio.png') top left no-repeat;
+}
+#contact-overview {
+	float: left;
+	display: inline;
+	width: 360px;
+	margin: 30px 20px 0 0;
+	padding: 0 20px 0 0;
+}
+#overview h2,
+#contact-overview h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 2.77em;
+	margin: 25px 0 .75em 0;
+	display: block;
+	line-height: 1.111em;
+	font-weight: normal;
+}
+#overview p,
+#contact-overview p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	margin: 1.54em 0;
+	line-height: 1.54em;
+	color: #222222;
+}
+#overview p:first-child {
+	margin: 0 0 1.54em 0;
+}
+#contact-overview .bestoption {
+	background: url('http://astuteo.com/images/interface/best-option.png') 180px top no-repeat;
+}
+#overview strong {
+	color: black;
+}
+#overview #signature {
+	width: 130px;
+	padding: 90px 0 0 10px;
+	margin: 0 0 0 -10px;
+	float: left;
+	display: inline;
+	background: url('http://astuteo.com/images/interface/matt-everson.png') top no-repeat;
+}
+#overview #logoblock {
+	margin: 0 -20px 0 0;
+	padding: 0;
+	float: right;
+	display: inline;
+}
+#work {
+	float: right;
+	display: inline;
+	width: 540px;
+	padding: 0 0 10px 0;
+}
+#content .notes {
+	float: right;
+	display: inline;
+	width: 140px;
+	padding: 0 0 0 10px;
+}
+#content .notes p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .77em;
+	color: #666666;
+	line-height: 1.5em;
+}
+#services {
+	float: right;
+	display: inline;
+	clear: right;
+	width: 540px;
+	margin: 0;
+	padding: 0;
+}
+#services .bullet {
+	float: left;
+	display: inline;
+	padding-right: 8px;
+}
+#services .copy {
+	float: left;
+	clear: left;
+	display: inline;
+	width: 380px;
+	margin: 0;
+	padding: 0;
+}
+#services .copy p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .77em;
+	color: #666666;
+	line-height: 1.5em;
+	margin: .5em 0 2em 0;
+}
+#services .copy h2 {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 1.077em;
+	line-height: 1em;
+	font-weight: bold;
+	margin: 0 0 .75em 0;
+}
+.notes h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.167em;
+	font-weight: bold;
+	display: block;
+	line-height: 1em;
+	margin: 0;
+}
+
+/* ------------------------------------------------------------
+	Blog Entries
+------------------------------------------------------------ */
+
+#postchannel {
+	float: left;
+	display: inline;
+	width: 520px;
+	margin: 0 20px 0 0;
+	padding: 0 20px 0 0;
+}
+#postchannel .entry {
+	margin: 0 0 10px 0;
+	padding: 0;
+	float: left;
+	display: inline;
+}
+#postchannel p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	margin: 1.54em 0;
+	line-height: 1.54em;
+	color: #222222;
+}
+#postchannel ol {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+	line-height: 1.54em;
+	color: #222222;
+	list-style-type: decimal;
+	list-style-position: inside;
+}
+#postchannel table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .77em;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	width: 500px;
+	color: #666666;
+}
+#postchannel table th {
+	font-weight: bold;
+	color: #000000;
+	padding-bottom: 5px;
+}
+#postchannel .entry a:hover {
+	color: #004784;
+}
+#postchannel p.summary {
+	margin: 1em 0;
+}
+#postchannel p.summary a.continue {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: normal;
+}
+#postchannel blockquote {
+	font-style: italic;
+	padding: 0 0 0 1.4em;
+}
+#postchannel h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 2.77em;
+	margin: 0 0 .25em 0;
+	display: block;
+	letter-spacing: -1px;
+	line-height: 1.111em;
+	font-weight: normal;
+}
+#postchannel h2 a {
+	color: #000000;
+	text-decoration: none;
+}
+#postchannel .entry h2 a:hover {
+	color: #000000;
+}
+#postchannel h3 {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 1.23em;
+	line-height: 1.25em;
+	margin: 30px 0 20px 0;
+	font-weight: bold;
+}
+#postchannel .entry .meta {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .77em;
+	color: #666666;
+	line-height: 1.5em;
+	margin: 0 0 20px 0;
+}
+#postchannel .entry .meta a {
+	text-decoration: none;
+	color: #666666;
+}
+#postchannel .entry .meta a:hover {
+	border-bottom: 1px dotted #0058bc;
+	color: #0058bc;
+}
+#postchannel .entry .submeta {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .77em;
+	color: #666666;
+	line-height: 1.5em;
+}
+#postchannel .entry .submeta a {
+	text-decoration: none;
+	color: #666666;
+}
+#postchannel .entry .submeta a:hover {
+	color: #0058bc;
+	border-bottom: 1px dotted #0058bc;
+}
+#postchannel .entry .submeta a.continue {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	border-bottom: 1px solid white;
+	float: right;
+	color: #0058bc;
+}
+#postchannel .submeta a.continue:hover {
+	color: #004784;
+	border-bottom: 1px dotted;
+}
+#postchannel .pullquote-right {
+	font-family: Georgia, Times, serif;
+	font-size: 17px;
+	line-height: 1.4em;
+	width: 220px;
+	float: right;
+	display: inline;
+	color: #95A0A4;
+	text-align: center;
+	margin: 0 0 20px 20px;
+	padding: 0 0 0 15px;
+}
+#postchannel .pullquote-left {
+	font-family: Georgia, Times, serif;
+	font-size: 17px;
+	line-height: 1.4em;
+	width: 220px;
+	float: left;
+	display: inline;
+	color: #95A0A4;
+	text-align: center;
+	margin: 0 20px 20px 0;
+	padding: 0 15px 0 0 ;
+}
+
+/*--- ARCHIVES + CATEGORIES NAVIGATION ---*/
+
+#postchannel #archives {
+	width: 520px;
+}
+#postchannel #archives h3 {
+	font-family: "Arial Black", "Gill Sans", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 1.077em;
+	margin: 1em 0;
+	color: #888888;
+}
+#postchannel #archives h3 em {
+	font-family: Georgia, Times, serif ;
+	font-style: italic;
+	text-transform: lowercase;
+	font-weight: normal;
+}
+#postchannel #recent {
+	float: left;
+	display: inline;
+	width: 220px;
+	margin: 0 0;
+}
+#postchannel #recent ul {
+	margin: 0;
+}
+#postchannel #recent li {
+	float: left;
+	display: inline;
+	width: 220px;
+}
+#postchannel #recent li a {
+	padding: 5px 10px 5px 10px;
+	display: block;
+	border-bottom: 1px dashed #D3D8D8;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	line-height: 1.54em;
+	color: #333333;
+	text-decoration: none;
+}
+#postchannel #recent li a:hover {
+	color: #004784;
+	background: #EEEEEE;
+}
+#postchannel #recent li a .date {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .77em;
+	color: #888888;
+	line-height: 1.5em;
+	margin: 0;
+	font-weight: normal;
+	font-style: normal;
+}
+#postchannel #recent a.fullarchive {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	float: left;
+	display: inline;
+	clear: left;
+	margin: 20px 0 .1em 0 ;
+	line-height: 1.3em;
+	border-bottom: 1px dotted white;
+}
+#postchannel #recent a.fullarchive:hover {
+	border-bottom: 1px dotted;
+	color: #004784;
+}
+#postchannel #recent .subarchives {
+	font-size: .77em;
+	float: left;
+	clear: left;
+	color: #CCCCCC;
+	padding: 3px 0 0 0;
+	width: 220px;
+}
+#postchannel #recent .subarchives a {
+	text-decoration: none;
+	color: #666666;
+}
+#postchannel #categories {
+	float: right;
+	display: inline;
+	width: 240px;
+}
+#postchannel #categories ul {
+	margin: 0;
+}
+#postchannel #categories li a {
+	padding: 3px 0 3px 30px;
+	border-bottom: 1px dashed #D3D8D8;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	line-height: 1.54em;
+	color: #666666;
+	text-decoration: none;
+	background: url('http://astuteo.com/images/interface/folder.gif') left center no-repeat;
+	float: left;
+	display: inline;
+	width: 220px;
+}
+#postchannel #categories li a:hover {
+	color: black;
+	background: url('http://astuteo.com/images/interface/folder-hover.gif') left center no-repeat;
+}
+
+/*--- ARCHIVES TEMPLATE ---*/
+
+#postchannel .archive-block {
+	padding: 0;
+	float: left;
+	clear: left;
+}
+#postchannel .archive-block h3 {
+	margin: 15px 0 5px 0;
+	padding: 0;
+	float: left;
+	clear: left;
+}
+#postchannel .archive-block {
+	margin: 0 0 15px 0;
+	padding: 0;
+	float: left;
+	clear: left;
+}
+#postchannel .archive-block li {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.077em;
+	line-height: 1.5em;
+	width: 520px;
+	float: left;
+	clear: left;
+}
+#postchannel .archive-block li a {
+	color: #333333;
+	text-decoration: none;
+	display: block;
+	padding: 0 0 0 60px;
+	float: left;
+	clear: left;
+}
+#postchannel .archive-block li a span {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .77em;
+	color: #666666;
+	margin: 0 0 0 5px ;
+}
+#postchannel .archive-block li a:hover {
+	color: #0058bc;
+}
+#postchannel .archive-block li a.post {
+	background: url('http://astuteo.com/images/interface/archive-post.gif') left top no-repeat;
+}
+#postchannel .archive-block li a.post:hover {
+	background: url('http://astuteo.com/images/interface/archive-post-hover.gif') left top no-repeat;
+}
+#postchannel .archive-block li a.media {
+	background: url('http://astuteo.com/images/interface/archive-media.gif') left top no-repeat;
+}
+#postchannel .archive-block li a.media:hover {
+	background: url('http://astuteo.com/images/interface/archive-media-hover.gif') left top no-repeat;
+}
+#postchannel .archive-block li a.via {
+	background: url('http://astuteo.com/images/interface/archive-via.gif') left top no-repeat;
+}
+#postchannel .archive-block li a.via:hover {
+	background: url('http://astuteo.com/images/interface/archive-via-hover.gif') left top no-repeat;
+}
+#postchannel .pagination {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .77em;
+	color: #666666;
+	margin: 20px 0;
+	float: left;
+	clear: left;
+}
+
+
+/*--- COMMENTS ---*/
+
+#comments {
+	float: left;
+	display: inline;
+	padding: 20px 19px 0 20px;
+	width: 480px;
+	background: #f1f0d1;
+	margin: 20px 0 20px 0;
+}
+#comments h2 {
+	float: left;
+	display: inline;
+	margin: 5px 0;
+	padding: 0;
+}
+#comments dl {
+	float: left;
+	display: inline;
+	width: 480px;
+	padding: 20px 0;
+	margin: 0;
+	border-bottom: 1px dashed #BBBBBB;
+}
+#comments dt {
+	float: right;
+	display: inline;
+	width: 420px;
+	margin: 0 0 10px 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.077em;
+	color: #37220a;
+}
+#comments dt a {
+	text-decoration: none;
+	color: #37220a;
+}
+#comments dt a:hover {
+	border-bottom: 1px dotted #37220a;
+}
+#comments dt span {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .77em;
+	color: #666666;
+	font-weight: normal;
+	font-style: normal;
+}
+#comments dt span a {
+	color: #666666;
+}
+#comments dd {
+	margin: 0 0 0 60px;
+	padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	line-height: 1.54em;
+	color: #222222;
+}
+#comments blockquote {
+	padding: 20px;
+	background: white;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-size: .77em;
+	line-height: 1.5em;
+	width: 375px;
+	margin: 0 0 20px 0;
+	float: left;
+	display: inline;
+	border: 1px dashed #BBBBBB;
+}
+#comments dd.gravatar {
+	margin: 0;
+}
+#comments dd.gravatar img {
+	float: left;
+	display: inline;
+	margin: 0 0 0 0;
+	background: white url('http://astuteo.com/images/interface/gravatar-shadow.gif') right bottom no-repeat;
+	padding: 4px 6px 6px 4px;
+}
+
+/*--- COMMENT FORM ---*/
+
+#comments #comment-form {
+	padding: 20px 0 20px 0;
+	float: left;
+}
+#comments #comment-form h3 {
+	font-family: "Arial Black", "Gill Sans", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 1.077em;
+	margin: 0 0 1em 0;
+	color: #888671;
+}
+#comments form label {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	line-height: 1.54em;
+	clear: left;
+	float: left;
+	width: 280px;
+}
+#comments form label span {
+	font-family: "Arial Black", "Gill Sans", Arial, Helvetica, sans-serif;
+	color: 	#AE0000;
+}
+#comments form #name,
+#comments form #email,
+#comments form #url {
+	width: 280px;
+	margin: 0 0 10px 0;
+	float: left;
+	display: inline;
+	clear: left;
+}
+#comments form #your-comment {
+	clear: left;
+	float: left;
+	display: inline;
+	width: 475px;
+	margin: 0;
+}
+#comments p.questions {
+	display: inline;
+	float: right;
+	clear: both;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	line-height: 1em;
+	margin: 10px 0 0 0;
+	padding: 0;
+	width: 280px;
+}
+#comments form #submit {
+	float: left;
+	clear: left;
+	display: inline;
+	margin: 20px 10px 0 0;
+}
+#comments form #preview {
+	float: left;
+	margin: 20px 0 0 0;
+}
+
+
+
+
+
+/* ------------------------------------------------------------
+	Blog Sidebars
+------------------------------------------------------------ */
+
+#mainchannel {
+	float: right;
+	display: inline;
+	width: 380px;
+	padding-top: 0em;
+}
+
+/*--- LINK CHANNEL ---*/
+
+#linkchannel {
+	float: right;
+	display: inline;
+	width: 140px;
+	padding-top: 0;
+	margin-top: 0;
+}
+#linkchannel ul {
+	margin: 0;
+	padding: 0;
+}
+#linkchannel li {
+	padding: 15px 15px 0px 15px;
+}
+#linkchannel ul h2 {
+	font-family: "Arial Black", Verdana, sans-serif;
+	text-transform: uppercase;
+	font-size: 1em;
+	margin: 0 0 .5em 0;
+	color: #95A0A4;
+}
+#linkchannel ul li ul {
+	margin: 0;
+	padding: 0;
+}
+#linkchannel ul li ul li {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .77em;
+	color: #666666;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+#linkchannel ul li ul li a {
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	color: #666666;
+}
+#linkchannel li a:hover {
+	color: #ff8400;
+}
+#linkchannel .feeds, 
+#linkchannel .faves {
+}
+#linkchannel .feeds li {
+	padding: 0 0 0 17px;
+	background: url('http://astuteo.com/images/interface/rss-12x12.gif') left bottom no-repeat;
+}
+#linkchannel ul li.imglink {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+#linkchannel .imglink img {
+	display: block;
+	border: none;
+	margin: 0;
+	padding: 0;
+		border-bottom: 5px solid white;
+}
+
+/*--- VIA!VIA! CHANNEL ---*/
+
+#viachannel {
+	float: left;
+	display: inline;
+	width: 210px;
+	padding: 0 10px 0 0;
+}
+#viachannel h2 {
+	margin: 0 0 .5em 0;
+	padding: 0;
+}
+#viachannel #vialist {
+}
+#viachannel #vialist li {
+	padding: 8px 0;
+	margin: 0;
+	border-bottom: 1px dashed #D3D8D8;
+	float: left;
+	clear: left;
+	width: 210px;
+}
+#viachannel #vialist li a.title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	margin: 0 0 1px 0;
+	line-height: 1.3em;
+	float: left;
+	display: inline;
+	border-bottom: 1px dotted white;
+}
+#viachannel #vialist li a.title:hover {
+	border-bottom: 1px dotted;
+	color: #004784;
+}
+#viachannel #vialist li span {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .77em;
+	color: #666666;
+	line-height: 1.5em;
+	margin: 0;
+	font-weight: normal;
+	font-style: normal;
+	display: block;
+	float: left;
+	clear: left;
+	width: 210px;
+}
+#viachannel #vialist li a.via {
+	font-family: "Arial Black", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #AAAAAA;
+}
+#viachannel #vialist li a.via:hover {
+	color: black;
+}
+/* ------------------------------------------------------------
+	Contact Page
+------------------------------------------------------------ */
+
+.cform {
+	float: left;
+	display: inline;
+	width: 380px;
+	margin: 50px 0 15px 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.084em;
+
+}
+.cform label {
+	float: left;
+	display: inline;
+	margin: 0 0 3px 0;
+}
+.fine {
+	font-size: .75em;
+	line-height: 1em;
+}
+.cform input,
+.cform textarea {
+	float: left;
+	display: inline;
+	margin: 0 0 14px 0;
+}
+.cform input.line,
+.cform textarea {
+	width: 375px;
+	background: #f2f2f2;
+	padding: 1px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #333333;
+}
+.cform input.line:focus,
+.cform textarea:focus {
+	background: #e7edf6;
+}
+
+.cform #submit {
+	margin: 10px 0 0 0;
+}
+
+
+/* ------------------------------------------------------------
+	Portfolio & Map
+------------------------------------------------------------ */
+
+#portfolio {
+	float: left;
+	display: inline;
+	list-style: none;
+	width: 380px;
+	margin: 0;
+
+}
+
+#portfolio li {
+	float: left;
+	display: inline;
+	margin: 0 16px 0px 0;
+	padding: 0 0 16px 0;
+	list-style: none;
+}
+#portfolio li a {
+	float: left;
+	display: inline;
+	padding: 63px 0 0 0;
+	width: 63px;
+	overflow: hidden;
+	height: 0px !important; 
+	height /**/:63px; /* for IE5/Win only */
+}
+#portfolio li a:hover {
+	background-position: 0 -63px;
+}
+#portfolio li a.hideimg {
+	display: none;
+}
+#portfolio li.nomargin {
+	margin: 0;
+}
+#t-jerry a  {
+	background: url('http://astuteo.com/images/interface/w-jerrys-race-brochure.png') top left no-repeat;
+}
+#t-tct a  {
+	background: url('http://astuteo.com/images/interface/w-tct-campaign.png') top left no-repeat;
+}
+#t-wsj a  {
+	background: url('http://astuteo.com/images/interface/w-wsj-campaign.png') top left no-repeat;
+}
+#t-ogden a  {
+	background: url('http://astuteo.com/images/interface/w-ogden-plumbing.png') top left no-repeat;
+}
+#t-wilke a  {
+	background: url('http://astuteo.com/images/interface/w-wilke-chiropractic.png') top left no-repeat;
+}
+#t-ea a  {
+	background: url('http://astuteo.com/images/interface/w-eriksson-aviation.png') top left no-repeat;
+}
+#t-ua a  {
+	background: url('http://astuteo.com/images/interface/w-university-audio.png') top left no-repeat;
+}
+#t-stm a  {
+	background: url('http://astuteo.com/images/interface/w-st-marys.png') top left no-repeat;
+}
+#t-ftc a  {
+	background: url('http://astuteo.com/images/interface/w-fair-trade-culture.png') top left no-repeat;
+}
+#t-madcom a  {
+	background: url('http://astuteo.com/images/interface/w-madison-com.png') top left no-repeat;
+}
+#t-mayslaw a  {
+	background: url('http://astuteo.com/images/interface/w-mays-law.png') top left no-repeat;
+}
+#t-cappub a  {
+	background: url('http://astuteo.com/images/interface/w-cappub.png') top left no-repeat;
+}
+#t-rockem a  {
+	background: url('http://astuteo.com/images/interface/w-illustration.png') top left no-repeat;
+}
+#t-elements a  {
+	background: url('http://astuteo.com/images/interface/w-elements.png') top left no-repeat;
+}
+
+/* ------------------------------------------------------------
+	Recommended Media
+------------------------------------------------------------ */
+
+#mediaitems {
+	float: left;
+	display: inline;
+	list-style: none;
+	width: 380px;
+	margin: 0;
+	padding: 0;
+}
+
+#mediaitems li {
+	float: left;
+	display: inline;
+	margin: 0 0 15px 0;
+	padding: 0;
+	list-style: none;
+}
+#mediaitems li a {
+	float: left;
+	display: inline;
+	overflow: hidden;
+}
+#mediaitems li.book a  {
+	padding: 7px 17px 12px 7px;
+	width: 52px;
+	height: 46px;
+	background: url('http://astuteo.com/images/interface/media-book.gif') top left no-repeat;
+}
+#mediaitems li.disc a  {
+	padding: 6px 16px 5px 7px;
+	width: 53px;
+	height: 54px;
+	background: url('http://astuteo.com/images/interface/media-disc.gif') top left no-repeat;
+}
+#mediaitems li.software a  {
+	padding: 16px 16px 18px 17px;
+	width: 43px;
+	height: 31px;
+	background: url('http://astuteo.com/images/interface/media-soft.gif') top left no-repeat;
+}
+#mediaitems li a:hover {
+	background-position: 0 -65px;
+}
+
+/* ------------------------------------------------------------
+	Footer
+------------------------------------------------------------ */
+
+#footer p.address {
+	display: block;
+	text-align: center;
+	color: #555555;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: .847em;
+	padding: 23px 0 0 0;
+	margin: 0 0 10px 0;
+	background: url('http://astuteo.com/images/interface/astuteo-footer-logo.png') top center no-repeat;
+	clear: both;
+}
+
+/*--- Site build specifications ---*/
+
+#footer ul.build {
+	font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	text-transform: uppercase;
+	color: #555555;
+	width: 940px;
+	display: block;
+	text-align: center;
+}
+#footer ul.build li {
+	display: inline;
+	padding: 0 5px;
+	border-left: 1px solid #333333;
+}
+#footer ul.build li:first-child {
+	border-left: none;
+}
+#footer ul.build a {
+	color: #7A582F;
+}
+
+/*--- Footer Elements ---*/
+
+#footsies {
+	color: white;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+#footsies h2 {
+	font-family: "Arial Black", "Gill Sans", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 1.077em;
+	margin: 0 0 1em 0;
+}
+#footsies h2 em {
+	font-family: Georgia, Times, serif ;
+	font-style: italic;
+	text-transform: lowercase;
+}
+#footsies p {
+	font-family: Georgia, Times, serif ;
+	font-size: 1em;
+	color: #888888;
+}
+/*--- Mailing List ---*/
+
+#footsies #list {
+	float: left;
+	width: 220px;
+	display: inline;
+	margin: 0 20px 0 0;
+}
+#footsies #list h2 {
+	color: #AE0000;
+}
+#footsies #list p {
+	margin: 0 0 1em 0;
+}
+#footsies #list label {
+	clear: left;
+	color: white;
+	font-family: Georgia, Times, serif ;
+	font-size: 1em;
+}
+#footsies #list input {
+	clear: left;
+	margin: 5px 0 10px 0;
+}
+#footsies #list input.textinput {
+	width: 210px;
+}
+#footsies #list input.textinput:focus {
+	background: #fffdc0;
+}
+
+
+/*--- Twitters and Recommendations ---*/
+
+#footsies #other {
+	float: left;
+	width: 300px;
+	display: inline;
+	margin-right: 20px;
+}
+#footsies #other h2 {
+	color: #656d78;
+}
+#footsies #other p.twitter {
+	text-align: center;
+	font-family: Georgia, Times, sans-serif;
+	font-size: 1.385em;
+	line-height: 1.334em;
+	color: white;
+	margin: 0 0 .5em 0;
+	padding: 40px 40px 0 40px;
+}
+#footsies #other a.date {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .85em;
+	line-height: 1.334em;
+	color: #0072bc;
+	margin: 0;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+#footsies #other a.date:hover {
+	color: #0094bc;
+	text-decoration: underline;
+}
+#footsies #media {
+	float: right;
+	width: 380px;
+	display: inline;
+}
+#footsies #media h2 {
+	color: #7A582F;
+}
+
+
+/* ------------------------------------------------------------
+	Google AdSense
+------------------------------------------------------------ */
+
+#google-top {
+	width: 468px;
+	height: 60px;
+	margin: 0;
+	font-family: Verdana, Arial, sans-serif;
+}
+#google-search {
+	width: 380px;
+	height: 40px;
+	display: block;
+	margin: 0 auto 2em auto;
+	padding: 30px 10px 0 570px;
+}
+
+/* ------------------------------------------------------------
+	Miscellaneous
+------------------------------------------------------------ */
+
+.floatleft {
+	float: left;
+	display: inline;
+	margin: 0 20px 20px 0;
+}
+.floatright {
+	float: right;
+	display: inline;
+	margin: 0 0 20px 20px;
+}
+.clearfix {
+	clear: both;
+}
+.hide {
+	display: none;
+}
+.nomargin {
+	margin: 0;
+}
+
+/* @end */
+
+
+
+
+
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../../images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../../images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 11px Arial, Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
+
+

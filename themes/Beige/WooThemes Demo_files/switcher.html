@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="shortcut icon" href="http://www.woothemes.com/demo/woo-switcher/favicon.ico">
+<script type="text/javascript" src="switcher_data/styleselect.js"></script>
+<link href="switcher_data/style.css" rel="stylesheet" type="text/css">
+</head><body>
+
+<div id="wrapper">
+
+	<div id="logo">
+		<a href="http://www.woothemes.com/" target="_parent"><img src="switcher_data/logo.gif" alt="WooThemes" title="WooThemes"></a>
+	</div>
+    <div id="join">
+    	<span class="ico-join"><a href="http://www.woothemes.com/the-woothemes-club/" target="_parent">Join our WooThemes Club</a></span>
+    	<span class="ico-trolley"><a href="http://www.woothemes.com/category/themes/" target="_parent">Purchase</a></span>        
+    </div>
+
+	<div id="style">
+        <form name="styleform">
+            <label for="themelinks">Style:</label>        
+            <select id="stylelinks" onchange="parent.main.location=document.styleform.stylelinks.options[document.styleform.stylelinks.selectedIndex].value">
+              
+            <option value="http://www.woothemes.com/demo/flashnews/index.php?bgr=default">Default</option><option value="http://www.woothemes.com/demo/flashnews/index.php?style=darkblue">DarkBlue</option><option value="http://www.woothemes.com/demo/flashnews/index.php?style=green">Green</option><option value="http://www.woothemes.com/demo/flashnews/index.php?style=grey">Grey</option><option value="http://www.woothemes.com/demo/flashnews/index.php?style=lightblue">LightBlue</option><option value="http://www.woothemes.com/demo/flashnews/index.php?style=lime">Lime</option><option value="http://www.woothemes.com/demo/flashnews/index.php?style=pink">Pink</option><option value="http://www.woothemes.com/demo/flashnews/index.php?style=purple">Purple</option><option value="http://www.woothemes.com/demo/flashnews/index.php?style=red">Red</option><option value="http://www.woothemes.com/demo/flashnews/index.php?bgr=black">Bgr: Black</option><option value="http://www.woothemes.com/demo/flashnews/index.php?bgr=grey">Bgr: Grey</option><option value="http://www.woothemes.com/demo/flashnews/index.php?bgr=darkblue">Bgr: DarkBlue</option></select>
+        </form>
+    </div>
+
+	<div id="theme">
+        <form name="themeform">
+			<label for="themelinks">Theme:</label>        
+            <select id="themelinks" onchange="popandchange('http://www.woothemes.com/demo/woo-switcher/switcher.php');">
+            <option value="13">Ambience</option>
+<option value="12">Snapshot</option>
+<option value="11">Open Air</option>
+<option value="10">Fresh Folio</option>
+<option value="9">Paper Cut</option>
+<option value="8">Proudfolio</option>
+<option value="7">Vibrant CMS</option>
+<option value="6">Fresh News</option>
+<option value="5">Live Wire</option>
+<option value="4" selected="selected">Flash News</option>
+<option value="3">Gazette</option>
+<option value="2">NewsPress</option>
+<option value="1">Original News</option>
+ 
+            </select>
+        </form>	
+    </div>
+	
+</div>
+
+<script>popandchange('http://www.woothemes.com/demo/woo-switcher/switcher.php');</script>
+
+</body></html>

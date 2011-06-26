@@ -1,0 +1,243 @@
+/*
+Theme Name:	YouAre
+Theme URI: 	http://wptheme.youare.com/
+Description: Promote your real-life identity and your professional profile. A complete, elegant and minimalist widget-ready theme for Wordpress 2.8+. Powerful theme options, grid-based layout, microformats, easy color customization, SEO optimized...
+Version: 	0.2
+Author:		YouAre
+Author URI:	http://youare.com
+Tags: theme-options, fixed-width, two-columns, white, brown, green, right-sidebar, threaded-comments, microformats, translation-ready
+*/
+
+
+
+/* Body Background Color
+-----------------------------------------------------------*/
+body {
+background: #fff;
+color: #524d3c;
+
+}
+
+/*Header - Footer promo / Author Box Background Color
+------------------------------------------------------------ */
+
+.splash, .bg_side { background: #e6f0f0; text-shadow: 1px 1px 2px #fff;
+
+}
+
+/*Elements Header Promo / Footer Promo Color
+------------------------------------------------------------ */
+
+.splash .title, .splash h2, .splash h3, .bg_side strong { color: #598393 }
+.subscribe:hover, .subnav li.current-cat, .subnav li.current_page_item, .date strong, code, pre { background: #f2f8f9 }
+
+
+
+/*Header Navigation
+------------------------------------------------------------ */
+
+.nav li { border-left: 1px solid #c8d4d6 }
+
+.nav li a:hover {
+	color: #456030;
+}
+
+
+/* Author Box
+------------------------------------------------------------ */
+
+
+.bg_side strong a {text-decoration: none }
+
+.subscribe, .next, .previous, #toplink { background: #f2f8f9 
+}
+
+.subscribe:hover {
+background: #eee;
+}
+
+/* Links
+------------------------------------------------------------ */
+
+a, .splash .title a { color: #00648c;
+ }
+a { text-decoration: underline;
+ }
+a:hover, .comments a { color: #9f6f1d; }
+
+.title a, #content #smart-archives-block li strong a {text-decoration: none; color: #222 }
+
+#content a.email { margin-left: 40px}
+
+#header a, .sep a { color: #325f6a; }
+
+
+/*Post Header
+-------------------------------------------------------------*/
+ 
+.date, .meta, .comment .head .number a {color: #d1dddf
+}
+
+
+
+/*Heading
+---------------------------------------*/
+
+
+h2, #content h3, #content h4, #content h5, #content h6 {
+	color: #6d7f57
+	}
+.intro, blockquote { color: #333 }
+
+.intro, .post, #sidebar li {border-bottom: 1px solid #eee;
+}
+
+/*Post Lists
+---------------------------------------*/
+
+#content ul#topics li { background: #eef3f3 }
+
+#content #smart-archives-block li, #content .year_arch li { border-bottom: 1px dotted #d8dfc3
+} 
+blockquote {
+
+border-left: 4px solid #c8d4d6;
+
+}
+/* --- Newspaper ---------------------- */
+
+blockquote.right, blockquote.left {
+
+border: none; 
+border-top: 4px double #c8d4d6;
+border-bottom: 4px double #c8d4d6;
+
+
+}
+
+/*Post Footer
+---------------------------------------*/
+
+.note {margin-top: 70px }
+
+
+
+/*Comments
+------------------------------------------------------------ */
+.conversation .head .author img{ border:4px solid #e6f0f0;
+}
+.conversation .foot a{ color:#222; background:#c7e2db; }
+
+.conversation .body .moderation{ color: #a50 }
+
+
+/*Forms
+---------------------------------------------------------*/
+input.search { 
+background: #fff url(images/icons/search_16.png) 6px 6px no-repeat;
+}
+#content label, .wpcf7 p {
+	background: #f5f5f5; color: #456030
+	}
+#commentform fieldset {border-top: 1px solid #f5f5f5; }
+
+
+input[type=text], textarea {
+	background-color: #fff;
+    border: 1px solid #d8dfc3;
+	}
+textarea:focus { background: #fff; }
+
+#content input[type=submit] {
+	background: #8a0;
+	color: #fff;
+  }
+
+#content #search_form { background: #f5f5f5
+}
+#search_form input[type=submit] { background: #00648c; border: 1px solid #00648c; color: #fff; 
+}
+
+/*System
+---------------------------------------*/
+
+.alert, .info, .success {
+
+padding: 10px 30px;
+overflow: hidden
+
+}
+.alert {
+border:1px solid #fe8610;
+background: #f8dc87 url(images/icons/alert.png) no-repeat 10px;
+
+}
+.success { 
+border: 1px solid #96b34f; 
+background: #e6f0c3 url(images/icons/check.png) no-repeat 10px;
+}
+
+.info { 
+border: 1px solid #c3dfdf;
+background: #e0eaef url(images/icons/info.png) no-repeat 10px;
+}
+
+
+
+/*Sidebar
+------------------------------------------------------------ */
+
+#sidebar h2 {border-bottom: 2px solid #c8d4d6
+}
+#photo_author img { border: 8px solid #f2f8f9 }
+
+
+
+/* --- Numeric Pagination -------------- */
+
+
+.wp-pagenavi a, .wp-pagenavi a:link {
+  border: 1px solid #babfa7; 
+  background: #e6f0f0;
+  color: #222;
+
+}
+
+.wp-pagenavi a:visited {
+background: #f4f4f4;
+border-color: #bbb
+}
+.wp-pagenavi a:hover {	
+	background-color: #eee;
+}
+
+
+
+/* --- Images -------------------------------------------- */
+
+#header .vcard img, #flickr_container img { border: 4px solid #e6f0f0
+}
+#photo_author img { width: 244px}
+
+#adbox img { border: 1px solid #e6f0f0; }
+
+
+img.left, img.right, img.center, img.alignleft, img.alignright, img.aligncenter, .commentmetadata img {border: 6px solid #e6f0f0
+}
+
+/*Footer
+------------------------------------------------------------ */
+
+#footer, div.conversation, #respond { 
+
+border-top: 1px solid #eee; 
+}
+#footer { color: #8a8a8a; 
+
+}
+
+/*Copyright
+----------------------------- */
+
+.wordpress { color: #5a552b
+}
