@@ -8,8 +8,7 @@
 	<?php wp_meta(); ?>
 	</div> 
 </div>
-<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
-<?php endif;?>
+
 </body> 
 </html>
 <?php wp_footer();?>

@@ -53,6 +53,26 @@ var Scaffold = $j.Class({
 				modal: true
 			});
 		});*/
+		
+		self.loadTwitter();
+	},
+	
+	loadTwitter: function(){
+		var url = "http://twitter.com/statuses/user_timeline/di0fref.json?callback=twitterCallback2&amp;count=1&amp;named_obj";
+		
+		var oHead = document.getElementsByTagName('HEAD').item(0);
+		var oScript= document.createElement("script");
+		oScript.type = "text/javascript";
+		oScript.src=url;
+		oHead.appendChild(oScript);
+		
+		for(var i = 0; i < 5 && i < Twitter.posts.length; i++) {
+			var post = Twitter.posts[i];
+			console.log(post);
+			item = "<div class='content'><a href='http://twitter.com/di0fref/status/"+post.id_str+"'>" + post.text + "</a></div>";
+			$j("#tweets").append(item);
+		}
+		
 	},
 	
 	setSidebar: function(){

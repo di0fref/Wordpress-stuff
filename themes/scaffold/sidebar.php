@@ -4,12 +4,11 @@
 	</ul>
 	<div id="twitter" style="display:block;" class="has_icon">
 		<div id="tweets">
-			<a href="#"><div class="content">@John This is an update</div></a>
-			<a href="#"><div class="content">Another post</div></a>
-			
 		</div>
 		<p><a href="http://twitter.com/di0fref">Follow on Twitter</a></p> 
 	</div> 
+	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
+	<?php endif;?>
 </div>
 
 <div id="contact">
