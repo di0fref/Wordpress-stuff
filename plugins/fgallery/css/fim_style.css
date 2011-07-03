@@ -1,0 +1,179 @@
+
+.fim {
+	padding: 0px;
+	margin: 0px;
+	clear: both;
+	width: 99%;
+	min-width: none;
+}
+h3.fim-nav {
+	padding:0px;
+	margin:0px;
+		border-bottom: 1px dashed #CCC;
+}
+.fim-album {
+	clear: both;
+	margin-top:20px;
+}
+.fim-title {
+	color: #260;
+	border-bottom: 1px dashed #CCC;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+.fim-meta {
+	margin: 0px 0px 5px 0px;
+}
+.fim-album-description {
+	font-size: 11px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.fim-tn-border-album {
+	float: left;
+	margin-top: 0px;
+	margin-right: 4px;
+	margin-bottom: 8px;
+	margin-left: 4px;
+	width:120px;
+	height:120px;
+}
+.fim-tn-border-sidebar{
+	float: left;
+	margin-top: 0px;
+	margin-right: 4px;
+	margin-bottom: 8px;
+	margin-left: 4px;
+}
+.fim-thumbnail {
+	float: left;
+	background: url(images/shadow.gif) no-repeat bottom right;
+	float: left;
+	margin: 5px 0px 0px 6px;
+ 	padding: 0px 0px 0px 0px;
+}
+
+.fim-thumbnail img {
+		 background-color: #fff;
+	 border: 1px solid #a9a9a9;
+	 display: block;
+	 margin: -5px 5px 5px -5px;
+	 padding: 4px;
+	 position: relative;
+}
+.fim-thumbnail img:hover {
+	background-color: #ccd;
+}
+
+/*********************************************/
+/* Image */
+/*********************************************/
+
+.fim-photo-block {
+	float: left;
+	margin: 10px 5px 10px 5px;
+}
+.fim-photo {
+	background: url(images/shadow.gif) no-repeat bottom right;
+	float: left;
+}
+.fim-photo img {
+	 background-color: #fff;
+	 border: 1px solid #a9a9a9;
+	 display: block;
+	 margin: -5px 5px 5px -5px;
+	 padding: 4px;
+	 position: relative;
+}
+.fim-photo-date{
+	margin:0px;
+	padding:0px;
+}
+/*********************************************/
+/* Navigation */
+/*********************************************/
+.fim-photo-nav{
+	width:99%;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.fim-nav-buttons{
+	height:20px;
+	float:left;
+	text-align:center;
+	border:1px solid #ccc;
+	background:#F4F4F4;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+/*********************************************/
+/* Comments */
+/*********************************************/
+
+.fim-comment{
+	margin-bottom:1.6em;
+	overflow:hidden;
+}
+#fim-commentblock h2{
+	font-size:130%;
+	margin-bottom:1em;
+}
+.fim-commentname{
+	float:right;
+	width:375px;
+	color:#4675bc;
+	padding-top:10px;
+	padding-right:10px;
+	
+}
+.fim-commentname a{
+	color:#000;
+	font-weight:bold;
+	
+}
+
+#fim-commentblock p{
+	padding-bottom:.7em;
+}
+.fim-commenttext{
+	float:right;
+	width:375px;
+	min-height:40px;
+	padding-right:10px;
+	clear:both;
+}
+.fim-dec{
+	height:10px;
+	clear:both;
+}
+* html .fim-commenttext{
+	height: 40px;
+	overflow: visible;
+}
+
+.fim-gravatar{
+	float:left;
+	width:50px;
+	height:50px;
+	padding:6px;
+}
+
+#fim-commentsform{
+	padding:10px;
+	margin-bottom:2em;
+	
+}
+/*********************************************/
+/* Misc */
+/*********************************************/
+
+.fim_clear{
+	clear:both;
+}
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<rss version="2.0">
+    <channel>
+        <title>Fahlstad Design Image Gallery</title>
+        <description>Image Gallery feed from Fahlstad Design</description>
+        <link>http://www.fahlstad.se/wp-content/plugins/fgallery/fim_rss.php?album=25</link>
+        <lastBuildDate>Tue, 16 Feb 2010 18:13:59 +0100</lastBuildDate>
+        <generator>FeedCreator 1.7.2</generator>
+        <item>
+            <title>Night shots - Works?</title>
+            <link>http://www.fahlstad.se/photos/album/nightshots/image/IMG_0478.jpg</link>
+            <description>&lt;img src='http://www.fahlstad.se/wp-content/fgallery/nightshots/thumb_IMG_0478.jpg' /&gt;&lt;br&gt;Hmm.</description>
+            <author>fredrik@fahlstad.se</author>
+            <pubDate>Thu, 01 Jan 1970 00:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Night shots - Cool</title>
+            <link>http://www.fahlstad.se/photos/album/nightshots/image/IMG_0167.JPG</link>
+            <description>&lt;img src='http://www.fahlstad.se/wp-content/fgallery/nightshots/thumb_IMG_0167.JPG' /&gt;&lt;br&gt;</description>
+            <author>fredrik@fahlstad.se</author>
+            <pubDate>Thu, 01 Jan 1970 00:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Night shots - Close up</title>
+            <link>http://www.fahlstad.se/photos/album/nightshots/image/IMG_0168.JPG</link>
+            <description>&lt;img src='http://www.fahlstad.se/wp-content/fgallery/nightshots/thumb_IMG_0168.JPG' /&gt;&lt;br&gt;</description>
+            <author>fredrik@fahlstad.se</author>
+            <pubDate>Thu, 01 Jan 1970 00:00:00 +0100</pubDate>
+        </item>
+    </channel>
+</rss>

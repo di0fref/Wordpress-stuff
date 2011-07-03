@@ -1,0 +1,603 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://www.fahlstad.se/contact\n"
+"POT-Creation-Date: 2006-08-15 15:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Fredrik Fahlstad\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: fgallery-plugin.php:318 fgallery-plugin.php:320
+#: functions/fim_gallery.php:18 functions/fim_gallery.php:224
+#: functions/fim_gallery.php:259 functions/fim_gallery.php:387
+msgid "Manage albums"
+msgstr "Hantera album"
+
+#: fgallery-plugin.php:326 fgallery-plugin.php:328
+msgid "Options"
+msgstr "Inst&auml;llningar"
+
+#: fgallery-plugin.php:334 fgallery-plugin.php:336
+#: functions/fim_edit_style.php:25
+msgid "Edit css"
+msgstr "&Auml;ndra css"
+
+#: fgallery-plugin.php:342 fgallery-plugin.php:344
+#: functions/fim_comments.php:31 functions/fim_comments.php:98
+msgid "Manage comments"
+msgstr "Hantera kommentarer"
+
+#: fim_rss.php:15
+msgid "Image Gallery feed from"
+msgstr "RSS-fl&ouml;de fr&aring;n"
+
+#: functions/fim_comments.php:23
+msgid "Comment edited"
+msgstr "Kommentar uppdaterad"
+
+#: functions/fim_comments.php:27
+msgid "Comment deleted"
+msgstr "Kommentar borttagen"
+
+#: functions/fim_comments.php:36
+msgid "Author"
+msgstr "F&ouml;rfattare"
+
+#: functions/fim_comments.php:37
+msgid "Author Email"
+msgstr "Epost"
+
+#: functions/fim_comments.php:38 functions/fim_comments.php:115
+msgid "Author Web site"
+msgstr "Hemsida"
+
+#: functions/fim_comments.php:39
+msgid "Comment"
+msgstr "Kommentar"
+
+#: functions/fim_comments.php:40 functions/fim_main.php:276
+#: functions/fim_main.php:418
+msgid "Image"
+msgstr "Bild"
+
+#: functions/fim_comments.php:62 functions/fim_gallery.php:19
+#: functions/fim_gallery.php:354 functions/fim_gallery.php:427
+msgid "Edit"
+msgstr "&Auml;ndra"
+
+#: functions/fim_comments.php:68 functions/fim_gallery.php:366
+#: functions/fim_gallery.php:435
+msgid "Delete"
+msgstr "Radera"
+
+#: functions/fim_comments.php:100
+msgid "Edit comment"
+msgstr "&Auml;ndra kommentar"
+
+#: functions/fim_comments.php:107
+msgid "Author name"
+msgstr "Namn"
+
+#: functions/fim_comments.php:111
+msgid "Author email"
+msgstr "Epost"
+
+#: functions/fim_comments.php:119
+msgid "Author comment"
+msgstr "Kommentar"
+
+#: functions/fim_comments.php:123
+msgid "Update"
+msgstr "Uppdatera"
+
+#: functions/fim_edit_style.php:9
+msgid "CSS successfully updated."
+msgstr "CSS uppdaterad"
+
+#: functions/fim_edit_style.php:19
+msgid "CSS reset successfull."
+msgstr "CSS &aring;terst&auml;lld"
+
+#: functions/fim_edit_style.php:33
+msgid "Reset all css"
+msgstr "&Aring;terst&auml;ll CSS"
+
+#: functions/fim_edit_style.php:34
+msgid "Update css"
+msgstr "&Auml;ndra CSS"
+
+#: functions/fim_functions.php:51 functions/fim_gallery.php:28
+#: functions/fim_gallery.php:233 functions/fim_gallery.php:280
+#: functions/fim_gallery.php:337 functions/fim_gallery.php:404
+#: functions/fim_main.php:95 functions/fim_main.php:217
+#: functions/fim_main.php:327
+msgid "Description"
+msgstr "Beskrivning"
+
+#: functions/fim_functions.php:67
+msgid "This album contains"
+msgstr "Detta album inneh&aring;ller"
+
+#: functions/fim_functions.php:67
+msgid "pictures"
+msgstr "bilder"
+
+#: functions/fim_functions.php:78
+msgid "There are currently no albums to show"
+msgstr "Inga bilder att visa"
+
+#: functions/fim_functions.php:118
+msgid "&laquo; Back to albums"
+msgstr "&laquo; Tillbaka till albumen"
+
+#: functions/fim_functions.php:239
+msgid "Album RSS feed"
+msgstr "Album RSS-fl&ouml;de"
+
+#: functions/fim_functions.php:258
+msgid "You must provide a name."
+msgstr "Du m&aring;ste skriva in ett namn"
+
+#: functions/fim_functions.php:262
+msgid "You must provide a comment."
+msgstr "Du m&aring;ste skriva en kommentar"
+
+#: functions/fim_functions.php:307 functions/fim_functions.php:309
+msgid "Next &raquo;"
+msgstr "N&auml;sta &raquo;"
+
+#: functions/fim_functions.php:322 functions/fim_functions.php:325
+msgid "&laquo; Prev"
+msgstr "&laquo; F&ouml;reg&aring;ende"
+
+#: functions/fim_functions.php:474
+msgid "Current Albums"
+msgstr "Album"
+
+#: functions/fim_functions.php:580
+#, php-format
+msgid "New comment on your image #%1$s \"%2$s\""
+msgstr "Ny kommentar p&aring; din bild #%1$s \"%2$s\""
+
+#: functions/fim_functions.php:581
+#, php-format
+msgid "Author : %1$s"
+msgstr "Namn : %1$s"
+
+#: functions/fim_functions.php:582
+#, php-format
+msgid "E-mail : %s"
+msgstr "E-mail : %s"
+
+#: functions/fim_functions.php:583
+#, php-format
+msgid "Website : %s"
+msgstr "Hemsida : %s"
+
+#: functions/fim_functions.php:585
+msgid "Comment: "
+msgstr "Kommentar:"
+
+#: functions/fim_functions.php:586
+#, php-format
+msgid "[%1$s] Comment: \"%2$s\""
+msgstr "[%1$s] Kommentar: \"%2$s\""
+
+#: functions/fim_gallery.php:19 functions/fim_gallery.php:388
+msgid "album"
+msgstr "album"
+
+#: functions/fim_gallery.php:23 functions/fim_gallery.php:229
+#: functions/fim_gallery.php:336 functions/fim_options.php:253
+msgid "Name"
+msgstr "Namn"
+
+#: functions/fim_gallery.php:38 functions/fim_options.php:311
+msgid "Update options"
+msgstr "Uppdatera inst&auml;llningar"
+
+#: functions/fim_gallery.php:53 functions/fim_options.php:101
+msgid "Options updated"
+msgstr "Inst&auml;llningar uppdaterade"
+
+#: functions/fim_gallery.php:84
+msgid "Could not update image"
+msgstr "Det gick att inte uppdatera bilden"
+
+#: functions/fim_gallery.php:86
+msgid "Image successfully updated"
+msgstr "Bild uppdaterad"
+
+#: functions/fim_gallery.php:95
+msgid "Confirm deletion"
+msgstr "Bekr&auml;fta radering"
+
+#: functions/fim_gallery.php:99
+msgid "Would you like to delete the images as well"
+msgstr "Vill du radera bilderna ocks&aring;"
+
+#: functions/fim_gallery.php:102
+msgid "No"
+msgstr "Nej"
+
+#: functions/fim_gallery.php:103
+msgid "Yes"
+msgstr "Ja"
+
+#: functions/fim_gallery.php:128
+msgid "Could not delete album"
+msgstr "Det gick inte att radera albumet"
+
+#: functions/fim_gallery.php:142 functions/fim_gallery.php:166
+msgid "Could not delete image"
+msgstr "Det gick inte att radera bilden"
+
+#: functions/fim_gallery.php:149
+msgid "Album deleted successfully"
+msgstr "Albumet borttaget"
+
+#: functions/fim_gallery.php:175
+msgid "Could not delete images"
+msgstr "Det gick inte att radera bilderna"
+
+#: functions/fim_gallery.php:197
+msgid "Unable to create directory "
+msgstr "Det gick inte att skapa foldern"
+
+#: functions/fim_gallery.php:202
+msgid "Directory"
+msgstr "Folder"
+
+#: functions/fim_gallery.php:202
+msgid "exists"
+msgstr "finns"
+
+#: functions/fim_gallery.php:211
+msgid "Album created successfully"
+msgstr "Album skapat"
+
+#: functions/fim_gallery.php:213
+msgid "Unable to create album"
+msgstr "Det gick inte att skapa albumet"
+
+#: functions/fim_gallery.php:216
+msgid "Can not create an album with no name"
+msgstr "Albumet m&aring;sta ha ett namn"
+
+#: functions/fim_gallery.php:225
+msgid "Create new album"
+msgstr "Nytt album"
+
+#: functions/fim_gallery.php:238
+msgid "Create"
+msgstr "Skapa"
+
+#: functions/fim_gallery.php:260
+msgid "Edit image"
+msgstr "&Auml;ndra bild"
+
+#: functions/fim_gallery.php:268 functions/fim_gallery.php:403
+#: functions/fim_main.php:91 functions/fim_main.php:213
+#: functions/fim_main.php:323 functions/fim_options.php:241
+msgid "Title"
+msgstr "Titel"
+
+#: functions/fim_gallery.php:285
+msgid "Exclude"
+msgstr "Uteslut"
+
+#: functions/fim_gallery.php:297
+msgid "Use as album cover"
+msgstr "Anv&auml;nd som album framsida"
+
+#: functions/fim_gallery.php:312
+msgid "Update image"
+msgstr "Uppdatera bild"
+
+#: functions/fim_gallery.php:329
+msgid "Albums"
+msgstr "Album"
+
+#: functions/fim_gallery.php:334
+msgid "ID"
+msgstr "ID"
+
+#: functions/fim_gallery.php:335
+msgid "Creation date"
+msgstr "Skapat datum"
+
+#: functions/fim_gallery.php:360
+msgid "Manage images"
+msgstr "Hantera bilder"
+
+#: functions/fim_gallery.php:374
+msgid "There are no albums in the database"
+msgstr "Det finns inga album"
+
+#: functions/fim_gallery.php:388
+msgid "Images in the"
+msgstr "Bilder i"
+
+#: functions/fim_gallery.php:398
+msgid "Id"
+msgstr "Id"
+
+#: functions/fim_gallery.php:399
+msgid "Thumbnail"
+msgstr "Tumnagel"
+
+#: functions/fim_gallery.php:400
+msgid "Date added"
+msgstr "Datum"
+
+#: functions/fim_gallery.php:401 functions/fim_options.php:243
+msgid "Image name"
+msgstr "Bildnamn"
+
+#: functions/fim_gallery.php:402
+msgid "Album cover"
+msgstr "Albumframsida"
+
+#: functions/fim_gallery.php:405
+msgid "Status"
+msgstr "Status"
+
+#: functions/fim_gallery.php:448
+msgid "There are no images in this album"
+msgstr "Inga bilder i albumet"
+
+#: functions/fim_main.php:6
+msgid "Unable to create directory"
+msgstr "Det gick inte att skapa folder"
+
+#: functions/fim_main.php:6
+msgid "You can create it your self or do a chmod 755 wp-content and try again"
+msgstr "Du kan skapa foldern sj&auml;lv eller chmod 755 wp-content och prova igen"
+
+#: functions/fim_main.php:32 functions/fim_main.php:35
+#: functions/fim_main.php:36
+msgid "No such folder"
+msgstr "Foldern finns inte"
+
+#: functions/fim_main.php:85 functions/fim_main.php:205
+#: functions/fim_main.php:301
+msgid "Unable to add image to database"
+msgstr "Det gick inte att l&auml;gga till bilden i databasen"
+
+#: functions/fim_main.php:107 functions/fim_main.php:230
+#: functions/fim_main.php:341 functions/fim_main.php:488
+msgid "Add images"
+msgstr "L&auml;gg till bilder"
+
+#: functions/fim_main.php:113
+msgid "No images in folder"
+msgstr "Foldern &auml;r tom"
+
+#: functions/fim_main.php:134
+msgid "Wrong file type, zip files supported only"
+msgstr "Fel filtyp, endast zip-filer st&ouml;ds."
+
+#: functions/fim_main.php:139 functions/fim_main.php:256
+#: functions/fim_main.php:259
+msgid "No album selected"
+msgstr "Inget album valt"
+
+#: functions/fim_main.php:145
+msgid "Sorry, unable to upload file"
+msgstr "Det gick inte att lada upp filen"
+
+#: functions/fim_main.php:236
+msgid "No images in zip file"
+msgstr "Zipfilen &auml;r tom"
+
+#: functions/fim_main.php:264
+msgid "Uploaded images"
+msgstr "Uppladdade bilder"
+
+#: functions/fim_main.php:277
+msgid "already exists in"
+msgstr "finns redan i"
+
+#: functions/fim_main.php:284
+msgid "Unsupported image format. jpg, gif and png only"
+msgstr "Filformatet st&ouml;ds ej, endast jpg, gif och png"
+
+#: functions/fim_main.php:287 functions/fim_main.php:291
+msgid "Unable to upload file"
+msgstr "Det gick inte att ladda upp filen"
+
+#: functions/fim_main.php:361
+msgid "Images added successfully"
+msgstr "Bilderna &auml;r inlagda"
+
+#: functions/fim_main.php:399 functions/fim_main.php:424
+msgid "Upload images"
+msgstr "Ladd upp bilder"
+
+#: functions/fim_main.php:400
+msgid "Max upload size"
+msgstr "Max uppladdningsstorlek"
+
+#: functions/fim_main.php:401
+msgid "Direct image upload"
+msgstr "Direkt uppladdning"
+
+#: functions/fim_main.php:406 functions/fim_main.php:449
+#: functions/fim_main.php:510
+msgid "Album"
+msgstr "Album"
+
+#: functions/fim_main.php:409 functions/fim_main.php:452
+#: functions/fim_main.php:513
+msgid "Choose album"
+msgstr "V&auml;lj album"
+
+#: functions/fim_main.php:431
+msgid "Added images"
+msgstr "Bilder"
+
+#: functions/fim_main.php:461
+msgid "Movie"
+msgstr "Film"
+
+#: functions/fim_main.php:467
+msgid "Upload movie"
+msgstr "Ladda upp film"
+
+#: functions/fim_main.php:478
+msgid "Add by existing folder"
+msgstr "L&auml;gg till fr&aring;n befintlig folder"
+
+#: functions/fim_main.php:485
+msgid "No spaces in folder name"
+msgstr "Inga mellanslag i foldernamn"
+
+#: functions/fim_main.php:505
+msgid "Upload by zip file"
+msgstr "Ladda upp fr&aring;n zipfil"
+
+#: functions/fim_main.php:505
+msgid "(Disabled)"
+msgstr "(Avst&auml;ngd)"
+
+#: functions/fim_main.php:522
+msgid "Zip-file"
+msgstr "Zipfil"
+
+#: functions/fim_main.php:528
+msgid "Upload zip"
+msgstr "Ladda upp zipfil"
+
+#: functions/fim_main.php:534
+msgid "This module uses the functions that's not available in PHP safe_mode"
+msgstr ""
+
+#: functions/fim_options.php:51
+msgid "Mod ReWrite rules successfully updated"
+msgstr "Mod ReWrite uppdaterade"
+
+#: functions/fim_options.php:57
+msgid "Add ReWrite rules"
+msgstr "L&auml;gg till ReWrite regler"
+
+#: functions/fim_options.php:58
+msgid ".htaccess is not writable so you have to add add the following manually"
+msgstr ".htaccess &auml;r inte skrivbar s&aring; du m&aring;ste l&auml;gga till detta manuellt"
+
+#: functions/fim_options.php:59
+msgid ""
+"This should be at the TOP of your .htacces file before the WordPress rules"
+msgstr "Desswa regler m&aring;ste ligga &ouml;verst, &ouml;vanf&ouml;r WordPress's regler"
+
+#: functions/fim_options.php:182
+msgid "fGallery options"
+msgstr "fGallery inst&auml;llningar"
+
+#: functions/fim_options.php:184
+msgid "Album options"
+msgstr "Album inst&auml;llningar"
+
+#: functions/fim_options.php:187
+msgid "Use nice urls"
+msgstr "Anv&auml;nd permalinks"
+
+#: functions/fim_options.php:193
+msgid "Use Lightbox"
+msgstr "Anv&auml;nd Lightbox"
+
+#: functions/fim_options.php:196
+msgid "Javascript image decoration"
+msgstr "Javascript bilddekoration"
+
+#: functions/fim_options.php:200
+msgid "Allow Comments"
+msgstr "Till&aring;t kommentarer"
+
+#: functions/fim_options.php:204
+msgid "Disabled if using Lightbox"
+msgstr "Avst&auml;ng om Lightbox anv&auml;nds"
+
+#: functions/fim_options.php:210
+msgid "Comment notification email"
+msgstr "Ny kommentar epost"
+
+#: functions/fim_options.php:212
+msgid "Where to send notification on new comment"
+msgstr "Epost dit notifikation on ny kommentar skickas"
+
+#: functions/fim_options.php:219
+msgid "Display album RSS feed link"
+msgstr "Visa album RSS l&auml;nk"
+
+#: functions/fim_options.php:220
+msgid "Displays RSS feed link on album page"
+msgstr "Visar RSS l&auml;nk p&aring; albumsida"
+
+#: functions/fim_options.php:224
+msgid "Resize images"
+msgstr "&Auml;ndra storlek p&aring; bilder"
+
+#: functions/fim_options.php:225
+msgid "Resize uploaded images or not"
+msgstr "&Auml;ndrar storlek p&aring; upp&ouml;addade bilder"
+
+#: functions/fim_options.php:228
+msgid "Thumbnail size"
+msgstr "Storlek tumnagel"
+
+#: functions/fim_options.php:233
+msgid "Image size"
+msgstr "Bildstorlek"
+
+#: functions/fim_options.php:237
+msgid "Sort images by"
+msgstr ""
+
+#: functions/fim_options.php:242 functions/fim_options.php:254
+msgid "Decription"
+msgstr "Beskrivning"
+
+#: functions/fim_options.php:244 functions/fim_options.php:255
+msgid "Date"
+msgstr "Datum"
+
+#: functions/fim_options.php:249
+msgid "Sort album by"
+msgstr "Sortera album p&aring;"
+
+#: functions/fim_options.php:260
+msgid "Language options"
+msgstr "Spr&aring;k inst&auml;llningar"
+
+#: functions/fim_options.php:265
+msgid "Choose language file"
+msgstr "V&auml;lj spr&aring;kfil"
+
+#: functions/fim_options.php:287
+msgid "Rewrite rules"
+msgstr "Omskrivningsregler"
+
+#: functions/fim_options.php:291
+msgid "Base url"
+msgstr "Basurl"
+
+#: functions/fim_options.php:296
+msgid "Update Mod ReWrite"
+msgstr "Uppdatera Mod ReWrite"
+
+#: functions/fim_options.php:300
+msgid "The link to the fgallery page is"
+msgstr "Adressen till fgallery sidan &auml;r"
+
+#: functions/fim_options.php:311
+msgid "Resize all thumbnails"
+msgstr "Storleksf&ouml;r&auml;ndar alla tumnaglar"

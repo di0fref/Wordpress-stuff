@@ -7,7 +7,7 @@
 				<h2><a href="<?php the_permalink();?>"><?php the_title();?></a></h2> 
 				<?php the_content();?>
 			</div>
-			<div class="meta_foot"></div>
+			<div class="meta_foot"><?php edit_post_link(); ?></div>
 				
 				<div id="disqus">
 					<?php comments_template();?>
@@ -22,7 +22,7 @@
 		<div class="side_meta"> 
 			<ul class="info"> 
 				<li class="authored icon_posted has_icon"><p>posted <?php the_time('F jS, Y') ?></p></li> 
-				<li class="has_icon icon_permalink"><a href="<?php the_permalink();?>">Permalink</a> / <a href="http://tumblr.com/x6t1rnyuzc">Short URL</a></li> 
+				<li class="has_icon icon_permalink"><a href="<?php the_permalink();?>">Permalink</a> / <?php the_shortlink("Short Link");?></li> 
 			</ul>
 			<?php the_tags('<ul class="tags"><li>','</li><li>','</li></ul>'); ?>			
 		</div> 

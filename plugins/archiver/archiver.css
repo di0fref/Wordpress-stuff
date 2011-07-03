@@ -1,0 +1,30 @@
+ul#bloglist, ul#sidelist, ul#catlist{
+	margin:0 0 2em 0;
+	padding:0;
+}
+.col{
+	float:left;
+	width:50%;
+}	
+.col h4{
+	margin-bottom:1em
+}
+ul#bloglist li, ul#sidelist li{
+	display:inline;
+	font-size:130%
+}
+ul#catlist li{
+}
+ul#bloglist li a,ul#sidelist li a, ul#catlist li a{
+	text-decoration: none;
+	padding: .2em 1em;
+	background-color: #051236;
+}
+ul#bloglist li.selected a, ul#sidelist li.selected a {
+	background-color: #4e85d8;
+	color:#fff
+}
+h4.arc{
+	float:left;
+}
+

@@ -1,0 +1,2 @@
+xgettext --keyword=__ --keyword=_e  --default-domain=fgallery  --language=php *.php --output=fgallery.pot
+xgettext --keyword=__ --keyword=_e  --default-domain=fgallery -j --language=php functions/*.php --output=fgallery.pot

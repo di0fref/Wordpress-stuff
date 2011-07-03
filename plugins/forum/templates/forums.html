@@ -1,0 +1,17 @@
+<div id="forum">
+	<table border="1" width="100%" class="forum_table" cellpadding="10">
+		<thead>
+			<tr>
+				<td colspan="4">Threads</td>
+			</tr>
+		</thead>
+		{foreach from = $threads item = thread}
+		<tr>
+			<td valign="center" width="6%">IMAGE</td>
+			<td valign="center" width=""><a href="?action=showthread&record={$thread.id}">{$thread.subject}</a>{$thread.pages}</td>
+			<td valign="center" width="11%">Threads:{$thread.threads}<br>Posts:{$thread.posts}</td>
+			<td valign="center" width="28%">Latest post: {$thread.date}</td>
+		</tr>
+		{/foreach}
+	</table>
+</div>

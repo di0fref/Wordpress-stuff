@@ -1,5 +1,5 @@
 /*
-Theme Name: caffold
+Theme Name: Scaffold
 Theme URI: http://fahlstad.se
 Description: Widget ready two column theme.
 Version: 1.0
@@ -17,7 +17,7 @@ del, dfn, em, font, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+/*table,*/ caption/*, tbody, tfoot, thead, tr, th, td*/ {
 	margin: 0; padding: 0;
 	border: 0; outline: 0;
 	font-weight: inherit; font-style: inherit;
@@ -40,6 +40,7 @@ body {
 	font-size: 62.5%;
 	color: #535353;
 }
+
 #container {
 	width: 966px;
 	margin: 0 auto;
@@ -666,6 +667,7 @@ p.plays {
 	padding-top: 30px;
 	overflow: hidden;
 }
+
 #sidebar #twitter { padding-left: 0; }
 #sidebar #twitter .icon { background-position: -480px -110px; width: 50px; height: 30px; background-color:#06F}
 #twitter p { padding: 5px 0 0 5px; }
@@ -678,11 +680,47 @@ p.plays {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 }
+#twitters{
+	display:none;
+}
+.bsa{
+	margin-bottom:10px;
+}
 /*#tweets a { display: none; }*/
 /*#tweets a:first-child { display: block; }*/
 #tweets a { color: #999; text-decoration: none; }
 #tweets a:hover { color: #333; }
+div.sponsors{
+	font-size:1.2em;
+	color: #484848;
+	font-weight:bold;
+	padding:2px;
+	margin-top:30px;
+}
 
+.sp_title{
+	margin-left:4px;
+}
+.ads{
+	padding:0px;
+}
+.ads a { color: #999; text-decoration: none; font-size:1.1em;}
+.ads a:hover { color: #333; }
+.ads ul{
+	margin-top:8px;
+}
+.ads li{
+	padding-bottom:3px;
+}
+#sidebar .sponsors .icon { 
+	background-position: -150px -112px; 
+	background-color:#06F;
+	width:16px;
+	height:16px;
+}
+#sidebar_ads{
+	margin-bottom:15px;
+}
 /* POSTS */
 #content {
 	float: left;
@@ -727,7 +765,7 @@ p.plays {
 .side_meta .info li { border-bottom: 1px solid #ccc; padding: 5px 0 7px; }
 .side_meta .info .has_icon,
 .side_meta .page_nav .has_icon { position: relative; padding-left: 20px; }
-.side_meta .has_icon .icon {
+.side_meta .info .icon, #sidebar .icon{
 	width: 16px; height: 16px;
 	/*background-image: url("img/sprites_v1.5.png");*/
 	background-color:#06F;
@@ -1297,7 +1335,12 @@ button.dsq-button-small { padding: 2px 4px 2px !important; }
 	clear: both;
 	margin-bottom: 1.5em;
 }
-
+#content.single_col .post_wide {
+	width: 100%;
+	float: left; display: inline;
+	clear: both;
+	margin-bottom: 1.5em;
+}
 #content.single_col .narrow  {
 	margin: 0 0 10px 0;
 }
@@ -1416,6 +1459,28 @@ button.dsq-button-small { padding: 2px 4px 2px !important; }
 #contact{
 	display:none
 }
-#contact td{
-	
+#sidebar #widgets ul{
+	padding:5px;
+	font-size:1.1em;
+}
+#sidebar #widgets ul li {
+	padding-bottom:5px;
+}
+#sidebar #widgets .widgettitle{
+	font-size:1.2em;
+}
+#sidebar #widgets a { color: #999; border: none; text-decoration:none}
+#sidebar #widgets a:hover { color: #666; }
+.alignright{
+	float:right;
+}
+.alignleft{
+	float:left;
+}
+.navigation{
+	font-size:1.1em;
+}
+.navigation a{
+	color:#484848;
+	text-decoration:none;
 }

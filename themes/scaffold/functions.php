@@ -12,4 +12,15 @@ if ( function_exists('register_sidebar') ) {
 	));
 }
 
+function getSearchForm(){
+	$form = '
+		<form action="" method="get" id="search"> 
+			<fieldset> 
+				<input type="text" name="s" id="search_field" value="" /> 
+				<input type="submit" id="search_button" value="Search" /> 
+			</fieldset> 
+		</form>';
+		echo $form;
+}
+
 ?>

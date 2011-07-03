@@ -1,0 +1,16 @@
+
+#forum table{
+	border-collapse:collapse;
+}
+#forum .forum_table th, 
+#forum .forum_table td, 
+#forum .forum_table thead{
+	font-size:1.1em;
+}
+
+#forum .forum_table thead{
+	font-weight:bold;
+	font-size:1.3em;
+	background:#f0f0f0;
+}
+
