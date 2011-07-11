@@ -18,8 +18,7 @@
   <!--comments area-->
   <?php if ($comments) : ?>
 
-<h2 id="comments">
-  Comments </h2>
+<h2 id="comments">Comments </h2>
 <ol id="commentlist">
   <?php foreach ($comments as $comment) : ?>
   <li class="<?php echo $oddcomment; ?>" id="comment-<?php comment_ID() ?>">

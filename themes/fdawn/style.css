@@ -151,14 +151,18 @@ h2 {
 
 h3 {
 	font-size: 1.6em;
-	margin: 0 0 10px 0;
+	margin: 0 0 0 0;
 
 }
 h4 {
 	font-size:1.4em;
 	margin: 0 0 10px 0;
 }
-
+.comment_cloud{
+	top: -30px;
+	right:10px;
+	position:absolute;
+}
 /* Links
 ================================================*/
 a:link,
@@ -292,7 +296,7 @@ p.comments_link  img{
 	border-left-style: none;
 }
 /************************************************
-*	Header																			*
+*	Header										*
 ************************************************/
 h2.entrydate{
 	margin-bottom:1px;
@@ -303,6 +307,7 @@ h2.entrydate{
 
 .entrymeta{
 	font-size: x-small;
+	position: relative;
 }
 
 h3.entrytitle {
@@ -316,7 +321,7 @@ color:#333333;
 }
 
 .entry{
-	margin-bottom: 4em;
+	margin-top:8px;
 }
 
 .entrybody p a{
@@ -434,31 +439,4 @@ img.pic {
 	padding: 5px;
 	border: 1px solid #CCCCCC;
 	margin: 10px;
-}
-ul.meta {
-
-	display: block;
-	border-top: 1px dotted #ccc;
-	margin: 36px 0 0 0;
-	
-}
-
-ul.meta li {
-
-	border-bottom: 1px dotted #ccc;
-	display: block;
-	height: 16px;
-	padding: 3px 2px;
-
-}
-ul.meta li div.text {
-	font-size: .9em;
-}
-ul.meta li div.title {
-	font-size: .9em;
-	color: #000;
-	font-weight: normal;
-	display: block;
-	width: 150px;
-	float: left;
 }

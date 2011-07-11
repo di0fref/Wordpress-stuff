@@ -44,6 +44,7 @@
   </div>
 </div>
 <div id="headerimage"></div>
+<div id="content">
 <!-- The header ends  -->
 
 <!-- The main content column begins  -->

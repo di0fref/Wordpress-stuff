@@ -1,52 +1,22 @@
-<?php 
-get_header();
-?>
-<div id="content">
+<?php get_header();?>
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>	
+	<div class="entry">
+		<h3 class="entrytitle" id="post-<?php the_ID(); ?>"> <a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a> </h3>
+  		<div class="entrymeta"> 
+      			<?php the_time('F dS Y') ?> Posted to <?php the_category(',') ?> <?php edit_post_link(__('<strong>Edit</strong>')); ?>
+				<a href="" class="comment_cloud"><img src="wp-content/themes/fdawn/images/bg_comment_cloud.gif"></a>
+		</div>
+		<div class="entrybody">
+			<?php the_content(__('Continue &raquo;')); ?>
+		</div>
 
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-<div class="entry">
-  <!--
-				<h2 class="entrydate"><?php the_date() ?></h2>
-			-->
-  <h3 class="entrytitle" id="post-<?php the_ID(); ?>"> <a href="<?php the_permalink() ?>" rel="bookmark">
-    <?php the_title(); ?>
-    </a> </h3>
-  <div class="entrybody">
-    <?php the_content(__('(more...)')); ?>
-	
-	
-	<ul class="meta">
-				<li class="clear">
-					<div class="title">Posted</div>
-					<div class="text"><?php the_time('F d, Y');?> <?php edit_post_link();?></div>
-				</li>
-
-				<li class="clear">
-					<div class="title">Responses</div>
-					<div class="text"><a href="<?php comments_link();?>"><?php comments_number();?> &raquo; </a></div>
-				</li>
-				
-				<li class="clear sharethis">
-					<div class="title">Categories</div>
-					<div class="text"><?php the_category(",");?></div>
-				</li>
-			</ul>
-
-	
-
-    
-      
-	
-  </div>
-  <!--
-	<?php trackback_rdf(); ?>
-	-->
-</div>
-<?php comments_template(); // Get wp-comments.php template ?>
-<?php endwhile; else: ?>
+			<p class="comments_link">
+      			<?php $comments_img_link = '<img src="' . get_stylesheet_directory_uri() . '/images/comments.gif"  title="comments" alt="*" />'; comments_popup_link(' Comments(0)', $comments_img_link . ' Comments(1)', $comments_img_link . ' Comments(%)'); ?>
+			</p>
+	</div>
+	<?php endwhile; else: ?>
 <p>
-  <?php _e('Sorry, no posts matched your criteria.'); ?>
+	<?php _e('Sorry, no posts matched your criteria.'); ?>
 </p>
 <?php endif; ?>
 <?php posts_nav_link(' &#8212; ', __('&laquo; Previous Page'), __('Next Page &raquo;')); ?>

@@ -39,7 +39,10 @@ class forum{
 	public function uninstall(){
 		
 	}
-
+	// Add admin pages
+	function add_admin_pages(){
+		add_options_page(__('WP-Forum Options', 'forum'), 'WP-Forum', 'manage_options',"forum/forum_admin.php");
+	}
 	public function display($content){
 		/* Wrong page? Just return the content from WP. */
 		if(!preg_match('|<!--FORUM-->|', $content))	
@@ -120,4 +123,6 @@ $forum = new forum();
 register_activation_hook(__FILE__ , array(&$forum,'install'));
 add_action("the_content", array(&$forum, "display"));
 add_action("wp_head", array(&$forum, "getCSS"));
+add_action("admin_menu", array(&$forum,"add_admin_pages"));
+
 ?>
